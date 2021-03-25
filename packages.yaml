@@ -1,0 +1,205 @@
+packages:
+  autoconf:
+    externals:
+    - spec: autoconf@2.69
+      prefix: /usr
+  automake:
+    externals:
+    - spec: automake@1.16.1
+      prefix: /usr
+  bash:
+    externals:
+    - spec: bash@4.4.19
+      prefix: /usr
+  bison:
+    externals:
+    - spec: bison@3.0.4
+      prefix: /usr
+  bzip2:
+    externals:
+    - spec: bzip2@1.0.6
+      prefix: /usr
+  cmake:
+    externals:
+    - spec: cmake@3.11.4
+      prefix: /usr
+    - spec: cmake@3.14.1
+      prefix: /usr
+  cpio:
+    externals:
+    - spec: cpio@2.12
+      prefix: /usr
+  diffutils:
+    externals:
+    - spec: diffutils@3.6
+      prefix: /usr
+  findutils:
+    externals:
+    - spec: findutils@4.6.0
+      prefix: /usr
+  flex:
+    externals:
+    - spec: flex@2.6.1+lex
+      prefix: /usr
+  gcc:
+    externals:
+    - spec: gcc@9.3.0 languages=c
+      prefix: /home/software/intel-2020/compilers_and_libraries_2020.2.254/linux/mpi/intel64
+      extra_attributes:
+        compilers:
+          c: /home/software/intel-2020/compilers_and_libraries_2020.2.254/linux/mpi/intel64/bin/mpigcc
+    - spec: gcc@8.3.1 languages=c,c++,fortran
+      prefix: /usr
+      extra_attributes:
+        compilers:
+          c: /usr/bin/gcc
+          cxx: /usr/bin/g++
+          fortran: /usr/bin/gfortran
+    - spec: gcc@9.3.0 languages=c,c++,fortran
+      prefix: /home/software/gcc/9.3.0
+      extra_attributes:
+        compilers:
+          c: /home/software/gcc/9.3.0/bin/gcc
+          cxx: /home/software/gcc/9.3.0/bin/g++
+          fortran: /home/software/gcc/9.3.0/bin/gfortran
+  ghostscript:
+    externals:
+    - spec: ghostscript@9.25
+      prefix: /usr
+  git:
+    externals:
+    - spec: git@2.18.4~tcltk
+      prefix: /usr
+  gmake:
+    externals:
+    - spec: gmake@4.2.1
+      prefix: /usr
+  openjdk:
+    externals:
+    - spec: openjdk@1.8.0_272-b10
+      prefix: /usr
+  krb5:
+    externals:
+    - spec: krb5@1.17
+      prefix: /usr
+  libtool:
+    externals:
+    - spec: libtool@2.4.6
+      prefix: /usr
+  llvm:
+    externals:
+    - spec: llvm@9.0.1+clang+lld+lldb
+      prefix: /usr
+      extra_attributes:
+        compilers:
+          c: /usr/bin/clang
+          cxx: /usr/bin/clang++
+          ld: /usr/bin/ld.lld
+          lldb: /usr/bin/lldb
+  llvm-doe:
+    externals:
+    - spec: llvm-doe@9.0.1+clang+lld+lldb
+      prefix: /usr
+      extra_attributes:
+        compilers:
+          c: /usr/bin/clang-9
+          cxx: /usr/bin/clang++
+          ld: /usr/bin/ld.lld
+          lldb: /usr/bin/lldb
+  m4:
+    externals:
+    - spec: m4@1.4.18
+      prefix: /usr
+  ncurses:
+    externals:
+    - spec: ncurses@6.1.20180224+termlib
+      prefix: /usr
+  openssl:
+    externals:
+    - spec: openssl@1.1.1c
+      prefix: /usr
+  perl:
+    externals:
+    - spec: perl@5.26.3~cpanm+shared+threads
+      prefix: /usr
+  pkgconf:
+    externals:
+    - spec: pkgconf@1.4.2
+      prefix: /usr
+  python:
+    externals:
+    - spec: python@3.6.1~bz2+ctypes+dbm~lzma+nis+pyexpat~readline+sqlite3+ssl~tix~tkinter+uuid+zlib
+      prefix: /home/software/Siemens/StarCCM+/15.06.007/STAR-CCM+15.06.007/star
+    - spec: python@3.7.5+bz2+ctypes+dbm+lzma~nis+pyexpat+readline+sqlite3+ssl+tix+tkinter+uuid+zlib
+      prefix: /cm/local/apps/python3
+    - spec: python@3.4.3+bz2+ctypes+dbm~lzma+nis+pyexpat~readline~sqlite3~ssl~tix~tkinter+uuid+zlib
+      prefix: /home/software/Siemens/StarCCM+/12.06.010-R8/STAR-CCM+12.06.010-R8/star
+    - spec: python@2.7.16+bz2+ctypes+dbm~lzma+nis+pyexpat+readline+sqlite3+ssl~tix~tkinter+uuid+zlib
+      prefix: /usr
+    - spec: python@3.6.8+bz2+ctypes+dbm+lzma+nis+pyexpat+readline+sqlite3+ssl+tix+tkinter+uuid+zlib
+      prefix: /usr
+  ruby:
+    externals:
+    - spec: ruby@2.5.5
+      prefix: /usr
+  tar:
+    externals:
+    - spec: tar@1.30
+      prefix: /usr
+  texinfo:
+    externals:
+    - spec: texinfo@6.5
+      prefix: /usr
+  xz:
+    externals:
+    - spec: xz@5.2.4
+      prefix: /usr
+  mpi:
+    buildable: false
+  openmpi:
+    externals:
+    - spec: openmpi@4.0.5%gcc@9.3.0 arch=linux-centos8-zen2
+      modules:
+           - openmpi/gcc93/4.0.5
+    - spec: openmpi@4.0.5%aocc@2.3.0 arch=linux-centos8-zen2
+      modules:
+           - openmpi/aocc23/4.0.5
+    - spec: openmpi@4.0.5%intel@19.0.5.281 arch=linux-centos8-zen2
+      modules:
+           - openmpi/intel19/4.0.5
+    - spec: openmpi@4.0.5%intel@19.1.2.254 arch=linux-centos8-zen2
+      modules:
+           - openmpi/intel20/4.0.5
+    - spec: openmpi@4.0.3%gcc@9.3.0 arch=linux-centos8-zen2
+      modules:
+           - openmpi/gcc93/4.0.3
+    - spec: openmpi@4.0.3%aocc@2.2.0 arch=linux-centos8-zen2
+      modules:
+           - openmpi/aocc22/4.0.3
+    - spec: openmpi@4.0.3%intel@19.0.5.281 arch=linux-centos8-zen2
+      modules:
+           - openmpi/intel19/4.0.3
+    - spec: openmpi@4.0.3%intel@19.1.2.254 arch=linux-centos8-zen2
+      modules:
+           - openmpi/intel20/4.0.3
+      buildable: false 
+  hpcx:
+    externals:
+    - spec: hpcx@2.7.0%gcc@9.3.0 arch=linux-centos8-zen2
+      modules:
+           - hpcx/gcc-9.3.0/2.7.0
+    - spec: hpcx@2.7.0%aocc@2.2.0 arch=linux-centos8-zen2
+      modules:
+           - hpcx/aocc-2.2.0/2.7.0
+      buildable: false
+  all:
+    compiler: [aocc@2.3.0,aocc@2.2.0,gcc@9.3.0,intel@19.0.5.281]
+    providers:
+          mpi: [hpcx,openmpi,mvapich,mpich]
+          blas: [openblas,amdblis,intel-mkl]
+          fftw-api: [fftw, amdfftw]
+          lapack: [openblas, amdlibflame, intel-mkl]
+          scalapack: [netlib-scalapack, amdscalapack,intel-mkl ]
+          flame: [amdlibflame, libflame]
+
+
