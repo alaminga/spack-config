@@ -192,36 +192,29 @@ packages:
     - spec: openmpi@4.0.5%gcc@9.3.0 arch=linux-centos8-zen2
       modules:
       - openmpi/gcc93/4.0.5
-    - spec: openmpi@4.0.5%aocc@2.3.0 arch=linux-centos8-zen2
+    - spec: openmpi@4.0.5%gcc@10.2.0 arch=linux-centos8-zen2
       modules:
-      - openmpi/aocc23/4.0.5
-    - spec: openmpi@4.0.5%intel@19.0.5.281 arch=linux-centos8-zen2
-      modules:
-      - openmpi/intel19/4.0.5
+      - openmpi/gcc102/4.0.5
     - spec: openmpi@4.0.5%intel@19.1.2.254 arch=linux-centos8-zen2
       modules:
       - openmpi/intel20/4.0.5
-    - spec: openmpi@4.0.3%gcc@9.3.0 arch=linux-centos8-zen2
+    - spec: openmpi@4.0.5%aocc@2.3.0 arch=linux-centos8-zen2
       modules:
-      - openmpi/gcc93/4.0.3
-    - spec: openmpi@4.0.3%aocc@3.3.0 arch=linux-centos8-zen3
+      - openmpi/aocc23/4.0.5
+    - spec: openmpi@4.1.0%aocc@2.3.0 arch=linux-centos8-zen2
+      modules:
+      - openmpi/aocc23/4.1.0
+    - spec: openmpi@4.0.5%aocc@3.0.0 arch=linux-centos8-zen2
       modules:
       - openmpi/aocc30/4.0.5
-    - spec: openmpi@4.0.3%intel@19.0.5.281 arch=linux-centos8-zen2
+    - spec: openmpi@4.1.0%aocc@3.0.0 arch=linux-centos8-zen2
       modules:
-      - openmpi/intel19/4.0.3
-    - spec: openmpi@4.0.3%intel@19.1.2.254 arch=linux-centos8-zen2
-      modules:
-      - openmpi/intel20/4.0.3
-    - spec: hpcx@2.7.0%gcc@9.3.0 arch=linux-centos8-zen2
-      modules:
-      - hpcx/gcc-9.3.0/2.7.0
-    - spec: hpcx@2.7.4%aocc@3.0.0 arch=linux-centos8-zen2
-      modules:
-      - hpcx/aocc-3.0.0/2.7.4
-      buildable: false
+      - openmpi/aocc30/4.1.0
+
+
+
   all:
-    compiler: [aocc@3.0.0, aocc@2.3.0, aocc@2.2.0, gcc@9.3.0, intel@19.0.5.281]
+    compiler: [aocc@3.0.0, aocc@2.3.0, gcc@9.3.0, intel@19.0.5.281]
     providers:
       mpi: [hpcx, openmpi, mvapich, mpich]
       blas: [openblas, amdblis, intel-mkl]
