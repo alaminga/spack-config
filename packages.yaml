@@ -210,10 +210,3 @@ packages:
       - openmpi/aocc30/4.1.0
       buildable: false
     compiler: [aocc@3.0.0, aocc@2.3.0, gcc@9.3.0, intel@19.0.5.281]
-    providers:
-      mpi: [hpcx, openmpi, mvapich, mpich]
-      blas: [openblas, amdblis, intel-mkl]
-      fftw-api: [fftw, amdfftw]
-      lapack: [openblas, amdlibflame, intel-mkl]
-      scalapack: [netlib-scalapack, amdscalapack, intel-mkl]
-      flame: [amdlibflame, libflame]
