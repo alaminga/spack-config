@@ -1,0 +1,61 @@
+compilers:
+- compiler:
+    spec: cce@11.0.3
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    flags: {}
+    operating_system: centos8
+    target: any
+    modules:
+    - PrgEnv-cray
+    - cce/11.0.3
+    environment: {}
+    extra_rpaths: []
+- compiler:
+    spec: gcc@9.3.0
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    flags: {}
+    operating_system: centos8
+    target: any
+    modules:
+    - PrgEnv-gnu
+    - gcc/9.3.0
+    environment: {}
+    extra_rpaths: []
+- compiler:
+    spec: gcc@10.2.0
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    flags: {}
+    operating_system: centos8
+    target: any
+    modules:
+    - PrgEnv-gnu
+    - gcc/10.2.0
+    environment: {}
+    extra_rpaths: []
+- compiler:
+    spec: gcc@10.2.0
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    flags: {}
+    operating_system: centos8
+    target: any
+    modules:
+    - PrgEnv-gnu
+    - gcc/10.2.0
+    environment: {}
+    extra_rpaths: []
