@@ -202,7 +202,17 @@
    "njet",
    "acts",
    "fastjet",
-   "lhapdf"
+   "lhapdf",
+   "acts",
+   "dd4hep",
+   "edm4hep",
+   "genfit",
+   "hepmc3",
+   "openloops",
+   "py-uproot4",
+   "root",
+   "coral",
+   "py-uproot"
   ],
   "proxy-app": [
    "quicksilver",
@@ -379,7 +389,10 @@
    "xsbench",
    "miniamr",
    "macsio",
-   "examinimd"
+   "examinimd",
+   "ecp-proxy-apps",
+   "ember",
+   "xsbench"
   ],
   "cfd": [
    "nektools",
@@ -387,7 +400,9 @@
    "nektools",
    "nek5000",
    "nektools",
-   "nek5000"
+   "nek5000",
+   "nektools",
+   "nekrs"
   ],
   "flow": [
    "nektools",
@@ -395,7 +410,9 @@
    "nektools",
    "nek5000",
    "nektools",
-   "nek5000"
+   "nek5000",
+   "nektools",
+   "nekrs"
   ],
   "hpc": [
    "nektools",
@@ -410,7 +427,10 @@
    "nek5000",
    "julea",
    "mfem",
-   "mfem"
+   "mfem",
+   "mfem",
+   "nektools",
+   "nekrs"
   ],
   "solver": [
    "nektools",
@@ -418,7 +438,9 @@
    "nektools",
    "nek5000",
    "nektools",
-   "nek5000"
+   "nek5000",
+   "nektools",
+   "nekrs"
   ],
   "navier-stokes": [
    "nektools",
@@ -426,7 +448,9 @@
    "nektools",
    "nek5000",
    "nektools",
-   "nek5000"
+   "nek5000",
+   "nektools",
+   "nekrs"
   ],
   "spectral-elements": [
    "nektools",
@@ -434,7 +458,9 @@
    "nektools",
    "nek5000",
    "nektools",
-   "nek5000"
+   "nek5000",
+   "nektools",
+   "nekrs"
   ],
   "fluid": [
    "nektools",
@@ -442,7 +468,9 @@
    "nektools",
    "nek5000",
    "nektools",
-   "nek5000"
+   "nek5000",
+   "nektools",
+   "nekrs"
   ],
   "ecp": [
    "nektools",
@@ -500,7 +528,14 @@
    "chombo",
    "nwchem",
    "rankstr",
-   "lammps"
+   "lammps",
+   "kvtree",
+   "lammps",
+   "nektools",
+   "qmcpack",
+   "rankstr",
+   "spath",
+   "nekrs"
   ],
   "ecp-apps": [
    "nektools",
@@ -530,7 +565,11 @@
    "latte",
    "chombo",
    "nwchem",
-   "lammps"
+   "lammps",
+   "lammps",
+   "nektools",
+   "qmcpack",
+   "nekrs"
   ],
   "ecp-proxy-app": [
    "sw4lite",
@@ -590,7 +629,10 @@
    "xsbench",
    "miniamr",
    "macsio",
-   "examinimd"
+   "examinimd",
+   "ecp-proxy-apps",
+   "ember",
+   "xsbench"
   ],
   "mcmc": [
    "jags",
@@ -616,9 +658,11 @@
    "mfem",
    "mfem",
    "mfem",
+   "mfem",
    "mfem"
   ],
   "finite elements": [
+   "mfem",
    "mfem",
    "mfem",
    "mfem",
@@ -628,9 +672,11 @@
    "mfem",
    "mfem",
    "mfem",
+   "mfem",
    "mfem"
   ],
   "amr": [
+   "mfem",
    "mfem",
    "mfem",
    "mfem",
@@ -642,7 +688,8 @@
    "edm4hep",
    "podio",
    "edm4hep",
-   "podio"
+   "podio",
+   "edm4hep"
   ],
   "build-tools": [
    "autoconf",
@@ -653,7 +700,11 @@
    "flex",
    "libtool",
    "cmake",
-   "pkg-config"
+   "pkg-config",
+   "cmake",
+   "libtool",
+   "m4",
+   "pkgconf"
   ]
  }
 }

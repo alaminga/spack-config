@@ -187,29 +187,28 @@ packages:
           lldb: /usr/bin/lldb
   openmpi:
     externals:
-    - spec: openmpi@4.0.5%gcc@9.3.0 arch=linux-centos8-zen2
+    - spec: openmpi@4.0.5%gcc@9.3.0 arch=linux-centos8-zen3
       modules:
       - openmpi/gcc93/4.0.5
-    - spec: openmpi@4.0.5%gcc@10.2.0 arch=linux-centos8-zen2
+    - spec: openmpi@4.0.5%gcc@10.2.0 arch=linux-centos8-zen3
       modules:
       - openmpi/gcc102/4.0.5
-    - spec: openmpi@4.0.5%intel@19.1.2.254 arch=linux-centos8-zen2
+    - spec: openmpi@4.0.5%intel@19.1.2.254 arch=linux-centos8-zen3
       modules:
       - openmpi/intel20/4.0.5
-    - spec: openmpi@4.0.5%aocc@2.3.0 arch=linux-centos8-zen2
+    - spec: openmpi@4.0.5%aocc@2.3.0 arch=linux-centos8-zen3
       modules:
       - openmpi/aocc23/4.0.5
-    - spec: openmpi@4.1.0%aocc@2.3.0 arch=linux-centos8-zen2
+    - spec: openmpi@4.1.0%aocc@2.3.0 arch=linux-centos8-zen3
       modules:
       - openmpi/aocc23/4.1.0
-    - spec: openmpi@4.0.5%aocc@3.0.0 arch=linux-centos8-zen2
+    - spec: openmpi@4.0.5%aocc@3.0.0 arch=linux-centos8-zen3
       modules:
       - openmpi/aocc30/4.0.5
-    - spec: openmpi@4.1.0%aocc@3.0.0 arch=linux-centos8-zen2
+    - spec: openmpi@4.1.0%aocc@3.0.0 arch=linux-centos8-zen3
       modules:
       - openmpi/aocc30/4.1.0
       buildable: false
-  all:
     compiler: [aocc@3.0.0, aocc@2.3.0, gcc@9.3.0, intel@19.0.5.281]
     providers:
       mpi: [hpcx, openmpi, mvapich, mpich]

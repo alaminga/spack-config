@@ -113,14 +113,14 @@
    }
   },
   "caa4c2f2ac4a13a61c3372cd64f2f6f6570c78ed2ab91497a76b02c584abe1bc": {
-   "builtin.eccodes": {
-    "owner": "builtin.eccodes",
+   "builtin.grib-api": {
+    "owner": "builtin.grib-api",
     "level": 1,
     "working_dir": ".",
     "relative_path": "cmake_install_rpath.patch"
    },
-   "builtin.grib-api": {
-    "owner": "builtin.grib-api",
+   "builtin.eccodes": {
+    "owner": "builtin.eccodes",
     "level": 1,
     "working_dir": ".",
     "relative_path": "cmake_install_rpath.patch"
@@ -238,38 +238,6 @@
     "relative_path": "gcc_struct_atomic.patch"
    }
   },
-  "22af3471f3fd87c0fe8917bf9c811c6d806de6c8b9867d30a1e3d383a1b929d7": {
-   "builtin.root": {
-    "owner": "builtin.root",
-    "level": 0,
-    "working_dir": ".",
-    "relative_path": "format-stringbuf-size.patch"
-   }
-  },
-  "45913963bf6d7d3c678eff31e0bc3e018427d6fbb364abcdbb2a24d2bfe94915": {
-   "builtin.root": {
-    "owner": "builtin.root",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "find-mysql.patch"
-   }
-  },
-  "0ac9ccc0e2c8776daed5a4786d71ec1c5e57b007422e2af3d2f2c239b26a54f3": {
-   "builtin.root": {
-    "owner": "builtin.root",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "honor-unuran-switch.patch"
-   }
-  },
-  "1bb31e5e8fb6cf5a359e34d4fa3dd10d4c6dc88572a0b409808be235fd393c3e": {
-   "builtin.root": {
-    "owner": "builtin.root",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "root7-webgui.patch"
-   }
-  },
   "778fb60e4e067214edd09ea728f466bb2c8464593a5de990da109ef3378b6f70": {
    "builtin.oclint": {
     "owner": "builtin.oclint",
@@ -302,84 +270,12 @@
     "relative_path": "w_patch.patch"
    }
   },
-  "e636c3f88a6944c87d910d4c8fdf25146b60f57e09228497a6cc01c7dbae9569": {
-   "builtin.charmpp": {
-    "owner": "builtin.charmpp",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "mpi.patch"
-   }
-  },
-  "884ae4ae53753ac28ce63377ac8e321088584d8ffeb23ed06677d1cff8efc66c": {
-   "builtin.charmpp": {
-    "owner": "builtin.charmpp",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "charm_6.7.1_aocc.patch"
-   }
-  },
-  "12ccf93fb4ca450c00b2e5d06b3ad7de40539f848ca404e3a31f3a3121ed7ccd": {
-   "builtin.charmpp": {
-    "owner": "builtin.charmpp",
-    "level": 3,
-    "working_dir": ".",
-    "relative_path": "charm_6.8.2_aocc.patch"
-   }
-  },
-  "47d7ffd9efd6c6677d0ea36ee34c5a2aba09d99a283cabd48ea92688852a42ae": {
-   "builtin.charmpp": {
-    "owner": "builtin.charmpp",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "fj.patch"
-   }
-  },
-  "85be93dc2bdb9a948978004d40ce37bb861170ab0c7595f44b54c9c0295414a0": {
-   "builtin.charmpp": {
-    "owner": "builtin.charmpp",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "nvhpc.patch"
-   }
-  },
-  "92d507d8b72ac01f114f7772510049cc7656f93daeadef46e1f2b00ad8533d2b": {
-   "builtin.charmpp": {
-    "owner": "builtin.charmpp",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "strictpass.patch"
-   }
-  },
   "40f429e2b2afe5b3c12b70d443b8c2c2bb41da1258ceeb48a358105b5e695bf4": {
    "builtin.prism": {
     "owner": "builtin.prism",
     "level": 1,
     "working_dir": ".",
     "relative_path": "Makefile.patch"
-   }
-  },
-  "371d260b80fb32c114624e9b26f03ce713559abcbe4a7ad5bec820e4f3570aa2": {
-   "builtin.gate": {
-    "owner": "builtin.gate",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "cluster_tools_filemerger_Makefile.patch"
-   }
-  },
-  "daf4b60cdc12435312809f54718f07e5d5f6a3222b6ce52e98006f94f3d89917": {
-   "builtin.gate": {
-    "owner": "builtin.gate",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "cluster_tools_jobsplitter_Makefile.patch"
-   }
-  },
-  "019374cb6c259ef0f1586b02d6cd6725740ff200dbb58c2d743258d48e582dd2": {
-   "builtin.gate": {
-    "owner": "builtin.gate",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "cluster_tools_jobsplitter_platform.patch"
    }
   },
   "dfc501d78ddfabafe09dc1a7aa70f96b799164b18f6a57d616a9d48aaf989333": {
@@ -854,118 +750,6 @@
     "relative_path": "python3_curl.patch"
    }
   },
-  "ee90fdef47941f4ca87047badc469c2ae34c22ddcd991728198f8422aa1c093c": {
-   "builtin.openmpi": {
-    "owner": "builtin.openmpi",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "ad_lustre_rwcontig_open_source.patch"
-   }
-  },
-  "ed7a50e1d246acc62288a8c27e4978fe212728bd26dab5cfd149a25ede97fbe1": {
-   "builtin.openmpi": {
-    "owner": "builtin.openmpi",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "llnl-platforms.patch"
-   }
-  },
-  "6c825b161b01c00d4069d002db9c43a1d8a658672e40b87d2415b228e040981d": {
-   "builtin.openmpi": {
-    "owner": "builtin.openmpi",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "configure.patch"
-   }
-  },
-  "d26978ea058131ced4e51668a524f556d3d90d178d54634e6f2077f4c8ba7762": {
-   "builtin.openmpi": {
-    "owner": "builtin.openmpi",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "fix_multidef_pmi_class.patch"
-   }
-  },
-  "073477a76bba780c67c36e959cd3ee6910743e2735c7e76850ffba6791d498e4": {
-   "builtin.openmpi": {
-    "owner": "builtin.openmpi",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "fix-ucx-1.7.0-api-instability.patch"
-   }
-  },
-  "32effdf1deab19ca87850161d3ad8ff34540c9e26f6bf40cd64839ea47a3a0e0": {
-   "builtin.openmpi": {
-    "owner": "builtin.openmpi",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "btl_vader.patch"
-   }
-  },
-  "b0fafc41627bdfcde564e3e4d5212a0c60aac0e771102ddc6746b22bd06a6415": {
-   "builtin.openmpi": {
-    "owner": "builtin.openmpi",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "nag_pthread/2.1.4_2.1.999_3.0.1_4.patch"
-   }
-  },
-  "fc5e5a369db2f7f054efd26d77dc00e080708271e22f8c05e8fc8cac3df7cdc7": {
-   "builtin.openmpi": {
-    "owner": "builtin.openmpi",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "nag_pthread/2.1.2_2.1.3_3.0.0.patch"
-   }
-  },
-  "ba667dc718136a2df4c5b726277c807211756bc9a5bb1f592aeba917f5cdaeb9": {
-   "builtin.openmpi": {
-    "owner": "builtin.openmpi",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "nag_pthread/2.0.0_2.1.1.patch"
-   }
-  },
-  "77ab92ae893721add9d0f982720d36ab9cdef244644650253d20b27a3884663e": {
-   "builtin.openmpi": {
-    "owner": "builtin.openmpi",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "nag_pthread/1.10.4_1.10.999.patch"
-   }
-  },
-  "168a2218292a668d71df853afbd19c7e67d06f98ecf47f1dfb3ecbe77429c7cf": {
-   "builtin.openmpi": {
-    "owner": "builtin.openmpi",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "nvhpc-libtool.patch"
-   }
-  },
-  "fba0d3a784a9723338722b48024a22bb32f6a951db841a4e9f08930a93f41d7a": {
-   "builtin.openmpi": {
-    "owner": "builtin.openmpi",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "nvhpc-configure.patch"
-   }
-  },
-  "d7f08ae74788a15662aeeeaf722e30045b212afe17e19e976d42b3411cc7bc26": {
-   "builtin.openmpi": {
-    "owner": "builtin.openmpi",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "use_mpi_tkr_sizeof/step_1.patch"
-   }
-  },
-  "51e39ef20662d45a772f61db21cfac60f5339125b8cd8b7cd83dcdf4e8371366": {
-   "builtin.openmpi": {
-    "owner": "builtin.openmpi",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "use_mpi_tkr_sizeof/step_2.patch"
-   }
-  },
   "7c45f23c563cbccdf29038814062d0ed5be8913a2eef17bcc37eb65005ed0839": {
    "builtin.opencv": {
     "owner": "builtin.opencv",
@@ -1118,46 +902,6 @@
     "relative_path": "gklib_nomisleadingindentation_warning.patch"
    }
   },
-  "73103e6b1bdbf3b1e0d517cbbd11562e98c6e9464df5f43e5125e9a5b457d1c5": {
-   "builtin.openfoam-org": {
-    "owner": "builtin.openfoam-org",
-    "level": 1,
-    "working_dir": ".",
-    "url": "https://github.com/OpenFOAM/OpenFOAM-7/commit/ef33cf38ac9b811072a8970c71fbda35a90f6641.patch"
-   }
-  },
-  "58a74d510f82a573cedbe2d3046c5c51f74b8ce92a558a105301f57a23039b59": {
-   "builtin.openfoam-org": {
-    "owner": "builtin.openfoam-org",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "50-etc.patch"
-   }
-  },
-  "97b58adc7bce782175f2c041b786a82db15c507ae2ffaaf1740e75e3c81b60b0": {
-   "builtin.openfoam-org": {
-    "owner": "builtin.openfoam-org",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "41-etc.patch"
-   }
-  },
-  "ecfa93afa8900f583a23c179db7cf0dc066828a9fd872e061164f21301c2a222": {
-   "builtin.openfoam-org": {
-    "owner": "builtin.openfoam-org",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "41-site.patch"
-   }
-  },
-  "c37c31294ad1d729af0af882d9192bffe6b0386cd14d9256a1cd5ca655422223": {
-   "builtin.openfoam-org": {
-    "owner": "builtin.openfoam-org",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "240-etc.patch"
-   }
-  },
   "3c2242dfcb98f10c5e60011644d233968c9576546683383dbb81ef900bb50cc9": {
    "builtin.cctools": {
     "owner": "builtin.cctools",
@@ -1228,30 +972,6 @@
     "level": 1,
     "working_dir": ".",
     "relative_path": "fix-doc-build.patch"
-   }
-  },
-  "c462f3cae4ff19d64a2151e60f6dc63c7cf6b4cc35fe949d799a40db52fe3642": {
-   "builtin.vtk": {
-    "owner": "builtin.vtk",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "gcc.patch"
-   }
-  },
-  "578f141247bd4dd993d47768d8b3b207e2c37c4c77ac64db6751eb146ffa99e2": {
-   "builtin.vtk": {
-    "owner": "builtin.vtk",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "python3.7-const-char.patch"
-   }
-  },
-  "35cdaf691eb63a88931a2c6c33b67eea6e23192e681acc0eee7c1f7aca464f9a": {
-   "builtin.vtk": {
-    "owner": "builtin.vtk",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "find_fujitsu_mpi.patch"
    }
   },
   "7bfb2dc3e3fec4d412904fbb85ffacd6b5ccf4b4efb4bf9d7660b0bd8298c4fa": {
@@ -1422,14 +1142,6 @@
     "relative_path": "link_target_fixes32.patch"
    }
   },
-  "5926b29c4f9ce9696573aeab16cbc99fd2e556a6575802983ea793753061f7b7": {
-   "builtin.hepmc3": {
-    "owner": "builtin.hepmc3",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "ba38f14d8f56c16cc4105d98f6d4540c928c6150.patch"
-   }
-  },
   "64c57b3ad4026255238cc495df6abfacc41de391a0af497c27d0ac819444a1f8": {
    "builtin.papi": {
     "owner": "builtin.papi",
@@ -1444,22 +1156,6 @@
     "level": 1,
     "working_dir": ".",
     "relative_path": "crayftn-fixes.patch"
-   }
-  },
-  "e10cc89bd3c3a474a265c0cd84baf8628601d338508e819776ed59d430a906ea": {
-   "builtin.rocm-tensile": {
-    "owner": "builtin.rocm-tensile",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "0001-fix-compile-error.patch"
-   }
-  },
-  "fc003bc6e1969aa28689c893ecb53f6937778af015bf5f9381b63495707df9cb": {
-   "builtin.rocm-tensile": {
-    "owner": "builtin.rocm-tensile",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "0002-require-openmp-when-tensile-use-openmp-is-on.patch"
    }
   },
   "7b5a1dc2a0e358e667088d77e7caa780967fa8ea60be89c44986605df9990abe": {
@@ -1516,54 +1212,6 @@
     "level": 1,
     "working_dir": ".",
     "relative_path": "install_fixes.patch"
-   }
-  },
-  "2a4190477b7d9206b9cd8d70770ba0bc007273cbe54772efb12f9ca2e37c0392": {
-   "builtin.hip": {
-    "owner": "builtin.hip",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "0001-Make-it-possible-to-specify-the-package-folder-of-ro.patch"
-   }
-  },
-  "a6dbc497d8195e702d989b481f6dc2cc3a61ee9c7952d584e9acc38d2ec4e24c": {
-   "builtin.hip": {
-    "owner": "builtin.hip",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "0002-Fix-detection-of-HIP_CLANG_ROOT.patch"
-   }
-  },
-  "bce48db37216f96ad7f8dc1b6bd5d33db60cbfcf9607ff7feafc175d71488181": {
-   "builtin.hip": {
-    "owner": "builtin.hip",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "0003-Improve-compilation-without-git-repo.3.9.0.patch"
-   }
-  },
-  "e73ddc25da14fe1c167775e27d7944b8660f63a17590099d42c8e5597e9bfee1": {
-   "builtin.hip": {
-    "owner": "builtin.hip",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "0004-Drop-clang-rt-builtins-linking-on-hip-host.3.9.0.patch"
-   }
-  },
-  "b67bc6c919878ecaaf499454cc722162d53a024834943c96c15bfd6988b3049e": {
-   "builtin.hip": {
-    "owner": "builtin.hip",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "0003-Improve-compilation-without-git-repo.3.10.0.patch"
-   }
-  },
-  "9dc7efbdb3d7e375d2cc410702e2b9686cc73be40aa8d494b26be8a4538f18cd": {
-   "builtin.hip": {
-    "owner": "builtin.hip",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "0004-Drop-clang-rt-builtins-linking-on-hip-host.3.10.0.patch"
    }
   },
   "b5383858c1b1dec2b2dfcb46bf0b1c7c3e25ccab26e369a06fbe3d2c0eec26b4": {
@@ -1766,52 +1414,12 @@
     "relative_path": "Makefile.patch"
    }
   },
-  "8132c27659f992311dcf3d1500056e0f9400aa22f6824124e3607dbaa8dfe3c0": {
-   "builtin.fftw": {
-    "owner": "builtin.fftw",
-    "level": 0,
-    "working_dir": ".",
-    "relative_path": "pfft-3.3.5.patch"
-   }
-  },
-  "4c813199aa39c0d2b23259ee3c3a58c9c96a3c0d09fe3485a33f299b95e0d9e7": {
-   "builtin.fftw": {
-    "owner": "builtin.fftw",
-    "level": 0,
-    "working_dir": ".",
-    "relative_path": "pfft-3.3.4.patch"
-   }
-  },
-  "5382f2695960800c0c93cb01fabdf9f4efa478f4171163c516c9fe1d9288449e": {
-   "builtin.fftw": {
-    "owner": "builtin.fftw",
-    "level": 0,
-    "working_dir": ".",
-    "relative_path": "pgi-3.3.6-pl2.patch"
-   }
-  },
-  "116635693452a2ca3bdc3f87c20569b4bf9d7813ecfe9581cef6e362b0770c1e": {
-   "builtin.fftw": {
-    "owner": "builtin.fftw",
-    "level": 0,
-    "working_dir": ".",
-    "relative_path": "intel-configure.patch"
-   }
-  },
   "7d131b922e7a0d670c5a15f45895ad153fcd69d7c0187ea521e0ff936cfc6482": {
    "builtin.lastz": {
     "owner": "builtin.lastz",
     "level": 1,
     "working_dir": ".",
     "relative_path": "sequences.c.patch"
-   }
-  },
-  "55d3a699cf1b00e631bd144f2461dd34df7a69fef044ee57e6813b4b1916ac41": {
-   "builtin.kim-api": {
-    "owner": "builtin.kim-api",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "fujitsu_add_link_flags.patch"
    }
   },
   "76cf0ea2929237dd9b1ead57f32acd376fd47f251c8c5a1f36b0810b0f364092": {
@@ -1828,14 +1436,6 @@
     "level": 1,
     "working_dir": ".",
     "relative_path": "0001-Name-agnostic-import-of-tlx-library.patch"
-   }
-  },
-  "a43b2ca6c9f9edfb1fd6d916a599f85a57c8bb3f9ee38148b1988fd82feec8ad": {
-   "builtin.mumax": {
-    "owner": "builtin.mumax",
-    "level": 1,
-    "working_dir": ".",
-    "url": "https://github.com/mumax/3/commit/2cf5c9a6985c9eb16a124c6bd96aed75b4a30c24.patch"
    }
   },
   "4e8d4413c4a1eef5a811ad9b5c07e569078d4fc503ed6dd68fc3f7b248c52d4a": {
@@ -1918,22 +1518,6 @@
     "relative_path": "install.patch"
    }
   },
-  "0a0ca84889b6727dc0cc88650f55fd79452dddba762674a83a153374792fdaac": {
-   "builtin.binutils": {
-    "owner": "builtin.binutils",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "cr16.patch"
-   }
-  },
-  "10e7a67069a16def0375a80062f68e2208c015656d7e888cf760165624eed5f4": {
-   "builtin.binutils": {
-    "owner": "builtin.binutils",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "update_symbol-2.26.patch"
-   }
-  },
   "3a902399784d8ab82432ae31ca539b6a880efbdee5bece0c452b96d46bb286b4": {
    "builtin.sionlib": {
     "owner": "builtin.sionlib",
@@ -1956,14 +1540,6 @@
     "level": 1,
     "working_dir": ".",
     "relative_path": "add_space.patch"
-   }
-  },
-  "902c102d42318debc54426bcb482459a97a992866bc4872676ce63735d91d145": {
-   "builtin.squashfs": {
-    "owner": "builtin.squashfs",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "gcc-10.patch"
    }
   },
   "0bd5a1f2c947e51d162d65d5e007d984ad5d8e77339e7a725bbe13d31d34a8b7": {
@@ -1996,30 +1572,6 @@
     "level": 1,
     "working_dir": ".",
     "relative_path": "isuue-133.patch"
-   }
-  },
-  "0046d24487c0b7cbc84527fc36300d4e970cb4191b44e8b1619523fae15137f1": {
-   "builtin.netlib-lapack": {
-    "owner": "builtin.netlib-lapack",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "ibm-xl.patch"
-   }
-  },
-  "5c79286f3d08a0b0f1f3acba2a92ee698647716ba8c6c0ae20c9cc2713e6f139": {
-   "builtin.netlib-lapack": {
-    "owner": "builtin.netlib-lapack",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "undefined_declarations.patch"
-   }
-  },
-  "ad3d41fe9ff94b7661e09fceaf2b2e4b8c83510c1465c016e161541b4429b5ee": {
-   "builtin.netlib-lapack": {
-    "owner": "builtin.netlib-lapack",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "testing.patch"
    }
   },
   "03ec8214dccd9e08d22163b1bb18c763f15c98f612e1b98ed786e54cdffb461f": {
@@ -2116,62 +1668,6 @@
     "level": 1,
     "working_dir": ".",
     "relative_path": "gcc-5.patch"
-   }
-  },
-  "05d41acad39e913f73a9739d1f4ce522fa8fd54a994e2f372a5de029b8300f10": {
-   "builtin.rccl": {
-    "owner": "builtin.rccl",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "0001-Fix-numactl-path-issue.patch"
-   }
-  },
-  "2882b703e57e025bdf3ecf70b4d0c9bd47219a5874aea4f4100cd8b0e69284eb": {
-   "builtin.hdf5": {
-    "owner": "builtin.hdf5",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "h5f90global-mult-obj-same-equivalence-same-common-block.patch"
-   }
-  },
-  "464de1103b499eee7767393ac331fe5687e059c680a7d3d6f0139e13c4f46b93": {
-   "builtin.hdf5": {
-    "owner": "builtin.hdf5",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "pre-c99-comments.patch"
-   }
-  },
-  "57cee5ff1992b4098eda079815c36fc2da9b10e00a9056df054f2384c4fc7523": {
-   "builtin.hdf5": {
-    "owner": "builtin.hdf5",
-    "level": 1,
-    "working_dir": ".",
-    "url": "https://salsa.debian.org/debian-gis-team/hdf5/raw/bf94804af5f80f662cad80a5527535b3c6537df6/debian/patches/gcc-8.patch"
-   }
-  },
-  "b61e2f058964ad85be6ee5ecea10080bf79e73f83ff88d1fa4b602d00209da9c": {
-   "builtin.hdf5": {
-    "owner": "builtin.hdf5",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "h5public-skip-mpicxx.patch"
-   }
-  },
-  "aca2881fc1bab105ef946e27737aeee4c77961c02938c3cd9e72338a22675437": {
-   "builtin.elemental": {
-    "owner": "builtin.elemental",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "elemental_cublas.patch"
-   }
-  },
-  "c71c92ce7c9d8a4ba78af7a80e514566a10421d59a423c225f98eca58a02d675": {
-   "builtin.elemental": {
-    "owner": "builtin.elemental",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "cmake_0.87.7.patch"
    }
   },
   "131159b0042300614d039ceb3538defe4d302b59dc748b02287fc8ff895e6bbd": {
@@ -2294,46 +1790,6 @@
     "relative_path": "fix_gmodel.cpp.patch"
    }
   },
-  "269863432890d8f88680781c7fa6b2016794705d70bdc2644d3bc803898b7d02": {
-   "builtin.bcftools": {
-    "owner": "builtin.bcftools",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "makefile_12.patch"
-   }
-  },
-  "2f69c5c91a33eb1e63bc71a5e7f23b811dcd7cf1bd7f6004ccbf90cd682570f6": {
-   "builtin.bcftools": {
-    "owner": "builtin.bcftools",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "fix_mk.patch"
-   }
-  },
-  "c4fd55694be9eda2977a4deb22c7a49d58bf0ac038daf21b6be2219dd8be95f2": {
-   "builtin.bcftools": {
-    "owner": "builtin.bcftools",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "makefile_13.patch"
-   }
-  },
-  "6e984c551a9034e86b739f3cd6e6a9564669db6cf636381494604055f20fb9b9": {
-   "builtin.bcftools": {
-    "owner": "builtin.bcftools",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "makefile_14.patch"
-   }
-  },
-  "38c75148747c07031fc36af8ee3996d5004944d9a4f01d9e2fb1b7ddc689a46a": {
-   "builtin.bcftools": {
-    "owner": "builtin.bcftools",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "guess-ploidy.py_2to3.patch"
-   }
-  },
   "dbee49cc92d1b453257453246892e9fab4fe5d66a9991a8a48a050bc172f7a79": {
    "builtin.mount-point-attributes": {
     "owner": "builtin.mount-point-attributes",
@@ -2350,36 +1806,12 @@
     "relative_path": "macos.patch"
    }
   },
-  "a3c5f23ee36ae5e3e2189a2fbfed502085752e207f37872ec5c377b044a4c28c": {
-   "builtin.migraphx": {
-    "owner": "builtin.migraphx",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "0001-Adding-nlohmann-json-include-directory.patch"
-   }
-  },
-  "13ff7d3c28e78ab81f7ad1235b121341a984e0d3d26657a1dde2887412e180fd": {
-   "builtin.hdf-eos2": {
-    "owner": "builtin.hdf-eos2",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "hdf-eos2.nondarwin-no-single_module.patch"
-   }
-  },
   "aed6630a6298b6309d2241a99943b49993453fb089c1d864b4a459559d69bd3c": {
    "builtin.py-pyarrow": {
     "owner": "builtin.py-pyarrow",
     "level": 1,
     "working_dir": ".",
     "relative_path": "for_aarch64.patch"
-   }
-  },
-  "a06d020b43ac842a6c4ab7f58e00db606d51d2fe972e9407efa6fbafd40b3dc0": {
-   "builtin.rocalution": {
-    "owner": "builtin.rocalution",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "0001-fix-hip-build-error.patch"
    }
   },
   "4a7edd21e5798c454203c75afa51e699ef20786b6119d2984cd7d805a3f9ef3d": {
@@ -2518,38 +1950,6 @@
     "relative_path": "scripts-Makefile.patch"
    }
   },
-  "c8877bc9325012de77cd1612d59b6dd4b296c88d2ef5548463e7db6a39fc4070": {
-   "builtin.dyninst": {
-    "owner": "builtin.dyninst",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "stat_dysect.patch"
-   }
-  },
-  "ce22229b99331105cd194cd73f469d5a0cc0ecc16afd91855f05a8f2eb037277": {
-   "builtin.dyninst": {
-    "owner": "builtin.dyninst",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "stackanalysis_h.patch"
-   }
-  },
-  "397f1596753f6da95ec3fc37f915bc9739f73b07cc677ee6bbda40669903bc00": {
-   "builtin.dyninst": {
-    "owner": "builtin.dyninst",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "v9.3.2-auto.patch"
-   }
-  },
-  "9c2c333787895bd49dbf53a8e5cfcb6d5d070b79f31814110062a273f9110d2e": {
-   "builtin.dyninst": {
-    "owner": "builtin.dyninst",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "tribool.patch"
-   }
-  },
   "9ed4905ddc52392d86444aef98d21bd7ebf33290e5bc8b4eb2fe7b53d857720c": {
    "builtin.specfem3d-globe": {
     "owner": "builtin.specfem3d-globe",
@@ -2652,38 +2052,6 @@
     "level": 1,
     "working_dir": ".",
     "relative_path": "newmat6.cpp.patch"
-   }
-  },
-  "8fd1be181da928448da750b32d45ee6dce7ba6af0424617c4f8d653cf3f05445": {
-   "builtin.bart": {
-    "owner": "builtin.bart",
-    "level": 1,
-    "working_dir": ".",
-    "url": "https://github.com/mrirecon/bart/commit/b62ca4972d5ac41a44217a5c27123c15daae74db.patch"
-   }
-  },
-  "f8ec3a049640e90151964a009e7690c6f271c941248653ac9795098265551159": {
-   "builtin.bart": {
-    "owner": "builtin.bart",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "bart_path-0.5.00.patch"
-   }
-  },
-  "b102707ef0a9a89fa5869c09eace3b1e15717997d72ac3953fb484c3891bf129": {
-   "builtin.bart": {
-    "owner": "builtin.bart",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "Makefile.patch"
-   }
-  },
-  "ba16f85a90f1f1b3af8caacae405905f23e7f45ee83222e6f5ac40d9f3376baa": {
-   "builtin.bart": {
-    "owner": "builtin.bart",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "bart_path-0.6.00.patch"
    }
   },
   "49aa8fa99d3a1315c639d2a90014079c34a7d0a6dde110b6cbb7b02f87324742": {
@@ -2806,14 +2174,6 @@
     "relative_path": "cmake.patch"
    }
   },
-  "6e08dc445ece06e9e8b1344397f2d3f169005703ddc0f2ae24f366cde78c7377": {
-   "builtin.libpciaccess": {
-    "owner": "builtin.libpciaccess",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "nvhpc.patch"
-   }
-  },
   "458772d9516e72dcd48b0b848db7e56dc6df6deb54ebbea126c9ad555febe8f3": {
    "builtin.fermi": {
     "owner": "builtin.fermi",
@@ -2884,38 +2244,6 @@
     "level": 1,
     "working_dir": ".",
     "relative_path": "arm.patch"
-   }
-  },
-  "4110a40613b800da2b2888c352b64c75a82809d48341061e4de5861e8b28423f": {
-   "builtin.ncurses": {
-    "owner": "builtin.ncurses",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "patch_gcc_5.txt"
-   }
-  },
-  "f84b2708a42777aadcc7f502a261afe10ca5646a51c1ef8b5e60d2070d926b57": {
-   "builtin.ncurses": {
-    "owner": "builtin.ncurses",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "sed_pgi.patch"
-   }
-  },
-  "f903bf98ac66ce26c8383bc7cdb2623651f9d172ebcf296e3b4361188e0e5975": {
-   "builtin.vtk-m": {
-    "owner": "builtin.vtk-m",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "vtkmdiy_fpic.patch"
-   }
-  },
-  "d0d40fc18b80683d31174f9f8cb479e860f7a9a191bee4a61bef31f6a415ac6f": {
-   "builtin.vtk-m": {
-    "owner": "builtin.vtk-m",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "disable_flying_edges.patch"
    }
   },
   "e0e42d7537178f2bddc21538f1390849a42cf5a5250eba3fa52d4ba9658e033d": {
@@ -3014,30 +2342,6 @@
     "relative_path": "ctags-only-if-requested.patch"
    }
   },
-  "592f30f7f5f757dfc239ad0ffd39a9a048487ad803c26b419e0f96b8cda08c1a": {
-   "builtin.numactl": {
-    "owner": "builtin.numactl",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "numactl-2.0.11-sysmacros.patch"
-   }
-  },
-  "4e1d78cbbb85de625bad28705e748856033eaafab92a66dffd383a3d7e00cc94": {
-   "builtin.numactl": {
-    "owner": "builtin.numactl",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "numactl-2.0.14-symver.patch"
-   }
-  },
-  "315d6ba40e203e06988980d3fdeea773aaab155ac2e195e6ede790ba84c80fb0": {
-   "builtin.valgrind": {
-    "owner": "builtin.valgrind",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "valgrind_3_12_0_osx.patch"
-   }
-  },
   "6df7cf5e8c7fef7792436d3358eacf64510a9882ac017ed19f2c1826592d97ad": {
    "builtin.heffte": {
     "owner": "builtin.heffte",
@@ -3100,30 +2404,6 @@
     "level": 1,
     "working_dir": ".",
     "relative_path": "fix_return_type_err.patch"
-   }
-  },
-  "aaae81b3edc29362a94770cc235f1eb6d6f84bb6168c4084a7376a09a2ae93c2": {
-   "builtin.libbsd": {
-    "owner": "builtin.libbsd",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "cdefs.h.patch"
-   }
-  },
-  "71b49f52a01420ab632f23373135853a2565f88725fb77e625a7fbf7ea812eef": {
-   "builtin.libbsd": {
-    "owner": "builtin.libbsd",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "local-elf.h.patch"
-   }
-  },
-  "bd4ed3549fde8870ac82cdc5778d91f907131587d31eedcd023dd13594dc39ad": {
-   "builtin.libbsd": {
-    "owner": "builtin.libbsd",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "nvhpc.patch"
    }
   },
   "185d0632ff38c629632b81ab1255ac65ab848047cebbfda122407c723db6b2a0": {
@@ -3252,30 +2532,6 @@
     "level": 1,
     "working_dir": ".",
     "relative_path": "missing-separator.patch"
-   }
-  },
-  "574abfcdae78bd79d69c4f2403a67f0ed08d5c49afa3eb9bdb2671044039a48f": {
-   "builtin.suite-sparse": {
-    "owner": "builtin.suite-sparse",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "tbb_453.patch"
-   }
-  },
-  "ff7707dab9d540edeffc5fad16baa1564ded271ed1bbbf04718165d7daa56d1d": {
-   "builtin.suite-sparse": {
-    "owner": "builtin.suite-sparse",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "pgi.patch"
-   }
-  },
-  "d2df9294f7667f75172e71d50af738fc283bf6b4891298ca7a253eaa8bcdd7e6": {
-   "builtin.suite-sparse": {
-    "owner": "builtin.suite-sparse",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "graphblas_libm_dep.patch"
    }
   },
   "fe20c09b006f8e59f31a16e85cc43ac786eecf7de0348e5c9c57685c2afbc86e": {
@@ -3438,22 +2694,6 @@
     "relative_path": "errorstop.patch"
    }
   },
-  "44a3e17bf6e972db9760fc50bc0948309ee441dab1cdb11816ba675de0138549": {
-   "builtin.claw": {
-    "owner": "builtin.claw",
-    "level": 1,
-    "working_dir": ".",
-    "url": "https://github.com/claw-project/claw-compiler/commit/e9fe6dbd291454ce34dd58f21d102f7f1bdff874.patch"
-   }
-  },
-  "9a3ac48182eec74faa9e6c3dcdb0aa0f4dc308d990cdabbac20da37033a601bf": {
-   "builtin.claw": {
-    "owner": "builtin.claw",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "ivy_local_cache.patch"
-   }
-  },
   "27540159a92caa9cc2f99f5f20b55f32308d01a520c7969d1333979d6ad10afa": {
    "builtin.bliss": {
     "owner": "builtin.bliss",
@@ -3476,22 +2716,6 @@
     "level": 1,
     "working_dir": ".",
     "relative_path": "fontconfig.patch"
-   }
-  },
-  "ea0ed0f06861b91d7dbc367d3533b4dd764b7bf35b3e739af60acb6e25b91e37": {
-   "builtin.spglib": {
-    "owner": "builtin.spglib",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "fix_cmake_install.patch"
-   }
-  },
-  "4d354dc336694c1577dfc9950ccec99255332c4f08f6525b6465d7a31c4e8c75": {
-   "builtin.spglib": {
-    "owner": "builtin.spglib",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "fix_cpp.patch"
    }
   },
   "6b96a819ca4d940ae761948000609afa73b517315bfe50314152f928988a095c": {
@@ -3604,14 +2828,6 @@
     "level": 1,
     "working_dir": ".",
     "relative_path": "root_cmake_1.7.0.patch"
-   }
-  },
-  "73df7272a11effc11546ab63aec4fc5ee25983d631c3fe5df024db3be8e83a1e": {
-   "builtin.qwt": {
-    "owner": "builtin.qwt",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "no-designer.patch"
    }
   },
   "1671d33c49cdd80ef1e7701121c746c028372529748c1f4315e53bbc34fb0564": {
@@ -3796,62 +3012,6 @@
     "level": 1,
     "working_dir": ".",
     "relative_path": "boost_1.68.0.patch"
-   }
-  },
-  "eb982de3366d48cbc55eb5e0df43373a45d9f51df208abf0835a72dc6c0b4774": {
-   "builtin.mpich": {
-    "owner": "builtin.mpich",
-    "level": 1,
-    "working_dir": ".",
-    "url": "https://github.com/pmodels/mpich/commit/8a851b317ee57366cd15f4f28842063d8eff4483.patch"
-   }
-  },
-  "e591891fae6a1d029b95edbc93865c57d165784e77cf8b5822ae7d014b137a03": {
-   "builtin.mpich": {
-    "owner": "builtin.mpich",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "mpich32_clang.patch"
-   }
-  },
-  "c7d4ecf865dccff5b764d9c66b6a470d11b0b1a5b4f7ad1ffa61079ad6b5dede": {
-   "builtin.mpich": {
-    "owner": "builtin.mpich",
-    "level": 1,
-    "working_dir": ".",
-    "url": "https://github.com/pmodels/mpich/commit/b324d2de860a7a2848dc38aefb8c7627a72d2003.patch"
-   }
-  },
-  "c3e5f74dbded8dab73b9999e01963824d3ef44966f1a776eb72d413825dc6f24": {
-   "builtin.mpich": {
-    "owner": "builtin.mpich",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "nag_libtool_2.4.2_0.patch"
-   }
-  },
-  "0076b2ad6ae8441a323a5493b4e8987c54b5b16e52d4ccd251752c02accb9b4a": {
-   "builtin.mpich": {
-    "owner": "builtin.mpich",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "nag_libtool_2.4.2_1.patch"
-   }
-  },
-  "a2fd5dde6c695a76ad56d2175a63c8ff7a4ca17d1321d116ee2bdbb339a72e18": {
-   "builtin.mpich": {
-    "owner": "builtin.mpich",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "nag_libtool_2.4.2_2.patch"
-   }
-  },
-  "30e56b44eee313e8d2291f95382630887d6e5b6365fa51d56d2822d8313ed6f2": {
-   "builtin.mpich": {
-    "owner": "builtin.mpich",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "nag_libtool_2.4.6.patch"
    }
   },
   "f99d69d82668a9aa7c032df2a5d045213791c2bdadbb160b794826e99a3ce2cb": {
@@ -4070,22 +3230,6 @@
     "relative_path": "patches/issue-10702.patch"
    }
   },
-  "205b3e786bca08582c3de4880ae46e1277fd00ad2f0a01b6ef7d5ac3fc0ece76": {
-   "builtin.atmi": {
-    "owner": "builtin.atmi",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "0001-Remove-relative-link-paths-to-external-libraries.patch"
-   }
-  },
-  "39e58d629b090bee4a319bfc581e59c4f4b0453f8b13ec77693a52be8d13a90d": {
-   "builtin.graphite2": {
-    "owner": "builtin.graphite2",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "regparm.patch"
-   }
-  },
   "19cd7e8428e78aaa8b1b5e493d3fddc08908d4f036aa31cac08ec2fe35cb0f39": {
    "builtin.esmf": {
     "owner": "builtin.esmf",
@@ -4148,22 +3292,6 @@
     "level": 1,
     "working_dir": ".",
     "relative_path": "tetgen-1.5.0-free.patch"
-   }
-  },
-  "522ad3a53596c22d0a611efe92e91c1f6812bf63af544f949b1f347f149ca208": {
-   "builtin.hsa-rocr-dev": {
-    "owner": "builtin.hsa-rocr-dev",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "0001-Do-not-set-an-explicit-rpath-by-default-since-packag.patch"
-   }
-  },
-  "71e6851d9be8113bfb8d71b66a3171e0d0401bae5e6f161c9e7fe32558261a46": {
-   "builtin.hsa-rocr-dev": {
-    "owner": "builtin.hsa-rocr-dev",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "0002-Remove-explicit-RPATH-again.patch"
    }
   },
   "682dae2854283e9868c52289bde9dfd8b974544df3a0c1c99d81a5ac6c566e79": {
@@ -4270,14 +3398,6 @@
     "relative_path": "install_as_nonroot.patch"
    }
   },
-  "6633385304b085888da6374d39bc4f6340d83eca7cb8a3320f739549cc662cf6": {
-   "builtin.readline": {
-    "owner": "builtin.readline",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "readline-6.3-upstream_fixes-1.patch"
-   }
-  },
   "66803e9523fff57868df2bcf3d1232534da4312793982c040e0edcf46d134263": {
    "builtin.bwa": {
     "owner": "builtin.bwa",
@@ -4300,30 +3420,6 @@
     "level": 1,
     "working_dir": ".",
     "relative_path": "3rdparty.patch"
-   }
-  },
-  "4be44871362cda41fb6dd55ab438abb31f3af61e1bd05cf3a9df4f70656f8502": {
-   "builtin.julia": {
-    "owner": "builtin.julia",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "gc.patch"
-   }
-  },
-  "795c1eae836d5b6979c202468435c46260f3ff033b23f2edb5feab031ae43548": {
-   "builtin.julia": {
-    "owner": "builtin.julia",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "openblas.patch"
-   }
-  },
-  "c07b4e371eb1ed94b2879bd7c225ae28503800bab21f714163bd196d9b38330f": {
-   "builtin.julia": {
-    "owner": "builtin.julia",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "armgcc.patch"
    }
   },
   "f33a6fd9b51d2325f337bfbab8b1bb6a0f56b699f398da92e72f8114211f739e": {
@@ -4638,30 +3734,6 @@
     "relative_path": "glibc-jasper.patch"
    }
   },
-  "e2ff7a6f0f006856085d4aab6d31f32f16353e41f760a33a7ef75f3ecce6a5d6": {
-   "builtin.qmcpack": {
-    "owner": "builtin.qmcpack",
-    "level": 1,
-    "working_dir": ".",
-    "url": "https://patch-diff.githubusercontent.com/raw/QMCPACK/qmcpack/pull/621.patch"
-   }
-  },
-  "3eb9dec05fd1a544318ff84cd8b5926cfc6b46b375c7f3b012ccf0b50cf617b7": {
-   "builtin.qmcpack": {
-    "owner": "builtin.qmcpack",
-    "level": 1,
-    "working_dir": ".",
-    "url": "https://patch-diff.githubusercontent.com/raw/QMCPACK/qmcpack/pull/623.patch"
-   }
-  },
-  "c066c79901a612cf8848135e0d544efb114534cca70b90bfccc8ed989d3d9dde": {
-   "builtin.qmcpack": {
-    "owner": "builtin.qmcpack",
-    "level": 1,
-    "working_dir": ".",
-    "url": "https://patch-diff.githubusercontent.com/raw/QMCPACK/qmcpack/pull/643.patch"
-   }
-  },
   "76e1b757ddb1926a140edf15890dec84bb785507d1cef14b5b12c67451c56d99": {
    "builtin.chill": {
     "owner": "builtin.chill",
@@ -4726,30 +3798,6 @@
     "url": "https://raw.githubusercontent.com/macports/macports-ports/a71fa9f4/devel/ddd/files/patch-unknown-type-name-a_class.diff"
    }
   },
-  "77bd88b95f61e089fc4de879f1b9c41af1582f197120d6774609ba26c4429680": {
-   "builtin.maker": {
-    "owner": "builtin.maker",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "install.patch"
-   }
-  },
-  "92e6c022d583d8056dcb7ca17b2fb831547eb7dc8aa373074823fe0109d77e5d": {
-   "builtin.maker": {
-    "owner": "builtin.maker",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "mpi.patch"
-   }
-  },
-  "4e875dd39a08166ce6707e832f8c712640b37365dba14ccaa56b8ccb2883b11e": {
-   "builtin.maker": {
-    "owner": "builtin.maker",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "MpiChunk.patch"
-   }
-  },
   "d4f0a6f8555676b2684d05623a47f05eb3d6986e0e6975a89433a1be7b90b171": {
    "builtin.krims": {
     "owner": "builtin.krims",
@@ -4788,22 +3836,6 @@
     "level": 1,
     "working_dir": ".",
     "relative_path": "gsl-2.3-cblas.patch"
-   }
-  },
-  "e46f92ef664068c179670101b7c0ff02d45e643d016eca5fe18f14e6ec03b9ef": {
-   "builtin.phist": {
-    "owner": "builtin.phist",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "update_tpetra_gotypes.patch"
-   }
-  },
-  "1fc9ac6c1cce2804d171dd12470e709cd1e3839be6d51f7e5c33427ba4b379ca": {
-   "builtin.phist": {
-    "owner": "builtin.phist",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "sbang.patch"
    }
   },
   "392615011adb7afeb0010152409a37b150f03dbde5b534503e9cd7363b742a19": {
@@ -4902,14 +3934,6 @@
     "url": "https://src.fedoraproject.org/rpms/tcsh/raw/8a6066c901fb4fc75013dd488ba958387f00c74d/f/tcsh-6.20.00-manpage-memoryuse.patch"
    }
   },
-  "d1a0e581fb72830089302c94f77ccfcbaae416478f5241c4213fbe8b3f63b3b7": {
-   "builtin.darshan-util": {
-    "owner": "builtin.darshan-util",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "retvoid.patch"
-   }
-  },
   "250d0b679e5d3104e3c8d6adf99751b71386c7ed4cbdae1c75408717ef3f401f": {
    "builtin.votca-tools": {
     "owner": "builtin.votca-tools",
@@ -4974,14 +3998,6 @@
     "relative_path": "detect-compiler.patch"
    }
   },
-  "dc35b1fb6a5c616aba215cbf8e1af019c88d3b060f92132361869c3b2371c355": {
-   "builtin.rocm-debug-agent": {
-    "owner": "builtin.rocm-debug-agent",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "0001-Drop-overly-strict-Werror-flag.patch"
-   }
-  },
   "e13db2acebad3ca5be5d8e0fa97f149b0f9661e4a9a731965c8226290c6413c0": {
    "builtin.cvs": {
     "owner": "builtin.cvs",
@@ -4996,30 +4012,6 @@
     "level": 1,
     "working_dir": ".",
     "relative_path": "resolve_isnan_ambiguity.patch"
-   }
-  },
-  "89aa362716d898edd0b5c6ae4208dc1b6992887774848a09e8021afd676f7d61": {
-   "builtin.bison": {
-    "owner": "builtin.bison",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "parallel.patch"
-   }
-  },
-  "b72914fe38e54a6fc25f29019e0a0786705c4f61ce20d414cc2010c8d62448c7": {
-   "builtin.bison": {
-    "owner": "builtin.bison",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "pgi.patch"
-   }
-  },
-  "ad81ef1b088459a396d908295afc3809f9a25076efaa459cdd2f21eabd1f4b16": {
-   "builtin.bison": {
-    "owner": "builtin.bison",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "nvhpc.patch"
    }
   },
   "958b8fd4910cc5f82bcd894155dbcadb105f55f35df3bd85dd8d3c11a9abc102": {
@@ -5094,22 +4086,6 @@
     "relative_path": "pkg-parmetis-82409d68aa1d6cbc70740d0f35024aae17f7d5cb.patch"
    }
   },
-  "d7eece642b1022db4c697373f12fc2601ee4d63de5d0fd5a9f952a1ef5b5c249": {
-   "builtin.dd4hep": {
-    "owner": "builtin.dd4hep",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "tbb-workarounds.patch"
-   }
-  },
-  "eacad7d7ebdb5194ca5680b660f5e9a74e4ac767988d68a06b643b9bb66acad5": {
-   "builtin.dd4hep": {
-    "owner": "builtin.dd4hep",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "tbb2.patch"
-   }
-  },
   "f18e5ea336bb633f5c53ef34af72c5b4a0b0f7700569f398c7161e06715600b5": {
    "builtin.fenics": {
     "owner": "builtin.fenics",
@@ -5156,38 +4132,6 @@
     "level": 1,
     "working_dir": ".",
     "relative_path": "chlorop.patch"
-   }
-  },
-  "d136d80f8bd1c249df392ab016aa166330a8535750e6c7efba0119f3be0af782": {
-   "builtin.perl": {
-    "owner": "builtin.perl",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "protect-quotes-in-ccflags.patch"
-   }
-  },
-  "0eac10ed90aeb0459ad8851f88081d439a4e41978e586ec743069e8b059370ac": {
-   "builtin.perl": {
-    "owner": "builtin.perl",
-    "level": 1,
-    "working_dir": ".",
-    "url": "https://src.fedoraproject.org/rpms/perl/raw/004cea3a67df42e92ffdf4e9ac36d47a3c6a05a4/f/perl-5.26.1-guard_old_libcrypt_fix.patch"
-   }
-  },
-  "517afe8ca1cb12f798f20b21583d91463fe3f4fa9244c6c8e054a92c8135da8f": {
-   "builtin.perl": {
-    "owner": "builtin.perl",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "macos-11-version-check.patch"
-   }
-  },
-  "d11fd1545df35266bda5cf67f4ed4babcd21caebb27db4146f14d8bb98a1cec4": {
-   "builtin.perl": {
-    "owner": "builtin.perl",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "nvhpc-5.30.patch"
    }
   },
   "64f67ffc67483a863d4b7f8481ea0377d444db275f2abc61eef42721328dcf9a": {
@@ -5390,14 +4334,6 @@
     "relative_path": "singularity_v3.4.0_remove_root_check.patch"
    }
   },
-  "c1b1e41202a3a198ed1e753ac318c15117c3d9e485f84c34c1988d98c8bbbc9e": {
-   "builtin.conduit": {
-    "owner": "builtin.conduit",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "fj_flags.patch"
-   }
-  },
   "6f6e6411051846f0e99e5f46e07c78428c4a2a88f51c202b3122972d91452f4c": {
    "builtin.gdk-pixbuf": {
     "owner": "builtin.gdk-pixbuf",
@@ -5484,14 +4420,6 @@
     "level": 1,
     "working_dir": ".",
     "relative_path": "notparallel.patch"
-   }
-  },
-  "693f3f61bbb8f225c150f6ed1df08e89b931c258c212d78ca3399dc23d93ec69": {
-   "builtin.rocm-validation-suite": {
-    "owner": "builtin.rocm-validation-suite",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "001-fixes-for-rocblas-rocm-smi-install-prefix-path.patch"
    }
   },
   "7a1d87bdfa60334c497dbb5451d6acca95165b9fb96cc5e977f20fe22b538a0b": {
@@ -5638,54 +4566,6 @@
     "relative_path": "no-unicode-readme.patch"
    }
   },
-  "e34d2470461037933737c0a60fbcc5d5ea905fefb6b414b4a2e88a440fcae23a": {
-   "builtin.tar": {
-    "owner": "builtin.tar",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "tar-pgi.patch"
-   }
-  },
-  "d428578be7fb99b831eb61e53b8d88a859afe08b479a21238180899707d79ce4": {
-   "builtin.tar": {
-    "owner": "builtin.tar",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "config-pgi.patch"
-   }
-  },
-  "08921fcbd732050c74ddf1de7d8ad95ffdbc09f8b4342456fa2f6a0dd02a957c": {
-   "builtin.tar": {
-    "owner": "builtin.tar",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "se-selinux.patch"
-   }
-  },
-  "5c314db58d005043bf407abaf25eb9823b9032a22fd12a0b142d4bf548130fa4": {
-   "builtin.tar": {
-    "owner": "builtin.tar",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "argp-pgi.patch"
-   }
-  },
-  "125cd6142fac2cc339e9aebfe79e40f90766022b8e8401532b1729e84fc148c2": {
-   "builtin.tar": {
-    "owner": "builtin.tar",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "gnutar-configure-xattrs.patch"
-   }
-  },
-  "4e8cdf69294c376c45c39d059f11769c5c996c2d84cdfb56eb69890e0aa4e991": {
-   "builtin.tar": {
-    "owner": "builtin.tar",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "nvhpc.patch"
-   }
-  },
   "c50dedac4a9223c7353eb0b773da39b5b631ce7d3fd9e1f6e5f87eda6faf3fdb": {
    "builtin.flann": {
     "owner": "builtin.flann",
@@ -5756,22 +4636,6 @@
     "level": 1,
     "working_dir": ".",
     "relative_path": "systemd-fix.patch"
-   }
-  },
-  "45a59746eeb9e0e3f6dcf0e465811b58cf085b8cece1dc05053c55c98f58b5c0": {
-   "builtin.llvm-amdgpu": {
-    "owner": "builtin.llvm-amdgpu",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "fix-system-zlib-ncurses.patch"
-   }
-  },
-  "ca9f54806c0def950b9c4ed5ac94480d6813ad9b68a00003b5f4f9da8084ac18": {
-   "builtin.llvm-amdgpu": {
-    "owner": "builtin.llvm-amdgpu",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "fix-ncurses-3.9.0.patch"
    }
   },
   "5f76a7ffd67dc967afc62b23ad0d99a27f7148d06c8bfa055ef4feec6f3e8bb7": {
@@ -5998,30 +4862,6 @@
     "relative_path": "fastqc.patch"
    }
   },
-  "120d2474567df05e74ed0f8ab383f2afd2d6948f735c150739e7c3f992d4e679": {
-   "builtin.fltk": {
-    "owner": "builtin.fltk",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "font.patch"
-   }
-  },
-  "875272b687e24e20733185e73737d579fc3e223f4664be39295df8632fbf6fcb": {
-   "builtin.fltk": {
-    "owner": "builtin.fltk",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "fix_compare_val.patch"
-   }
-  },
-  "0b50b67aa21dcb81f908a93c6875ef039e07ebead5073df928bfff7661d07c5e": {
-   "builtin.fltk": {
-    "owner": "builtin.fltk",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "type_cast.patch"
-   }
-  },
   "3d75052730690579484e65a5bf0f92f6c3b20d9c43a413862d087774f431d9e9": {
    "builtin.krb5": {
     "owner": "builtin.krb5",
@@ -6084,30 +4924,6 @@
     "level": 1,
     "working_dir": ".",
     "relative_path": "gcc-compile-opt-check.patch"
-   }
-  },
-  "7590ab840b41e63518e979c584fb9cda07496b727167a03841d3e86a8dc46c33": {
-   "builtin.sirius": {
-    "owner": "builtin.sirius",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "strip-spglib-include-subfolder.patch"
-   }
-  },
-  "dd31054bd61d486a76514b57a9b8ec5651c6227d782fc6e51f539e7c4c82fac6": {
-   "builtin.sirius": {
-    "owner": "builtin.sirius",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "link-libraries-fortran.patch"
-   }
-  },
-  "3373fb6acfccaf6780c1f2697415d011f55aa9ea507b43c3210bb5c8d6739a47": {
-   "builtin.sirius": {
-    "owner": "builtin.sirius",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "cmake-fix-shared-library-installation.patch"
    }
   },
   "1bcdb0e63a218807be4fb66056364376849e34579489e9501adda065944d4dea": {
@@ -6204,14 +5020,6 @@
     "level": 1,
     "working_dir": ".",
     "relative_path": "subprocess.patch"
-   }
-  },
-  "3edeb8aeaf335297ec0f61a15b99c259d607d8f534173fbc3d17832ad03cd63f": {
-   "builtin.hip-rocclr": {
-    "owner": "builtin.hip-rocclr",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "opengl.patch"
    }
   },
   "140a14a42f8d9ec1325cc4e4ed00b6c22d7de93d668199932904057d0dd60c87": {
@@ -6630,14 +5438,6 @@
     "relative_path": "ksw_for_aarch64.patch"
    }
   },
-  "d49f040439ee859968b60f449253baff2bb4296d09256f442e60df7800b13905": {
-   "builtin.eccodes": {
-    "owner": "builtin.eccodes",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "openjpeg_jasper.patch"
-   }
-  },
   "1a7eef60fa488406b86be646c0214a350feec549caf5631e13ff73e55a1b3f09": {
    "builtin.yoda": {
     "owner": "builtin.yoda",
@@ -6758,52 +5558,12 @@
     "relative_path": "gcc_format.patch"
    }
   },
-  "42e805682b7120163998a6d7e9abb8d7065602a2d548877b0fb7cd13233f4c9a": {
-   "builtin.libxc": {
-    "owner": "builtin.libxc",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "0001-Bugfix-avoid-implicit-pointer-cast-to-make-libxc-com.patch"
-   }
-  },
-  "a2977e2f48c9bc7c9627eaadd4bef5323dcfa0e69a65e66b8c2eb4689b670959": {
-   "builtin.libxc": {
-    "owner": "builtin.libxc",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "0002-Mark-xc_erfcx-a-GPU_FUNCTION.patch"
-   }
-  },
-  "73122365867fb909773c900fcfea99eef681ba35078b7ace1948f68cd297486e": {
-   "builtin.libxc": {
-    "owner": "builtin.libxc",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "nvhpc-configure.patch"
-   }
-  },
-  "81c60a263e51307e70cad6add51d5d113630eab0ae3208267e39effc0e39d8b5": {
-   "builtin.libxc": {
-    "owner": "builtin.libxc",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "nvhpc-libtool.patch"
-   }
-  },
   "09e093214e1415e6424425d3ab01b89c9f571fc41e66c171bff931ea77f3452a": {
    "builtin.r-rcppparallel": {
     "owner": "builtin.r-rcppparallel",
     "level": 1,
     "working_dir": ".",
     "relative_path": "asclang.patch"
-   }
-  },
-  "b9e0ce5f14cc3f72db9ca5e25016fd3577c6342a56c49adcf00efbc4ec9bc624": {
-   "builtin.repeatmasker": {
-    "owner": "builtin.repeatmasker",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "utf8.patch"
    }
   },
   "e5ff418ff42973a11abbc50abd92b3ce89b4281bcda7ccf5ae2e1828fea6b459": {
@@ -6886,22 +5646,6 @@
     "relative_path": "not_link_gfortran.patch"
    }
   },
-  "21a4f8de3525204ee6db2e53758a3e3fd9c13817df29d2926d24376858a369e7": {
-   "builtin.mpark-variant": {
-    "owner": "builtin.mpark-variant",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "nvcc.patch"
-   }
-  },
-  "61d71faee8d5ee4d170de8014b1c53a3eb0c367e99f7b1a5528ae4beaa69bb86": {
-   "builtin.gpu-burn": {
-    "owner": "builtin.gpu-burn",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "Makefile.patch"
-   }
-  },
   "10a88ad47f9797cf7cf2d7d07241f665a3b6d1f31fa026728c8c2ae93e1664e9": {
    "builtin.libxml2": {
     "owner": "builtin.libxml2",
@@ -6956,46 +5700,6 @@
     "level": 1,
     "working_dir": ".",
     "relative_path": "fix-811665.patch"
-   }
-  },
-  "d155fa15d14d57f04046d9d139a2c92c4fd28c7d9ba7affe269c2942eafc809e": {
-   "builtin.py-torch": {
-    "owner": "builtin.py-torch",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "xnnpack.patch"
-   }
-  },
-  "cbd3273f70805de288c89e4ba8bf236b77bbe3db6c8a397e5e0be1a6a896b4fe": {
-   "builtin.py-torch": {
-    "owner": "builtin.py-torch",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "rocm.patch"
-   }
-  },
-  "17561b16cd2db22f10c0fe1fdcb428aecb0ac3964ba022a41343a6bb8cba7049": {
-   "builtin.py-torch": {
-    "owner": "builtin.py-torch",
-    "level": 1,
-    "working_dir": ".",
-    "url": "https://github.com/pytorch/pytorch/commit/e921cd222a8fbeabf5a3e74e83e0d8dfb01aa8b5.patch"
-   }
-  },
-  "311fb27dd269147a3ecf5e6b2d7b1c4aa755ea8a2b0ac034e7166edc681cb1d7": {
-   "builtin.py-torch": {
-    "owner": "builtin.py-torch",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "detect_omp_of_fujitsu_compiler.patch"
-   }
-  },
-  "b1af65a1f9cea643ca1b888bdc0a00321494c616d6f335f84232246407a8fd77": {
-   "builtin.qgis": {
-    "owner": "builtin.qgis",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "pyqt5.patch"
    }
   },
   "e9deade18b525d179ae71a3a6b600f56cff038b2d7adb3f2ad3d73f42a045d86": {
@@ -7068,22 +5772,6 @@
     "level": 1,
     "working_dir": ".",
     "relative_path": "cmake.patch"
-   }
-  },
-  "6b7493f0caa1b8042ef43c1a4cee6584abeeb9319c53a79e8b2e558cd1076992": {
-   "builtin.hipsparse": {
-    "owner": "builtin.hipsparse",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "e79985dccde22d826aceb3badfc643a3227979d2.patch"
-   }
-  },
-  "db755df3ae712d33d4954b7d302d656b1bdc8f226c063ee701d3b4d835297686": {
-   "builtin.hipsparse": {
-    "owner": "builtin.hipsparse",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "530047af4a0f437dafc02f76b3a17e3b1536c7ec.patch"
    }
   },
   "561dc4026601a7131beb1c0cc5ed17f6a404f54517329e5a51e2ad37637135fa": {
@@ -7262,30 +5950,6 @@
     "relative_path": "enum34.patch"
    }
   },
-  "84b916c0bf8c51b7e7b28417692f0ad3e7030d1f3c248ba77c42ede5c1c5d11e": {
-   "builtin.findutils": {
-    "owner": "builtin.findutils",
-    "level": 1,
-    "working_dir": ".",
-    "url": "https://src.fedoraproject.org/rpms/findutils/raw/97ba2d7a18d1f9ae761b6ff0b4f1c4d33d7a8efc/f/findutils-4.6.0-gnulib-fflush.patch"
-   }
-  },
-  "bd9e4e5cc280f9753ae14956c4e4aa17fe7a210f55dd6c84aa60b12d106d47a2": {
-   "builtin.findutils": {
-    "owner": "builtin.findutils",
-    "level": 1,
-    "working_dir": ".",
-    "url": "https://src.fedoraproject.org/rpms/findutils/raw/97ba2d7a18d1f9ae761b6ff0b4f1c4d33d7a8efc/f/findutils-4.6.0-gnulib-makedev.patch"
-   }
-  },
-  "015eff2da710d0a1935b7a3bfc507d9b2ead003d60bf8c17a35736f619f97908": {
-   "builtin.findutils": {
-    "owner": "builtin.findutils",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "nvhpc.patch"
-   }
-  },
   "9abcf53ee1b8844f2aa5ff360b83f9548752b25b0357c94ddc4ae56f84d27978": {
    "builtin.grib-api": {
     "owner": "builtin.grib-api",
@@ -7390,196 +6054,12 @@
     "relative_path": "arm.patch"
    }
   },
-  "0cb448ba7ba007637c6ce5990c67695ce49fc57e252b2d67b8ca0f86de56f326": {
-   "builtin.blis": {
-    "owner": "builtin.blis",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "Makefile_0.6.0.patch"
-   }
-  },
-  "de02757db510055a149390f95c3e06f62992ff61ff65e74642f8b4d4a4438320": {
-   "builtin.gcc": {
-    "owner": "builtin.gcc",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "piclibs.patch"
-   }
-  },
-  "0689c26bd7f38c5c9594eb8a4932ae7fce96cc8796c45839e050dc42c83112f1": {
-   "builtin.gcc": {
-    "owner": "builtin.gcc",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "gcc-backport.patch"
-   }
-  },
-  "dc1ca240b7fb70112ae6cc47cd86925adf78d29ed9d0c26b0c51d52e40ceca0e": {
-   "builtin.gcc": {
-    "owner": "builtin.gcc",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "glibc-2.31-libsanitizer-1.patch"
-   }
-  },
-  "1ee899af9974bfdf7d97e8b420d822c8140790cc4c7a46ab8dec657dd8cc5e49": {
-   "builtin.gcc": {
-    "owner": "builtin.gcc",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "glibc-2.31-libsanitizer-1-gcc-6.patch"
-   }
-  },
-  "a9762dc030444a0c17d911caaadb7e7dac38264e8db7aa2cf54b07c9f0c0e606": {
-   "builtin.gcc": {
-    "owner": "builtin.gcc",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "glibc-2.31-libsanitizer-2-gcc-6.patch"
-   }
-  },
-  "49341f7807b12a89750c010a20707598f83121da9829150d4049ed3a1a140564": {
-   "builtin.gcc": {
-    "owner": "builtin.gcc",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "glibc-2.31-libsanitizer-2.patch"
-   }
-  },
-  "b620e9257ec6b9845f961931b0aa92c35b37e72b15d88ee392c7b67620ebaa2f": {
-   "builtin.gcc": {
-    "owner": "builtin.gcc",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "glibc-2.31-libsanitizer-2-gcc-7.patch"
-   }
-  },
-  "f73de87bce5575d4792f9b62fd0c4ddd94849dc66b6aea908631ac1fd54350ae": {
-   "builtin.gcc": {
-    "owner": "builtin.gcc",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "ucontext_t.patch"
-   }
-  },
-  "8d6dd7448a2a7d2495c01b364cdec45c04a38f84caa01f073c9773c6f5dc1c9d": {
-   "builtin.gcc": {
-    "owner": "builtin.gcc",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "ucontext_t-java.patch"
-   }
-  },
-  "f5643d90fd8fdc8e86ae886b39c3ffb710daeefd5848c3c08447b77b77cdf162": {
-   "builtin.gcc": {
-    "owner": "builtin.gcc",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "stack_t-4.9.patch"
-   }
-  },
-  "7112abbff4f89980b907c01913d3075a354c6ba8c96b2c453e6941ce9fd99c4c": {
-   "builtin.gcc": {
-    "owner": "builtin.gcc",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "sys_ustat-4.9.patch"
-   }
-  },
-  "5b3c22d33abbc6b218515ddf9e914c3eb02ea0e83b7a4e3bab0e043f93e3d4f3": {
-   "builtin.gcc": {
-    "owner": "builtin.gcc",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "stack_t.patch"
-   }
-  },
-  "27e982924b2fcac628c289aa9975753d645fd9308f3bdc1b09ae2444aa6547e0": {
-   "builtin.gcc": {
-    "owner": "builtin.gcc",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "signal.patch"
-   }
-  },
-  "51aebe82afc9a0433ca3503a36592edf5ca769b1433986919cfb9ae2ddf3e343": {
-   "builtin.gcc": {
-    "owner": "builtin.gcc",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "sys_ustat.h.patch"
-   }
-  },
-  "2c18531a23623596e1daf6f0dd963cf72c208945ecad90515640c3ab23991159": {
-   "builtin.gcc": {
-    "owner": "builtin.gcc",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "zstd.patch"
-   }
-  },
   "a4128488c546646b4a585c3d49706675b1c016139dd61bdd153fb3151bbcb12c": {
    "builtin.apr": {
     "owner": "builtin.apr",
     "level": 1,
     "working_dir": ".",
     "relative_path": "missing_includes.patch"
-   }
-  },
-  "3f80b836948aa96f8d1cb9cc7f3f55973f19285482a96f9a4e1623d460bcccf0": {
-   "builtin.mpfr": {
-    "owner": "builtin.mpfr",
-    "level": 1,
-    "working_dir": ".",
-    "url": "https://www.mpfr.org/mpfr-4.0.2/allpatches"
-   }
-  },
-  "5230aab653fa8675fc05b5bdd3890e071e8df49a92a9d58c4284024affd27739": {
-   "builtin.mpfr": {
-    "owner": "builtin.mpfr",
-    "level": 1,
-    "working_dir": ".",
-    "url": "https://www.mpfr.org/mpfr-4.0.1/allpatches"
-   }
-  },
-  "7a6dd71bcda4803d6b89612706a17b8816e1acd5dd9bf1bec29cf748f3b60008": {
-   "builtin.mpfr": {
-    "owner": "builtin.mpfr",
-    "level": 1,
-    "working_dir": ".",
-    "url": "https://www.mpfr.org/mpfr-3.1.6/allpatches"
-   }
-  },
-  "1ae14fb3a54ae8e0faed20801970255b279eee9e5ac624891ab5d29727f0bc04": {
-   "builtin.mpfr": {
-    "owner": "builtin.mpfr",
-    "level": 1,
-    "working_dir": ".",
-    "url": "https://www.mpfr.org/mpfr-3.1.5/allpatches"
-   }
-  },
-  "113705d5333ef0d0ad3eb136a85404ba6bd1cc524dece5ce902c536aa2e29903": {
-   "builtin.mpfr": {
-    "owner": "builtin.mpfr",
-    "level": 1,
-    "working_dir": ".",
-    "url": "https://www.mpfr.org/mpfr-3.1.4/allpatches"
-   }
-  },
-  "4152a780b3cc6e9643283e59093b43460196d0fea9302d8c93b2496f6679f4e4": {
-   "builtin.mpfr": {
-    "owner": "builtin.mpfr",
-    "level": 1,
-    "working_dir": ".",
-    "url": "https://www.mpfr.org/mpfr-3.1.3/allpatches"
-   }
-  },
-  "1b9fdb515efb09a506a01e1eb307b1464455f5ca63d6c193db3a3da371ab3220": {
-   "builtin.mpfr": {
-    "owner": "builtin.mpfr",
-    "level": 1,
-    "working_dir": ".",
-    "url": "https://www.mpfr.org/mpfr-3.1.2/allpatches"
    }
   },
   "e16ee928836a9ffb14b650a7ab0f06c9511af04abdf2f726f39e99f40de65d8c": {
@@ -7752,30 +6232,6 @@
     "relative_path": "llvm_python_path.patch"
    }
   },
-  "c3b8f939a46b425665577ce764d4fba080a23cab5999c53db71655fd54d7e0b1": {
-   "builtin.likwid": {
-    "owner": "builtin.likwid",
-    "level": 1,
-    "working_dir": ".",
-    "url": "https://github.com/RRZE-HPC/likwid/commit/e0332ace8fe8ca7dcd4b4477a25e37944f173a5c.patch"
-   }
-  },
-  "636cbf40669261fdb36379d67253be2b731cfa7b6d610d232767d72fbdf08bc0": {
-   "builtin.likwid": {
-    "owner": "builtin.likwid",
-    "level": 1,
-    "working_dir": ".",
-    "url": "https://github.com/RRZE-HPC/likwid/commit/d2d0ef333b5e0997d7c80fc6ac1a473b5e47d084.patch"
-   }
-  },
-  "bc56253c1e3436b5ba7bf4c5533d0391206900c8663c008f771a16376975e416": {
-   "builtin.likwid": {
-    "owner": "builtin.likwid",
-    "level": 1,
-    "working_dir": ".",
-    "url": "https://github.com/RRZE-HPC/likwid/files/5341379/likwid-lua5.1.patch.txt"
-   }
-  },
   "ef6d6c7a5e5b207fef33ba4713be9fe522cd32f8aa53781a9a4e7b063ee52729": {
    "builtin.swfft": {
     "owner": "builtin.swfft",
@@ -7896,14 +6352,6 @@
     "relative_path": "bsd-head.patch"
    }
   },
-  "a79489e6bbf363d1bbd9f0a0bf02931c2a64799a5bf616a1b31778e6119f590c": {
-   "builtin.rocblas": {
-    "owner": "builtin.rocblas",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "0001-Fix-compilation-error-with-StringRef-to-basic-string.patch"
-   }
-  },
   "f75251d72542ad46c9331c739f11f543c434f66950dc0c2303cdbdb7401263c5": {
    "builtin.cryptsetup": {
     "owner": "builtin.cryptsetup",
@@ -7934,190 +6382,6 @@
     "level": 1,
     "working_dir": ".",
     "relative_path": "deactivate-version-check-via-pip.patch"
-   }
-  },
-  "a00f4752a422bcacd6dea8f3c63e58c1a4b4c05b0b0b6a34be94d1441c27ed2c": {
-   "builtin.qt": {
-    "owner": "builtin.qt",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "qt3-accept.patch"
-   }
-  },
-  "92b0b28a32cd493eb4e15db0026182bd781543352085ff89923f46bf5fde095d": {
-   "builtin.qt": {
-    "owner": "builtin.qt",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "qt3-headers.patch"
-   }
-  },
-  "5f9ffa1624ca84368acfe16efb7acfa89e1efad5c8ff1d311a034ce0e74e0bdb": {
-   "builtin.qt": {
-    "owner": "builtin.qt",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "qt4-configure-gcc.patch"
-   }
-  },
-  "88ec914c9f2026599cce3258006db3fab48138cb9b37f0a7a182d6731fbe2d4d": {
-   "builtin.qt": {
-    "owner": "builtin.qt",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "qt4-87-configure-gcc.patch"
-   }
-  },
-  "4f40b7c6230471c19fd1aea45e264a1642c654023d2da1c8063a05ef095d6586": {
-   "builtin.qt": {
-    "owner": "builtin.qt",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "qt4-tools.patch"
-   }
-  },
-  "f17e0b5fb1f43bccadf7298533eca57294f4acab11ed83b176c61c441f745c19": {
-   "builtin.qt": {
-    "owner": "builtin.qt",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "qt4-mac.patch"
-   }
-  },
-  "bec91a7133bea6adeaa1f2d6372d3123fd42d057cfc009a791f9a39f78d71a9c": {
-   "builtin.qt": {
-    "owner": "builtin.qt",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "qt4-qforeach.patch"
-   }
-  },
-  "03f9893882c63a9a9617d9ecab9caf80661c96df13f596a9b24fc4579490144a": {
-   "builtin.qt": {
-    "owner": "builtin.qt",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "qt4-pcre.patch"
-   }
-  },
-  "a4f37427b34d88df6a6adc16e1e6c805087d4f3a7c658e1797450b0912fcbf5d": {
-   "builtin.qt": {
-    "owner": "builtin.qt",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "qt4-asm-volatile.patch"
-   }
-  },
-  "7f34d48d2faaa108dc3fcc47187af1ccd1d37ee0f931b42597b820f03a99864c": {
-   "builtin.qt": {
-    "owner": "builtin.qt",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "qt5-pcre.patch"
-   }
-  },
-  "0aaad63f10d68ba936fcef85c38429b3b3ce260098dfdc19e37ea1e03ac042e9": {
-   "builtin.qt": {
-    "owner": "builtin.qt",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "qt5-asm-volatile.patch"
-   }
-  },
-  "c52f72dac7fdff5a296467536cc9ea024d78f94b49903286395f53fd0eb66e5e": {
-   "builtin.qt": {
-    "owner": "builtin.qt",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "qt5-btn_trigger_happy.patch"
-   }
-  },
-  "a69fc727f4378dbe0cf05ecf6e633769fe7ee6ea52b1630135a05d5adfa23d87": {
-   "builtin.qt": {
-    "owner": "builtin.qt",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "qt5-8-framework.patch"
-   }
-  },
-  "ad21bdc8032f36a164c031f51dc4a4e005806fe6740459990bfcb0807a1c4dfc": {
-   "builtin.qt": {
-    "owner": "builtin.qt",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "qt5-8-freetype.patch"
-   }
-  },
-  "c49b228c27e3ad46ec3af4bac0e9985af5b5b28760f238422d32e14f98e49b1e": {
-   "builtin.qt": {
-    "owner": "builtin.qt",
-    "level": 1,
-    "working_dir": "qtbase",
-    "url": "https://github.com/qt/qtbase/commit/a52d7861edfb5956de38ba80015c4dd0b596259b.patch"
-   }
-  },
-  "48ff18be2f4050de7288bddbae7f47e949512ac4bcd126c2f504be2ac701158b": {
-   "builtin.qt": {
-    "owner": "builtin.qt",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "qt5-restore-pc-files.patch"
-   }
-  },
-  "4038590c238114cb6de8a6e0785c8977b7216b23601365f6e8a025ae1ef6eebd": {
-   "builtin.qt": {
-    "owner": "builtin.qt",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "qt5-11-intel-overflow.patch"
-   }
-  },
-  "1ca2393c43292deec7cf7d5b1a3e34280caabaf3dc101ff68cb0d19f21062382": {
-   "builtin.qt": {
-    "owner": "builtin.qt",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "qt5-12-intel-overflow.patch"
-   }
-  },
-  "fc1b08e0a4b471faf191625fc4b47d5af2031d8a84f083dc8e612f3e31d2af7f": {
-   "builtin.qt": {
-    "owner": "builtin.qt",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "qt5-12-configure.patch"
-   }
-  },
-  "75bcb4201fa3becdd205d393aee87afd9c792d0e1d736a49b2e000933664e051": {
-   "builtin.qt": {
-    "owner": "builtin.qt",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "qt5-15-gcc-10.patch"
-   }
-  },
-  "8449b9fba2e0a771a9f6b43f9aedcfb8c256e9945b86b54c2ac0484c352230bc": {
-   "builtin.qt": {
-    "owner": "builtin.qt",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "qt514.patch"
-   }
-  },
-  "ac9f315d204afa6b99ceefa1fe46d4eed2b8a23c7315d32d33c0f378d930e950": {
-   "builtin.nasm": {
-    "owner": "builtin.nasm",
-    "level": 1,
-    "working_dir": ".",
-    "url": "https://src.fedoraproject.org/rpms/nasm/raw/0cc3eb244bd971df81a7f02bc12c5ec259e1a5d6/f/0001-Remove-invalid-pure_func-qualifiers.patch"
-   }
-  },
-  "4dda4b3dcd61df74050076881e102c6f4ec637ea8f35a3a4e7079b8a4fa9af4c": {
-   "builtin.comgr": {
-    "owner": "builtin.comgr",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "hip-tests.patch"
    }
   },
   "5e6a56956fefd3c0ee89b295da23392bda459cfb6717758f990a6df4fbaa378a": {
@@ -8168,14 +6432,6 @@
     "relative_path": "bowtie2-2.3.0.patch"
    }
   },
-  "f549609ed795adbe102e63627488ca307eaf8c0c776f46604f555f92d41259bf": {
-   "builtin.molden": {
-    "owner": "builtin.molden",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "for_aarch64.patch"
-   }
-  },
   "f2334ff5269e5741c299fa555aee17bd9b99c6502f0a7607c01f26d34750af0a": {
    "builtin.aomp": {
     "owner": "builtin.aomp",
@@ -8222,14 +6478,6 @@
     "level": 1,
     "working_dir": ".",
     "relative_path": "sbang.patch"
-   }
-  },
-  "2d78ffd1e05c60cf27fd089621646ca73a952af0e362b7057f4749ce93812c66": {
-   "builtin.stat": {
-    "owner": "builtin.stat",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "configure_mpicxx.patch"
    }
   },
   "01c2f31fa4a7b4041be666b9d6977a2910be71f8eb98793c4225eacbe49e7190": {
@@ -9000,46 +7248,6 @@
     "relative_path": "cmake-143187.patch"
    }
   },
-  "3827277111596a181b4bbef989c36ee95cee6d814c1a99c5f243118605a78cf0": {
-   "builtin.glib": {
-    "owner": "builtin.glib",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "g_date_strftime.patch"
-   }
-  },
-  "c325997b72a205ad1638bb3e3ba0e5b73e3d32ce63b2d0d3282f3e3a2ff4663c": {
-   "builtin.glib": {
-    "owner": "builtin.glib",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "no-Werror=format-security.patch"
-   }
-  },
-  "927ae667e78f25b25e4eb69cc3e08a272f1be05f6cb3d96e9353f3234b240607": {
-   "builtin.glib": {
-    "owner": "builtin.glib",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "old-kernels.patch"
-   }
-  },
-  "63e5a3efbdaf67cfb9707a20fd6e21e8826d1c785b20c6ec326f6d2b116950fc": {
-   "builtin.glib": {
-    "owner": "builtin.glib",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "meson-gettext.patch"
-   }
-  },
-  "b3fd45063a19c871048aa1f28692293ab8971a871bdcbe65f06f17fdd79db9e2": {
-   "builtin.glib": {
-    "owner": "builtin.glib",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "meson-gettext-2.66.patch"
-   }
-  },
   "5cf0313b2db7df105350caa06eb1b82cbef2e58b154797c86a78bdbce79306f3": {
    "builtin.ffr": {
     "owner": "builtin.ffr",
@@ -9160,22 +7368,6 @@
     "relative_path": "makefile.patch"
    }
   },
-  "16f91dc30ea6ffba6ca6757f1414d51ef03ab4de7ff5b79f4f897be728ccca54": {
-   "builtin.lammps": {
-    "owner": "builtin.lammps",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "lib.patch"
-   }
-  },
-  "f6772e50c9e081daef576babffb8960736aef733ab645c1162042db32c21318f": {
-   "builtin.lammps": {
-    "owner": "builtin.lammps",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "660.patch"
-   }
-  },
   "eaa3f69d927a853313a0b06e2117c51adab6377a2278549b05abc5df93643e16": {
    "builtin.autoconf": {
     "owner": "builtin.autoconf",
@@ -9224,92 +7416,12 @@
     "relative_path": "1201-segv.patch"
    }
   },
-  "6e94c68d45d4cb8148c8c53699921d10b13784f758f0563ce64c838e0ca48ceb": {
-   "builtin.pkgconf": {
-    "owner": "builtin.pkgconf",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "nvhpc.patch"
-   }
-  },
   "34fc95b3599c74a8cece6e873cfdc8bc0afe2dc0deabb6e2d11ea2a93f0cebf5": {
    "builtin.mercury": {
     "owner": "builtin.mercury",
     "level": 1,
     "working_dir": ".",
     "relative_path": "fix-cmake-3.15-check_symbol_exists.patch"
-   }
-  },
-  "d52c9682a0bb47d4983ab24626993e0a3374b456c952cedd14cb7aac2333c7bb": {
-   "builtin.sqlite": {
-    "owner": "builtin.sqlite",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "sqlite_b0.patch"
-   }
-  },
-  "007b7c4ba6de3f628c878ad143fb35f89eba4ac2ae4d6a77f68b34de7018a350": {
-   "builtin.sqlite": {
-    "owner": "builtin.sqlite",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "remove_overflow_builtins.patch"
-   }
-  },
-  "3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00": {
-   "builtin.m4": {
-    "owner": "builtin.m4",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "gnulib-pgi.patch"
-   }
-  },
-  "fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8": {
-   "builtin.m4": {
-    "owner": "builtin.m4",
-    "level": 1,
-    "working_dir": ".",
-    "url": "https://src.fedoraproject.org/rpms/m4/raw/5d147168d4b93f38a4833f5dd1d650ad88af5a8a/f/m4-1.4.18-glibc-change-work-around.patch"
-   }
-  },
-  "3b0540d5dfc82d360834152c0ee8f0c5db7d2b868af29fb1128864a8138fc87d": {
-   "builtin.m4": {
-    "owner": "builtin.m4",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "pgi.patch"
-   }
-  },
-  "5746cf51f45b405661c3edae7a78c33d41e54d83f635d16e2bf1f956dbfbf635": {
-   "builtin.m4": {
-    "owner": "builtin.m4",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "nvhpc.patch"
-   }
-  },
-  "c0a408fbffb7255fcc75e26bd8edab116fc81d216bfd18b473668b7739a4158e": {
-   "builtin.m4": {
-    "owner": "builtin.m4",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "secure_snprintf.patch"
-   }
-  },
-  "19a251f36dbab9b27fd8d78dda2ffee1678ab05ee41ff5623693bd1b71ee068f": {
-   "builtin.py-matplotlib": {
-    "owner": "builtin.py-matplotlib",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "freetype-include-path.patch"
-   }
-  },
-  "85c7136d618ea455ceb44271a1e05dfecb1a59704678e483a214c47b43ee30b3": {
-   "builtin.slepc": {
-    "owner": "builtin.slepc",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "install_name_371.patch"
    }
   },
   "fe5b60d091c33f169740df8cb718bf4259f84528b42435194ffe0dd5b79cd125": {
@@ -9328,14 +7440,6 @@
     "url": "https://src.fedoraproject.org/rpms/make/raw/519a7c5bcbead22e6ea2d2c2341d981ef9e25c0d/f/make-4.2.1-glob-fix-3.patch"
    }
   },
-  "95a654159688eaffdf035a467914c5953068ad0fd62d18229de5779a17ec380b": {
-   "builtin.jasper": {
-    "owner": "builtin.gdal",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "uuid.patch"
-   }
-  },
   "d28bccb68146defab49925085f8cd6a7db49af5b4cd28cc8d20ea782bc9d560a": {
    "builtin.fastjet": {
     "owner": "builtin.fastjet",
@@ -9350,302 +7454,6 @@
     "level": 1,
     "working_dir": ".",
     "relative_path": "mpi-test.patch"
-   }
-  },
-  "a8c52415a8b03c0e5f28b5d52ae498f7a7e602007db2b9554df28cd5685839b8": {
-   "builtin.python": {
-    "owner": "builtin.python",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "python-2.7.8-distutils-C++.patch"
-   }
-  },
-  "7e1bd91333263e2a03e91bcc87bf476d81dae56092903974c1580a78cd9e3411": {
-   "builtin.python": {
-    "owner": "builtin.python",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "python-2.7.17+-distutils-C++.patch"
-   }
-  },
-  "c129e34472ee39b1083c38a49ad06a8573d8b3b208743a120ca4c0818cdf1801": {
-   "builtin.python": {
-    "owner": "builtin.python",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "python-3.6.8-distutils-C++.patch"
-   }
-  },
-  "93431f15c5baa04cf61ae7fafc070e74d602980d22d6e08d108d13dc183b9f25": {
-   "builtin.python": {
-    "owner": "builtin.python",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "python-3.7.3-distutils-C++.patch"
-   }
-  },
-  "0d98e93189bc278fbc37a50ed7f183bd8aaf249a8e1670a465f0db6bb4f8cf87": {
-   "builtin.python": {
-    "owner": "builtin.python",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "python-3.7.4+-distutils-C++.patch"
-   }
-  },
-  "210df3f28cde02a8135b58cc4168e70ab91dbf9097359d05938f1e2843875e57": {
-   "builtin.python": {
-    "owner": "builtin.python",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "tkinter.patch"
-   }
-  },
-  "3938fd8374804befa14be8ab9407a5ee3ab6ee667cab4bf66090a362cfdeaa95": {
-   "builtin.python": {
-    "owner": "builtin.python",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "cray-rpath-2.3.patch"
-   }
-  },
-  "ebdca648c9c1d25f586d7e2a495b62e6d91973b55264a13d89eda1beff72ef56": {
-   "builtin.python": {
-    "owner": "builtin.python",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "cray-rpath-3.1.patch"
-   }
-  },
-  "1da5022b86e86a756cc8d6e9152180df1566c0e7f7ee2331b7cfd430b8b60e3c": {
-   "builtin.python": {
-    "owner": "builtin.python",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "fj-rpath-2.3.patch"
-   }
-  },
-  "2e23826e22e7da18a38b00dccef72dfea9406b2de930d5d135eca91e6cc98346": {
-   "builtin.python": {
-    "owner": "builtin.python",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "fj-rpath-3.1.patch"
-   }
-  },
-  "e7c869df5065ebe74f185d4079973b6090bdd2838585d2293f6b2072a6d4619a": {
-   "builtin.python": {
-    "owner": "builtin.python",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "gcc-8-2.7.14.patch"
-   }
-  },
-  "ad05cbbb01a6a2a2496274098deea981d205f7c936acf56d976cdb540b87b843": {
-   "builtin.python": {
-    "owner": "builtin.python",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "intel-3.6.7.patch"
-   }
-  },
-  "64ec366cf4325d92fc351295cd06a22cd667489aaca1a532f2c152b91f6f71b5": {
-   "builtin.paraview": {
-    "owner": "builtin.paraview",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "stl-reader-pv440.patch"
-   }
-  },
-  "9c75d88df31365d7bf99a53859d0d4c4b768ca74ebebf0ee5f8e607116b5668a": {
-   "builtin.paraview": {
-    "owner": "builtin.paraview",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "gcc-compiler-pv501.patch"
-   }
-  },
-  "c73e161f887e7948c16c2e072652d98c7703c0694a5c1062bde8b7585830a281": {
-   "builtin.paraview": {
-    "owner": "builtin.paraview",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "ui_pqExportStateWizard.patch"
-   }
-  },
-  "281c98670a9169baeca2a91e1f74ba2229e827c82ac3be59cc62d46669a9928c": {
-   "builtin.paraview": {
-    "owner": "builtin.paraview",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "vtkm-catalyst-pv551.patch"
-   }
-  },
-  "b4b65bcd11d8a78f08c8b02a57eb191737592037b83266c41ebf0f2c45428ecd": {
-   "builtin.paraview": {
-    "owner": "builtin.paraview",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "h5part-parallel.patch"
-   }
-  },
-  "bb5d0b7e9d28db95aa04a6a04d8510248c4cc25a7ab480c07206db91f74a7707": {
-   "builtin.mfem": {
-    "owner": "builtin.mfem",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "mfem_ppc_build.patch"
-   }
-  },
-  "cb6f351f1a18a917fe8286921a5f710dde314ef5b7649fa774c6cd2ff631b688": {
-   "builtin.mfem": {
-    "owner": "builtin.mfem",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "mfem-3.4.patch"
-   }
-  },
-  "89c03ec2f1802f1c66be0aef9c58b9849ecf0c97246ba0dd77eac898986608b9": {
-   "builtin.mfem": {
-    "owner": "builtin.mfem",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "mfem-3.3-3.4-petsc-3.9.patch"
-   }
-  },
-  "7f582bd8b418ffbd4cc37b73cb0e861efc0cf0dd332ae726e18e306f975b0310": {
-   "builtin.mfem": {
-    "owner": "builtin.mfem",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "mfem-4.0.0-makefile-syntax-fix.patch"
-   }
-  },
-  "57cb1b06ee2653a87c3acc0dd4f09032fcf6ce6b8cbb9677ae9ceeb6a78f85e2": {
-   "builtin.quantum-espresso": {
-    "owner": "builtin.quantum-espresso",
-    "level": 1,
-    "working_dir": ".",
-    "url": "https://raw.githubusercontent.com/QMCPACK/qmcpack/develop/external_codes/quantum_espresso/add_pw2qmcpack_to_qe-6.4.1.diff"
-   }
-  },
-  "ef08f5089951be902f0854a4dbddaa7b01f08924cdb27decfade6bef0e2b8994": {
-   "builtin.quantum-espresso": {
-    "owner": "builtin.quantum-espresso",
-    "level": 1,
-    "working_dir": ".",
-    "url": "https://raw.githubusercontent.com/QMCPACK/qmcpack/develop/external_codes/quantum_espresso/add_pw2qmcpack_to_qe-6.4.diff"
-   }
-  },
-  "2ee346e24926479f5e96f8dc47812173a8847a58354bbc32cf2114af7a521c13": {
-   "builtin.quantum-espresso": {
-    "owner": "builtin.quantum-espresso",
-    "level": 1,
-    "working_dir": ".",
-    "url": "https://raw.githubusercontent.com/QMCPACK/qmcpack/develop/external_codes/quantum_espresso/add_pw2qmcpack_to_qe-6.3.diff"
-   }
-  },
-  "8a2d10014db85f87700428a774716885325bf3d9496f4def30fd6b5804d576cb": {
-   "builtin.quantum-espresso": {
-    "owner": "builtin.quantum-espresso",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "dspev_drv_elpa.patch"
-   }
-  },
-  "8f179663a8d031aff9b1820a32449942281195b6e7b1ceaab1f729651b43fa58": {
-   "builtin.quantum-espresso": {
-    "owner": "builtin.quantum-espresso",
-    "level": 1,
-    "working_dir": ".",
-    "url": "https://gitlab.com/QEF/q-e/-/commit/cf1fedefc20d39f5cd7551ded700ea4c77ad6e8f.diff"
-   }
-  },
-  "f4f1cce4182b57ac797c8f6ec8460fe375ee96385fcd8f6a61e1460bc957eb67": {
-   "builtin.quantum-espresso": {
-    "owner": "builtin.quantum-espresso",
-    "level": 1,
-    "working_dir": ".",
-    "url": "https://gitlab.com/QEF/q-e/-/commit/8f096b53e75026701c681c508e2c24a9378c0950.diff"
-   }
-  },
-  "b2dadc0bc008a3ad4b74ae85cc380dd2b63f2ae43a634e6f9d8db8077efcea6c": {
-   "builtin.quantum-espresso": {
-    "owner": "builtin.quantum-espresso",
-    "level": 1,
-    "working_dir": ".",
-    "url": "https://gitlab.com/QEF/q-e/-/commit/c2a86201ed72693ffa50cc99b22f5d3365ae2c2b.diff"
-   }
-  },
-  "bc8c5b8523156cee002d97dab42a5976dffae20605da485a427b902a236d7e6b": {
-   "builtin.quantum-espresso": {
-    "owner": "builtin.quantum-espresso",
-    "level": 1,
-    "working_dir": ".",
-    "url": "https://gitlab.com/QEF/q-e/commit/0796e1b7c55c9361ecb6515a0979280e78865e36.diff"
-   }
-  },
-  "b776890d008e16cca28c31299c62f47de0ba606b900b17cbc27c041f45e564ca": {
-   "builtin.quantum-espresso": {
-    "owner": "builtin.quantum-espresso",
-    "level": 1,
-    "working_dir": ".",
-    "url": "https://gitlab.com/QEF/q-e/commit/88e6558646dbbcfcafa5f3fa758217f6062ab91c.diff"
-   }
-  },
-  "b1aa3179ee1c069964fb9c21f3b832aebeae54947ce8d3cc1a74e7b154c3c10f": {
-   "builtin.quantum-espresso": {
-    "owner": "builtin.quantum-espresso",
-    "level": 1,
-    "working_dir": ".",
-    "url": "https://gitlab.com/QEF/q-e/commit/5fb1195b0844e1052b7601f18ab5c700f9cbe648.diff"
-   }
-  },
-  "bbceba1fb08d01d548d4393bbcaeae966def13f75884268a0f84448457b8eaa3": {
-   "builtin.quantum-espresso": {
-    "owner": "builtin.quantum-espresso",
-    "level": 1,
-    "working_dir": ".",
-    "url": "https://gitlab.com/QEF/q-e/-/commit/cf088926d68792cbaea48960c222e336a3965df6.diff"
-   }
-  },
-  "e6892e0862e2a46d7b46e2829d9179e587a48cbca83598f2bd8d20e7ad4f0fb7": {
-   "builtin.quantum-espresso": {
-    "owner": "builtin.quantum-espresso",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "fj-intent.6.4.1.patch"
-   }
-  },
-  "e08a272e69d34ef613800f6efcd4b10d8d2fcad4346c79b3e1087f1cd1abce0b": {
-   "builtin.quantum-espresso": {
-    "owner": "builtin.quantum-espresso",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "nvhpc.patch"
-   }
-  },
-  "a4725f8d602357054df50ccc536f2f49f145c49cc85c9e6f31172b59f53edc52": {
-   "builtin.quantum-espresso": {
-    "owner": "builtin.quantum-espresso",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "fj.6.5.patch"
-   }
-  },
-  "d9e11ec6ac4af0e67efe017eab5df40103857a1f7f683f2e5c6f144564848ab4": {
-   "builtin.quantum-espresso": {
-    "owner": "builtin.quantum-espresso",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "fj.6.6.patch"
-   }
-  },
-  "7635607d7c56aaf630958084ec74afddca1d02f0f34535f916ce72f784099a60": {
-   "builtin.quantum-espresso": {
-    "owner": "builtin.quantum-espresso",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "fj-fox.patch"
    }
   },
   "6f90bb267efa043ed70b900b4b8e2faf9e8133afae311893b01060356ea81bba": {
@@ -9664,55 +7472,15 @@
     "relative_path": "nosys_getdents.patch"
    }
   },
-  "3f63313cb4e6b7827bfd2a484a4f01ea50af642f3e86dafa55edce077471eeb4": {
-   "builtin.petsc": {
-    "owner": "builtin.petsc",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "macos-clang-8.1.0.diff"
-   }
-  },
-  "22392530068e375ce8b62a1f552b43fbfd2e20822002c69dbafab4d3fa787cbb": {
-   "builtin.petsc": {
-    "owner": "builtin.petsc",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "pkg-config-3.7.6-3.8.4.diff"
-   }
-  },
-  "da9420ccaeb5f3e9be5fdc87c0fb9544a7629cb2986e01e3f1d9e0156aa38986": {
-   "builtin.petsc": {
-    "owner": "builtin.petsc",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "xcode_stub_out_of_sync.patch"
-   }
-  },
-  "8376e284d251c7c3c550609980c1503c52f68478447860b57e463433592e580f": {
-   "builtin.petsc": {
-    "owner": "builtin.petsc",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "xlf_fix-dup-petscfecreate.patch"
-   }
-  },
-  "e04bd7afe3d4aa40debf6600b46b64de82d9e62a774d8ef63c922601fec7fc90": {
-   "builtin.petsc": {
-    "owner": "builtin.petsc",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "disable-DEPRECATED_ENUM.diff"
-   }
-  },
   "782d9fa710e59cba36bc3bfb922d52de0469cd3d0c5c591308f8e459139bd72f": {
-   "builtin.clingo": {
-    "owner": "builtin.clingo",
+   "builtin.clingo-bootstrap": {
+    "owner": "builtin.clingo-bootstrap",
     "level": 1,
     "working_dir": ".",
     "relative_path": "python38.patch"
    },
-   "builtin.clingo-bootstrap": {
-    "owner": "builtin.clingo-bootstrap",
+   "builtin.clingo": {
+    "owner": "builtin.clingo",
     "level": 1,
     "working_dir": ".",
     "relative_path": "python38.patch"
@@ -9724,14 +7492,6 @@
     "level": 1,
     "working_dir": ".",
     "relative_path": "cast.patch"
-   }
-  },
-  "d344e0e8b4c5ebb96961e1905bdd749162c52b151538238609f4dec77e2a6360": {
-   "builtin.py-petsc4py": {
-    "owner": "builtin.py-petsc4py",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "ldshared.patch"
    }
   },
   "2996b4826130ce4132be3c0030f0fc7b9c47dc01878dee0bd94cdf5f06fcc74d": {
@@ -9772,38 +7532,6 @@
     "level": 1,
     "working_dir": ".",
     "relative_path": "cray_pgi_libtool_master.patch"
-   }
-  },
-  "e991e7985745d446e87d8eb7bc07484450a1e4f8a3897d9b37abc94747e6d025": {
-   "builtin.mumps": {
-    "owner": "builtin.mumps",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "examples.patch"
-   }
-  },
-  "759c3e3790ac87085782928d1f5a94142bf05bc624110c4f1ed421800f2ff85c": {
-   "builtin.mumps": {
-    "owner": "builtin.mumps",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "gfortran8.patch"
-   }
-  },
-  "395476478f9dbe576a793e29ba13098e4bb72afedbc2fe50739bda8a4f6967a2": {
-   "builtin.mumps": {
-    "owner": "builtin.mumps",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "mumps.src-makefile.5.2.patch"
-   }
-  },
-  "1946864d2106f7414aaa4dbd4dbc068b7804af7c1588381e814b268a56140a52": {
-   "builtin.mumps": {
-    "owner": "builtin.mumps",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "mumps.src-makefile.5.3.patch"
    }
   },
   "dc752c52c642791a18e75ebbe04aec886f7451b05828ea4c19c010d6b4494bb2": {
@@ -9878,14 +7606,6 @@
     "relative_path": "for_aarch64.patch"
    }
   },
-  "71f06e8bf0adeccd425b194ac524e4d596469e9dab9e7a4f8bb209e6b9a454f4": {
-   "builtin.libfabric": {
-    "owner": "builtin.libfabric",
-    "level": 1,
-    "working_dir": ".",
-    "url": "https://github.com/ofiwg/libfabric/commit/2e95b0efd85fa8a3d814128e34ec57ffd357460e.patch"
-   }
-  },
   "f6c8dc8f1752f25be362a7f112e280b5a50968bccbb3911a6d212237c82bd829": {
    "builtin.eospac": {
     "owner": "builtin.eospac",
@@ -9910,14 +7630,6 @@
     "relative_path": "configure_add_rpath.patch"
    }
   },
-  "852157277c372a127bdfbb9dcc76796db65b8dd971a4bc52358b8b3417d87a44": {
-   "builtin.doxygen": {
-    "owner": "builtin.doxygen",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "shared_ptr.patch"
-   }
-  },
   "2d6f332185962e19099aa9c8b8acd8272c2867107855423785d3834df297ad05": {
    "builtin.abinit": {
     "owner": "builtin.abinit",
@@ -9932,62 +7644,6 @@
     "level": 0,
     "working_dir": ".",
     "relative_path": "fix_for_fujitsu.patch"
-   }
-  },
-  "055fdac32f7768c44f64dfc18c183233a7909ff8b7556f67038350eed2056571": {
-   "builtin.libtool": {
-    "owner": "builtin.libtool",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "flag_space.patch"
-   }
-  },
-  "a80f07763573aa2f096a46d272e6650f26b8f91e149b3ef984ddfa5d61930c38": {
-   "builtin.trilinos": {
-    "owner": "builtin.trilinos",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "umfpack_from_suitesparse.patch"
-   }
-  },
-  "95420650aee640da31d5adc4ad8dcd3f67ae3e7d4736e167f7b3991e8ff47e0e": {
-   "builtin.trilinos": {
-    "owner": "builtin.trilinos",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "xlf_seacas.patch"
-   }
-  },
-  "7ba0dea6c8407322c21970e549f2988fdfeeda8e3a5e0bb178207471142c1047": {
-   "builtin.trilinos": {
-    "owner": "builtin.trilinos",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "xlf_tpetra.patch"
-   }
-  },
-  "4cdedfb9619b0b585af588f75d18ab63212bbb9ff7a416823c15d17c00bd2092": {
-   "builtin.trilinos": {
-    "owner": "builtin.trilinos",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "fix_clang_errors_12_18_1.patch"
-   }
-  },
-  "c01de12562833c13a05c31206de36396f49690bd8b0dcb5f9492e7d7c3bbae59": {
-   "builtin.trilinos": {
-    "owner": "builtin.trilinos",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "cray_secas_12_12_1.patch"
-   }
-  },
-  "2fb1cf3f166bc339bf5c87d1e0af15ea703ffe9b21c0fe3abd788a59e56e0832": {
-   "builtin.trilinos": {
-    "owner": "builtin.trilinos",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "cray_secas.patch"
    }
   },
   "f33554701c761dff85e2cdd7b5ca7bc993bf7481317dbfa76fbadce683f2f905": {
@@ -10078,252 +7734,12 @@
     "relative_path": "contrib_cloud_1.1.patch"
    }
   },
-  "006c2b3e0bfdfd3c904bca29c974cc270ee24e2e6891e69753e7f95d780969f4": {
-   "builtin.r": {
-    "owner": "builtin.r",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "zlib.patch"
-   }
-  },
-  "de4e12e779a2f4b342d8153726be3c59a23d27dc9699c9fe8d5a07462d06c14f": {
-   "builtin.r": {
-    "owner": "builtin.r",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "change_optflags_tmp.patch"
-   }
-  },
-  "207c435f0dc61aa7c11f831ea1081b61236c29f1be9b6e75540977bcf053561f": {
-   "builtin.llvm": {
-    "owner": "builtin.llvm",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "llvm_gcc7.patch"
-   }
-  },
-  "3fa900e31763cc7ff604430b86faa4eb650048c1796ebd39db2dcf84f6168a8b": {
-   "builtin.llvm": {
-    "owner": "builtin.llvm",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "constexpr_longdouble.patch"
-   }
-  },
-  "8be98dc01bb8dc0333a760d9a0524dfa5853d81b430e82da954c1139bf13f034": {
-   "builtin.llvm": {
-    "owner": "builtin.llvm",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "llvm_py37.patch"
-   }
-  },
-  "e6f4bbf5f297a3b6f2d92d4b156c7ee999ee3f6df78fb7b38b26f355e1097bb8": {
-   "builtin.llvm": {
-    "owner": "builtin.llvm",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "thread-p9.patch"
-   }
-  },
   "b97d599bd8c8b8f764127b0576c31ddf77f1852eb7b7a4053b2a20180b57bcb1": {
    "builtin.tau": {
     "owner": "builtin.tau",
     "level": 1,
     "working_dir": ".",
     "relative_path": "unwind.patch"
-   }
-  },
-  "8087ace4e670b573890e515298f35218d6e38f5c6b3f6b50b033c745418ea815": {
-   "builtin.draco": {
-    "owner": "builtin.draco",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "d710.patch"
-   }
-  },
-  "9784dbe638620f34f4db95382d8262d812ce80188e10d393cd68486d81ea55e2": {
-   "builtin.draco": {
-    "owner": "builtin.draco",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "d710-python2.patch"
-   }
-  },
-  "04d2080c734590251b983b21c2b767c9bcd3305cad70e1b8847785cd8c1aa69a": {
-   "builtin.draco": {
-    "owner": "builtin.draco",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "d730.patch"
-   }
-  },
-  "3a3c719b41d26407097b56bdc6bd1f0c31bf745b7f1e72654e2c9d82386f2c4b": {
-   "builtin.draco": {
-    "owner": "builtin.draco",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "d740.patch"
-   }
-  },
-  "b5f531d889ef754580f873bc478f31281a4c6e80221a0020477db274ddacd15a": {
-   "builtin.draco": {
-    "owner": "builtin.draco",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "d760-cray.patch"
-   }
-  },
-  "d37023b0034266ca3fd46262c5ae78cb8b012523548edaa377c522e6963c794d": {
-   "builtin.draco": {
-    "owner": "builtin.draco",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "d770-nocuda.patch"
-   }
-  },
-  "d27dbcc3271b6160ae78535a2d163432a83d8e1e21be3de51e5d76fc514dcc26": {
-   "builtin.miopen-hip": {
-    "owner": "builtin.miopen-hip",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "0001-Add-rocm-path-and-rocm-device-lib-path-flags.patch"
-   }
-  },
-  "fa034cf16a742b63d13f016a1715ba2f12ff20c35ecaa288e04d3346d96f898a": {
-   "builtin.cmake": {
-    "owner": "builtin.cmake",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "cmake-revert-findmpi-link-flag-list.patch"
-   }
-  },
-  "93488edf3f89cef6f3c77e821007c022e88e9f1f566ae9bf824a87ecbac97ebb": {
-   "builtin.cmake": {
-    "owner": "builtin.cmake",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "cmake-macos-add-coreservices.patch"
-   }
-  },
-  "42d8b2163a2f37a745800ec13a96c08a3a20d5e67af51031e51f63313d0dedd1": {
-   "builtin.cmake": {
-    "owner": "builtin.cmake",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "fix-xlf-ninja-mr-4075.patch"
-   }
-  },
-  "7c14b1146c5cb61f81a6751e8ed990f7a08886dca99384b007bbeb1f488dfda4": {
-   "builtin.cmake": {
-    "owner": "builtin.cmake",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "intel-c-gnu11.patch"
-   }
-  },
-  "e51119dd387aa3eb2f21fee730d3aa8b5480301c5e2e3a33bd86f4f7d8903861": {
-   "builtin.cmake": {
-    "owner": "builtin.cmake",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "intel-cxx-bootstrap.patch"
-   }
-  },
-  "dd3a40d4d92f6b2158b87d6fb354c277947c776424aa03f6dc8096cf3135f5d0": {
-   "builtin.cmake": {
-    "owner": "builtin.cmake",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "nag-response-files.patch"
-   }
-  },
-  "1c540040c7e203dd8e27aa20345ecb07fe06570d56410a24a266ae570b1c4c39": {
-   "builtin.cmake": {
-    "owner": "builtin.cmake",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "ignore_crayxc_warnings.patch"
-   }
-  },
-  "db77b517269d8b8043910c71a74bb9b0ae0a3710c77d5069daf901d87b96a7cc": {
-   "builtin.cmake": {
-    "owner": "builtin.cmake",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "fujitsu_add_linker_option.patch"
-   }
-  },
-  "bf695e3febb222da2ed94b3beea600650e4318975da90e4a71d6f31a6d5d8c3d": {
-   "builtin.cmake": {
-    "owner": "builtin.cmake",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "pgi-cxx-ansi.patch"
-   }
-  },
-  "1eb560b9cbf18e329dbe436dd740c7c1d3c902ee929bd54c4800662b52cdf851": {
-   "builtin.gromacs": {
-    "owner": "builtin.gromacs",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "gmxDetectCpu-cmake-3.14.patch"
-   }
-  },
-  "e7f2965f7b94d7e4a71f15767a17af567240040ea7b8e05083ccd812f9fcd026": {
-   "builtin.gromacs": {
-    "owner": "builtin.gromacs",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "gmxDetectSimd-cmake-3.14.patch"
-   }
-  },
-  "5433f60831cb554101520a8f8871ac5a32c95f7a971ccd68b69049535b106780": {
-   "builtin.py-scipy": {
-    "owner": "builtin.py-scipy",
-    "level": 1,
-    "working_dir": ".",
-    "url": "https://git.sagemath.org/sage.git/plain/build/pkgs/scipy/patches/extern_decls.patch?id=711fe05025795e44b84233e065d240859ccae5bd"
-   }
-  },
-  "196dc7cc8e1367de199726d4e005bba50c3d13fb2843c4753c5f07f7894f10c9": {
-   "builtin.py-numpy": {
-    "owner": "builtin.py-numpy",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "blas-lapack-order.patch"
-   }
-  },
-  "dbf1d0714f3ebcd583f5d613c0d6e3a4f89d48053b467bbba322ad985e89f796": {
-   "builtin.py-numpy": {
-    "owner": "builtin.py-numpy",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "add_fj_compiler.patch"
-   }
-  },
-  "04ee8db2a60b27b43b7ac64bffaa08a5161336ee103aeca738fa21597ea6c895": {
-   "builtin.py-numpy": {
-    "owner": "builtin.py-numpy",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "add_fj_compiler2.patch"
-   }
-  },
-  "99104c19b82c9fabc977fa468368eae33a55fa1b95975ba6e7d211ff2ed6d8ef": {
-   "builtin.py-numpy": {
-    "owner": "builtin.py-numpy",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "add_fj_compiler3.patch"
-   }
-  },
-  "19199b256e846c2d8364d9ba4d249aa4186cfdef9a1f06fef65041e0302f212b": {
-   "builtin.py-numpy": {
-    "owner": "builtin.py-numpy",
-    "level": 1,
-    "working_dir": ".",
-    "relative_path": "add_fj_compiler4.patch"
    }
   },
   "49ffcd644e190dc5efcb2fab491177811ea746c1a526f75d77118c2706574358": {
@@ -10334,12 +7750,156 @@
     "relative_path": "g_date_strftime.patch"
    }
   },
-  "85ed123d39e31bc6f3435d78cfda9a6d4a4e03580b2282c96fb7c11697a977e6": {
-   "builtin.boost": {
-    "owner": "builtin.boost",
+  "205b3e786bca08582c3de4880ae46e1277fd00ad2f0a01b6ef7d5ac3fc0ece76": {
+   "builtin.atmi": {
+    "owner": "builtin.atmi",
     "level": 1,
     "working_dir": ".",
-    "relative_path": "boost_intel_cx11.patch"
+    "relative_path": "0001-Remove-relative-link-paths-to-external-libraries.patch"
+   }
+  },
+  "8fd1be181da928448da750b32d45ee6dce7ba6af0424617c4f8d653cf3f05445": {
+   "builtin.bart": {
+    "owner": "builtin.bart",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://github.com/mrirecon/bart/commit/b62ca4972d5ac41a44217a5c27123c15daae74db.patch"
+   }
+  },
+  "f8ec3a049640e90151964a009e7690c6f271c941248653ac9795098265551159": {
+   "builtin.bart": {
+    "owner": "builtin.bart",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "bart_path-0.5.00.patch"
+   }
+  },
+  "b102707ef0a9a89fa5869c09eace3b1e15717997d72ac3953fb484c3891bf129": {
+   "builtin.bart": {
+    "owner": "builtin.bart",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "Makefile.patch"
+   }
+  },
+  "c8ea54fddd965a8f1a1fe2cbcf878128c4b0fc67586378e1bf9f2a49baca5a2b": {
+   "builtin.bart": {
+    "owner": "builtin.bart",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "Makefile-0.7.00.patch"
+   }
+  },
+  "ba16f85a90f1f1b3af8caacae405905f23e7f45ee83222e6f5ac40d9f3376baa": {
+   "builtin.bart": {
+    "owner": "builtin.bart",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "bart_path-0.6.00.patch"
+   }
+  },
+  "269863432890d8f88680781c7fa6b2016794705d70bdc2644d3bc803898b7d02": {
+   "builtin.bcftools": {
+    "owner": "builtin.bcftools",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "makefile_12.patch"
+   }
+  },
+  "2f69c5c91a33eb1e63bc71a5e7f23b811dcd7cf1bd7f6004ccbf90cd682570f6": {
+   "builtin.bcftools": {
+    "owner": "builtin.bcftools",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "fix_mk.patch"
+   }
+  },
+  "c4fd55694be9eda2977a4deb22c7a49d58bf0ac038daf21b6be2219dd8be95f2": {
+   "builtin.bcftools": {
+    "owner": "builtin.bcftools",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "makefile_13.patch"
+   }
+  },
+  "6e984c551a9034e86b739f3cd6e6a9564669db6cf636381494604055f20fb9b9": {
+   "builtin.bcftools": {
+    "owner": "builtin.bcftools",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "makefile_14.patch"
+   }
+  },
+  "38c75148747c07031fc36af8ee3996d5004944d9a4f01d9e2fb1b7ddc689a46a": {
+   "builtin.bcftools": {
+    "owner": "builtin.bcftools",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "guess-ploidy.py_2to3.patch"
+   }
+  },
+  "b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522": {
+   "builtin.berkeley-db": {
+    "owner": "builtin.berkeley-db",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "drop-docs.patch"
+   }
+  },
+  "0a0ca84889b6727dc0cc88650f55fd79452dddba762674a83a153374792fdaac": {
+   "builtin.binutils": {
+    "owner": "builtin.binutils",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "cr16.patch"
+   }
+  },
+  "10e7a67069a16def0375a80062f68e2208c015656d7e888cf760165624eed5f4": {
+   "builtin.binutils": {
+    "owner": "builtin.binutils",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "update_symbol-2.26.patch"
+   }
+  },
+  "89aa362716d898edd0b5c6ae4208dc1b6992887774848a09e8021afd676f7d61": {
+   "builtin.bison": {
+    "owner": "builtin.bison",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "parallel.patch"
+   }
+  },
+  "b72914fe38e54a6fc25f29019e0a0786705c4f61ce20d414cc2010c8d62448c7": {
+   "builtin.bison": {
+    "owner": "builtin.bison",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "pgi.patch"
+   }
+  },
+  "ad81ef1b088459a396d908295afc3809f9a25076efaa459cdd2f21eabd1f4b16": {
+   "builtin.bison": {
+    "owner": "builtin.bison",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "nvhpc-3.6.patch"
+   }
+  },
+  "5e354803e20a72f930f69acf7e1c7418e09029036dab8fd42e78b8ed13b9a0e7": {
+   "builtin.bison": {
+    "owner": "builtin.bison",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "nvhpc-3.7.patch"
+   }
+  },
+  "0cb448ba7ba007637c6ce5990c67695ce49fc57e252b2d67b8ca0f86de56f326": {
+   "builtin.blis": {
+    "owner": "builtin.blis",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "Makefile_0.6.0.patch"
    }
   },
   "cfd4e6e1e9747def96adeae0075994a03a10e1bfb471900ecb52b7839afa9ca2": {
@@ -10508,6 +8068,2892 @@
     "level": 1,
     "working_dir": ".",
     "relative_path": "boost_218.patch"
+   }
+  },
+  "f2409bfa0e69e44817a5f8799e25c2e9e5ee50876a5aaacefd32fa647b80472f": {
+   "builtin.boost": {
+    "owner": "builtin.boost",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "bootstrap-toolset.patch"
+   }
+  },
+  "e636c3f88a6944c87d910d4c8fdf25146b60f57e09228497a6cc01c7dbae9569": {
+   "builtin.charmpp": {
+    "owner": "builtin.charmpp",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "mpi.patch"
+   }
+  },
+  "884ae4ae53753ac28ce63377ac8e321088584d8ffeb23ed06677d1cff8efc66c": {
+   "builtin.charmpp": {
+    "owner": "builtin.charmpp",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "charm_6.7.1_aocc.patch"
+   }
+  },
+  "12ccf93fb4ca450c00b2e5d06b3ad7de40539f848ca404e3a31f3a3121ed7ccd": {
+   "builtin.charmpp": {
+    "owner": "builtin.charmpp",
+    "level": 3,
+    "working_dir": ".",
+    "relative_path": "charm_6.8.2_aocc.patch"
+   }
+  },
+  "47d7ffd9efd6c6677d0ea36ee34c5a2aba09d99a283cabd48ea92688852a42ae": {
+   "builtin.charmpp": {
+    "owner": "builtin.charmpp",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "fj.patch"
+   }
+  },
+  "85be93dc2bdb9a948978004d40ce37bb861170ab0c7595f44b54c9c0295414a0": {
+   "builtin.charmpp": {
+    "owner": "builtin.charmpp",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "nvhpc.patch"
+   }
+  },
+  "92d507d8b72ac01f114f7772510049cc7656f93daeadef46e1f2b00ad8533d2b": {
+   "builtin.charmpp": {
+    "owner": "builtin.charmpp",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "strictpass.patch"
+   }
+  },
+  "44a3e17bf6e972db9760fc50bc0948309ee441dab1cdb11816ba675de0138549": {
+   "builtin.claw": {
+    "owner": "builtin.claw",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://github.com/claw-project/claw-compiler/commit/e9fe6dbd291454ce34dd58f21d102f7f1bdff874.patch"
+   }
+  },
+  "0a55110c67d7755741e1c86c2f71341286e7502a81ac29958ce80273e87bc8e1": {
+   "builtin.claw": {
+    "owner": "builtin.claw",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://github.com/claw-project/claw-compiler/commit/4d8bc7a794af3651b8b61501388fc00096b23a85.patch"
+   }
+  },
+  "9a3ac48182eec74faa9e6c3dcdb0aa0f4dc308d990cdabbac20da37033a601bf": {
+   "builtin.claw": {
+    "owner": "builtin.claw",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "ivy_local_cache.patch"
+   }
+  },
+  "fa034cf16a742b63d13f016a1715ba2f12ff20c35ecaa288e04d3346d96f898a": {
+   "builtin.cmake": {
+    "owner": "builtin.cmake",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "cmake-revert-findmpi-link-flag-list.patch"
+   }
+  },
+  "93488edf3f89cef6f3c77e821007c022e88e9f1f566ae9bf824a87ecbac97ebb": {
+   "builtin.cmake": {
+    "owner": "builtin.cmake",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "cmake-macos-add-coreservices.patch"
+   }
+  },
+  "42d8b2163a2f37a745800ec13a96c08a3a20d5e67af51031e51f63313d0dedd1": {
+   "builtin.cmake": {
+    "owner": "builtin.cmake",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "fix-xlf-ninja-mr-4075.patch"
+   }
+  },
+  "7c14b1146c5cb61f81a6751e8ed990f7a08886dca99384b007bbeb1f488dfda4": {
+   "builtin.cmake": {
+    "owner": "builtin.cmake",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "intel-c-gnu11.patch"
+   }
+  },
+  "e51119dd387aa3eb2f21fee730d3aa8b5480301c5e2e3a33bd86f4f7d8903861": {
+   "builtin.cmake": {
+    "owner": "builtin.cmake",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "intel-cxx-bootstrap.patch"
+   }
+  },
+  "dd3a40d4d92f6b2158b87d6fb354c277947c776424aa03f6dc8096cf3135f5d0": {
+   "builtin.cmake": {
+    "owner": "builtin.cmake",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "nag-response-files.patch"
+   }
+  },
+  "1c540040c7e203dd8e27aa20345ecb07fe06570d56410a24a266ae570b1c4c39": {
+   "builtin.cmake": {
+    "owner": "builtin.cmake",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "ignore_crayxc_warnings.patch"
+   }
+  },
+  "db77b517269d8b8043910c71a74bb9b0ae0a3710c77d5069daf901d87b96a7cc": {
+   "builtin.cmake": {
+    "owner": "builtin.cmake",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "fujitsu_add_linker_option.patch"
+   }
+  },
+  "bf695e3febb222da2ed94b3beea600650e4318975da90e4a71d6f31a6d5d8c3d": {
+   "builtin.cmake": {
+    "owner": "builtin.cmake",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "pgi-cxx-ansi.patch"
+   }
+  },
+  "b48396c0e4f61756248156b6cebe9bc0d7a22228639b47b5aa77c9330588ce88": {
+   "builtin.cmake": {
+    "owner": "builtin.cmake",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "5882-enable-cce-fortran-preprocessing.patch"
+   }
+  },
+  "4dda4b3dcd61df74050076881e102c6f4ec637ea8f35a3a4e7079b8a4fa9af4c": {
+   "builtin.comgr": {
+    "owner": "builtin.comgr",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "hip-tests.patch"
+   }
+  },
+  "c1b1e41202a3a198ed1e753ac318c15117c3d9e485f84c34c1988d98c8bbbc9e": {
+   "builtin.conduit": {
+    "owner": "builtin.conduit",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "fj_flags.patch"
+   }
+  },
+  "d1a0e581fb72830089302c94f77ccfcbaae416478f5241c4213fbe8b3f63b3b7": {
+   "builtin.darshan-util": {
+    "owner": "builtin.darshan-util",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "retvoid.patch"
+   }
+  },
+  "d7eece642b1022db4c697373f12fc2601ee4d63de5d0fd5a9f952a1ef5b5c249": {
+   "builtin.dd4hep": {
+    "owner": "builtin.dd4hep",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "tbb-workarounds.patch"
+   }
+  },
+  "eacad7d7ebdb5194ca5680b660f5e9a74e4ac767988d68a06b643b9bb66acad5": {
+   "builtin.dd4hep": {
+    "owner": "builtin.dd4hep",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "tbb2.patch"
+   }
+  },
+  "852157277c372a127bdfbb9dcc76796db65b8dd971a4bc52358b8b3417d87a44": {
+   "builtin.doxygen": {
+    "owner": "builtin.doxygen",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "shared_ptr.patch"
+   }
+  },
+  "3355c807ebce6fc2979d6050b43d9141fd63a1d0a1f75d25fd4876b8822ac42c": {
+   "builtin.doxygen": {
+    "owner": "builtin.doxygen",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "gcc-partial-inlining-bug.patch"
+   }
+  },
+  "8087ace4e670b573890e515298f35218d6e38f5c6b3f6b50b033c745418ea815": {
+   "builtin.draco": {
+    "owner": "builtin.draco",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "d710.patch"
+   }
+  },
+  "9784dbe638620f34f4db95382d8262d812ce80188e10d393cd68486d81ea55e2": {
+   "builtin.draco": {
+    "owner": "builtin.draco",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "d710-python2.patch"
+   }
+  },
+  "04d2080c734590251b983b21c2b767c9bcd3305cad70e1b8847785cd8c1aa69a": {
+   "builtin.draco": {
+    "owner": "builtin.draco",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "d730.patch"
+   }
+  },
+  "3a3c719b41d26407097b56bdc6bd1f0c31bf745b7f1e72654e2c9d82386f2c4b": {
+   "builtin.draco": {
+    "owner": "builtin.draco",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "d740.patch"
+   }
+  },
+  "b5f531d889ef754580f873bc478f31281a4c6e80221a0020477db274ddacd15a": {
+   "builtin.draco": {
+    "owner": "builtin.draco",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "d760-cray.patch"
+   }
+  },
+  "d37023b0034266ca3fd46262c5ae78cb8b012523548edaa377c522e6963c794d": {
+   "builtin.draco": {
+    "owner": "builtin.draco",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "d770-nocuda.patch"
+   }
+  },
+  "c8877bc9325012de77cd1612d59b6dd4b296c88d2ef5548463e7db6a39fc4070": {
+   "builtin.dyninst": {
+    "owner": "builtin.dyninst",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "stat_dysect.patch"
+   }
+  },
+  "ce22229b99331105cd194cd73f469d5a0cc0ecc16afd91855f05a8f2eb037277": {
+   "builtin.dyninst": {
+    "owner": "builtin.dyninst",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "stackanalysis_h.patch"
+   }
+  },
+  "397f1596753f6da95ec3fc37f915bc9739f73b07cc677ee6bbda40669903bc00": {
+   "builtin.dyninst": {
+    "owner": "builtin.dyninst",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "v9.3.2-auto.patch"
+   }
+  },
+  "9c2c333787895bd49dbf53a8e5cfcb6d5d070b79f31814110062a273f9110d2e": {
+   "builtin.dyninst": {
+    "owner": "builtin.dyninst",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "tribool.patch"
+   }
+  },
+  "d49f040439ee859968b60f449253baff2bb4296d09256f442e60df7800b13905": {
+   "builtin.eccodes": {
+    "owner": "builtin.eccodes",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "openjpeg_jasper.patch"
+   }
+  },
+  "aca2881fc1bab105ef946e27737aeee4c77961c02938c3cd9e72338a22675437": {
+   "builtin.elemental": {
+    "owner": "builtin.elemental",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "elemental_cublas.patch"
+   }
+  },
+  "c71c92ce7c9d8a4ba78af7a80e514566a10421d59a423c225f98eca58a02d675": {
+   "builtin.elemental": {
+    "owner": "builtin.elemental",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "cmake_0.87.7.patch"
+   }
+  },
+  "d0e1000059345bc33eb9ada361670f27142b8d3fba2f41e1ba06703850810258": {
+   "builtin.elpa": {
+    "owner": "builtin.elpa",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "python_shebang.patch"
+   }
+  },
+  "c710e07d856c1f821396c56bc67f3d0b25e5586c5a3edd42d05e6c1bcc3b4b2c": {
+   "builtin.fftw": {
+    "owner": "builtin.fftw",
+    "level": 0,
+    "working_dir": ".",
+    "relative_path": "pfft-3.3.9.patch"
+   }
+  },
+  "8132c27659f992311dcf3d1500056e0f9400aa22f6824124e3607dbaa8dfe3c0": {
+   "builtin.fftw": {
+    "owner": "builtin.fftw",
+    "level": 0,
+    "working_dir": ".",
+    "relative_path": "pfft-3.3.5.patch"
+   }
+  },
+  "4c813199aa39c0d2b23259ee3c3a58c9c96a3c0d09fe3485a33f299b95e0d9e7": {
+   "builtin.fftw": {
+    "owner": "builtin.fftw",
+    "level": 0,
+    "working_dir": ".",
+    "relative_path": "pfft-3.3.4.patch"
+   }
+  },
+  "5382f2695960800c0c93cb01fabdf9f4efa478f4171163c516c9fe1d9288449e": {
+   "builtin.fftw": {
+    "owner": "builtin.fftw",
+    "level": 0,
+    "working_dir": ".",
+    "relative_path": "pgi-3.3.6-pl2.patch"
+   }
+  },
+  "116635693452a2ca3bdc3f87c20569b4bf9d7813ecfe9581cef6e362b0770c1e": {
+   "builtin.fftw": {
+    "owner": "builtin.fftw",
+    "level": 0,
+    "working_dir": ".",
+    "relative_path": "intel-configure.patch"
+   }
+  },
+  "015eff2da710d0a1935b7a3bfc507d9b2ead003d60bf8c17a35736f619f97908": {
+   "builtin.findutils": {
+    "owner": "builtin.findutils",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "nvhpc.patch"
+   }
+  },
+  "094a98b5a7debbc2c60c2b235942c79e505ec76f9281f87c95d15e9ad8a97c52": {
+   "builtin.flatbuffers": {
+    "owner": "builtin.flatbuffers",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://raw.githubusercontent.com/Flamefire/easybuild-easyconfigs/72ba2a1a0d44fbd96ded9f279373ef804bdf3903/easybuild/easyconfigs/f/flatbuffers/flatbuffers-1.12.0_replace-usage-of-memset.patch"
+   }
+  },
+  "4a9a18abc776407f3f97e02c40f349cfb24fe7ddb41df952271d894777a31c88": {
+   "builtin.flatbuffers": {
+    "owner": "builtin.flatbuffers",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://patch-diff.githubusercontent.com/raw/google/flatbuffers/pull/6020.patch"
+   }
+  },
+  "120d2474567df05e74ed0f8ab383f2afd2d6948f735c150739e7c3f992d4e679": {
+   "builtin.fltk": {
+    "owner": "builtin.fltk",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "font.patch"
+   }
+  },
+  "875272b687e24e20733185e73737d579fc3e223f4664be39295df8632fbf6fcb": {
+   "builtin.fltk": {
+    "owner": "builtin.fltk",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "fix_compare_val.patch"
+   }
+  },
+  "0b50b67aa21dcb81f908a93c6875ef039e07ebead5073df928bfff7661d07c5e": {
+   "builtin.fltk": {
+    "owner": "builtin.fltk",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "type_cast.patch"
+   }
+  },
+  "371d260b80fb32c114624e9b26f03ce713559abcbe4a7ad5bec820e4f3570aa2": {
+   "builtin.gate": {
+    "owner": "builtin.gate",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "cluster_tools_filemerger_Makefile.patch"
+   }
+  },
+  "daf4b60cdc12435312809f54718f07e5d5f6a3222b6ce52e98006f94f3d89917": {
+   "builtin.gate": {
+    "owner": "builtin.gate",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "cluster_tools_jobsplitter_Makefile.patch"
+   }
+  },
+  "019374cb6c259ef0f1586b02d6cd6725740ff200dbb58c2d743258d48e582dd2": {
+   "builtin.gate": {
+    "owner": "builtin.gate",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "cluster_tools_jobsplitter_platform.patch"
+   }
+  },
+  "de02757db510055a149390f95c3e06f62992ff61ff65e74642f8b4d4a4438320": {
+   "builtin.gcc": {
+    "owner": "builtin.gcc",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "piclibs.patch"
+   }
+  },
+  "0689c26bd7f38c5c9594eb8a4932ae7fce96cc8796c45839e050dc42c83112f1": {
+   "builtin.gcc": {
+    "owner": "builtin.gcc",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "gcc-backport.patch"
+   }
+  },
+  "dc1ca240b7fb70112ae6cc47cd86925adf78d29ed9d0c26b0c51d52e40ceca0e": {
+   "builtin.gcc": {
+    "owner": "builtin.gcc",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "glibc-2.31-libsanitizer-1.patch"
+   }
+  },
+  "1ee899af9974bfdf7d97e8b420d822c8140790cc4c7a46ab8dec657dd8cc5e49": {
+   "builtin.gcc": {
+    "owner": "builtin.gcc",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "glibc-2.31-libsanitizer-1-gcc-6.patch"
+   }
+  },
+  "a9762dc030444a0c17d911caaadb7e7dac38264e8db7aa2cf54b07c9f0c0e606": {
+   "builtin.gcc": {
+    "owner": "builtin.gcc",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "glibc-2.31-libsanitizer-2-gcc-6.patch"
+   }
+  },
+  "49341f7807b12a89750c010a20707598f83121da9829150d4049ed3a1a140564": {
+   "builtin.gcc": {
+    "owner": "builtin.gcc",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "glibc-2.31-libsanitizer-2.patch"
+   }
+  },
+  "b620e9257ec6b9845f961931b0aa92c35b37e72b15d88ee392c7b67620ebaa2f": {
+   "builtin.gcc": {
+    "owner": "builtin.gcc",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "glibc-2.31-libsanitizer-2-gcc-7.patch"
+   }
+  },
+  "f73de87bce5575d4792f9b62fd0c4ddd94849dc66b6aea908631ac1fd54350ae": {
+   "builtin.gcc": {
+    "owner": "builtin.gcc",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "ucontext_t.patch"
+   }
+  },
+  "8d6dd7448a2a7d2495c01b364cdec45c04a38f84caa01f073c9773c6f5dc1c9d": {
+   "builtin.gcc": {
+    "owner": "builtin.gcc",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "ucontext_t-java.patch"
+   }
+  },
+  "f5643d90fd8fdc8e86ae886b39c3ffb710daeefd5848c3c08447b77b77cdf162": {
+   "builtin.gcc": {
+    "owner": "builtin.gcc",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "stack_t-4.9.patch"
+   }
+  },
+  "7112abbff4f89980b907c01913d3075a354c6ba8c96b2c453e6941ce9fd99c4c": {
+   "builtin.gcc": {
+    "owner": "builtin.gcc",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "sys_ustat-4.9.patch"
+   }
+  },
+  "5b3c22d33abbc6b218515ddf9e914c3eb02ea0e83b7a4e3bab0e043f93e3d4f3": {
+   "builtin.gcc": {
+    "owner": "builtin.gcc",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "stack_t.patch"
+   }
+  },
+  "27e982924b2fcac628c289aa9975753d645fd9308f3bdc1b09ae2444aa6547e0": {
+   "builtin.gcc": {
+    "owner": "builtin.gcc",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "signal.patch"
+   }
+  },
+  "51aebe82afc9a0433ca3503a36592edf5ca769b1433986919cfb9ae2ddf3e343": {
+   "builtin.gcc": {
+    "owner": "builtin.gcc",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "sys_ustat.h.patch"
+   }
+  },
+  "2c18531a23623596e1daf6f0dd963cf72c208945ecad90515640c3ab23991159": {
+   "builtin.gcc": {
+    "owner": "builtin.gcc",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "zstd.patch"
+   }
+  },
+  "b3f7c1080cf2a9a427331c87786b784ba2d0121aaae4e8c7c56e1b49beef29b1": {
+   "builtin.gchp": {
+    "owner": "builtin.gchp",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "for_aarch64.patch"
+   }
+  },
+  "95a654159688eaffdf035a467914c5953068ad0fd62d18229de5779a17ec380b": {
+   "builtin.jasper": {
+    "owner": "builtin.gdal",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "uuid.patch"
+   }
+  },
+  "3827277111596a181b4bbef989c36ee95cee6d814c1a99c5f243118605a78cf0": {
+   "builtin.glib": {
+    "owner": "builtin.glib",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "g_date_strftime.patch"
+   }
+  },
+  "c325997b72a205ad1638bb3e3ba0e5b73e3d32ce63b2d0d3282f3e3a2ff4663c": {
+   "builtin.glib": {
+    "owner": "builtin.glib",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "no-Werror=format-security.patch"
+   }
+  },
+  "927ae667e78f25b25e4eb69cc3e08a272f1be05f6cb3d96e9353f3234b240607": {
+   "builtin.glib": {
+    "owner": "builtin.glib",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "old-kernels.patch"
+   }
+  },
+  "63e5a3efbdaf67cfb9707a20fd6e21e8826d1c785b20c6ec326f6d2b116950fc": {
+   "builtin.glib": {
+    "owner": "builtin.glib",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "meson-gettext.patch"
+   }
+  },
+  "b3fd45063a19c871048aa1f28692293ab8971a871bdcbe65f06f17fdd79db9e2": {
+   "builtin.glib": {
+    "owner": "builtin.glib",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "meson-gettext-2.66.patch"
+   }
+  },
+  "39e58d629b090bee4a319bfc581e59c4f4b0453f8b13ec77693a52be8d13a90d": {
+   "builtin.graphite2": {
+    "owner": "builtin.graphite2",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "regparm.patch"
+   }
+  },
+  "1eb560b9cbf18e329dbe436dd740c7c1d3c902ee929bd54c4800662b52cdf851": {
+   "builtin.gromacs": {
+    "owner": "builtin.gromacs",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "gmxDetectCpu-cmake-3.14.patch"
+   }
+  },
+  "e7f2965f7b94d7e4a71f15767a17af567240040ea7b8e05083ccd812f9fcd026": {
+   "builtin.gromacs": {
+    "owner": "builtin.gromacs",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "gmxDetectSimd-cmake-3.14.patch"
+   }
+  },
+  "13ff7d3c28e78ab81f7ad1235b121341a984e0d3d26657a1dde2887412e180fd": {
+   "builtin.hdf-eos2": {
+    "owner": "builtin.hdf-eos2",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "hdf-eos2.nondarwin-no-single_module.patch"
+   }
+  },
+  "2882b703e57e025bdf3ecf70b4d0c9bd47219a5874aea4f4100cd8b0e69284eb": {
+   "builtin.hdf5": {
+    "owner": "builtin.hdf5",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "h5f90global-mult-obj-same-equivalence-same-common-block.patch"
+   }
+  },
+  "464de1103b499eee7767393ac331fe5687e059c680a7d3d6f0139e13c4f46b93": {
+   "builtin.hdf5": {
+    "owner": "builtin.hdf5",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "pre-c99-comments.patch"
+   }
+  },
+  "57cee5ff1992b4098eda079815c36fc2da9b10e00a9056df054f2384c4fc7523": {
+   "builtin.hdf5": {
+    "owner": "builtin.hdf5",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://salsa.debian.org/debian-gis-team/hdf5/raw/bf94804af5f80f662cad80a5527535b3c6537df6/debian/patches/gcc-8.patch"
+   }
+  },
+  "b61e2f058964ad85be6ee5ecea10080bf79e73f83ff88d1fa4b602d00209da9c": {
+   "builtin.hdf5": {
+    "owner": "builtin.hdf5",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "h5public-skip-mpicxx.patch"
+   }
+  },
+  "0e20187cda3980a4fdff410da92358b63de7ebef2df1d7a425371af78e50f666": {
+   "builtin.hdf5": {
+    "owner": "builtin.hdf5",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "hdf5_1.8_gcc10.patch"
+   }
+  },
+  "9f26340c8511e25b12a6f57d3967ab47b520c4e87997f41eb0123210ac4fdbbf": {
+   "builtin.hdf5": {
+    "owner": "builtin.hdf5",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "nag.mpi.libtool.patch"
+   }
+  },
+  "5926b29c4f9ce9696573aeab16cbc99fd2e556a6575802983ea793753061f7b7": {
+   "builtin.hepmc3": {
+    "owner": "builtin.hepmc3",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "ba38f14d8f56c16cc4105d98f6d4540c928c6150.patch"
+   }
+  },
+  "3edeb8aeaf335297ec0f61a15b99c259d607d8f534173fbc3d17832ad03cd63f": {
+   "builtin.hip-rocclr": {
+    "owner": "builtin.hip-rocclr",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "opengl.patch"
+   }
+  },
+  "2a4190477b7d9206b9cd8d70770ba0bc007273cbe54772efb12f9ca2e37c0392": {
+   "builtin.hip": {
+    "owner": "builtin.hip",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "0001-Make-it-possible-to-specify-the-package-folder-of-ro.patch"
+   }
+  },
+  "a6dbc497d8195e702d989b481f6dc2cc3a61ee9c7952d584e9acc38d2ec4e24c": {
+   "builtin.hip": {
+    "owner": "builtin.hip",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "0002-Fix-detection-of-HIP_CLANG_ROOT.patch"
+   }
+  },
+  "bce48db37216f96ad7f8dc1b6bd5d33db60cbfcf9607ff7feafc175d71488181": {
+   "builtin.hip": {
+    "owner": "builtin.hip",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "0003-Improve-compilation-without-git-repo.3.7.0.patch"
+   }
+  },
+  "e73ddc25da14fe1c167775e27d7944b8660f63a17590099d42c8e5597e9bfee1": {
+   "builtin.hip": {
+    "owner": "builtin.hip",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "0004-Drop-clang-rt-builtins-linking-on-hip-host.3.7.0.patch"
+   }
+  },
+  "b67bc6c919878ecaaf499454cc722162d53a024834943c96c15bfd6988b3049e": {
+   "builtin.hip": {
+    "owner": "builtin.hip",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "0003-Improve-compilation-without-git-repo.3.10.0.patch"
+   }
+  },
+  "5581cfa93974e82077bbc0b3b6590d312b9f8bca4162e691b0a63afa25f0de4c": {
+   "builtin.hip": {
+    "owner": "builtin.hip",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "0003-Improve-compilation-without-git-repo.4.1.0.patch"
+   }
+  },
+  "9dc7efbdb3d7e375d2cc410702e2b9686cc73be40aa8d494b26be8a4538f18cd": {
+   "builtin.hip": {
+    "owner": "builtin.hip",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "0004-Drop-clang-rt-builtins-linking-on-hip-host.3.10.0.patch"
+   }
+  },
+  "6b7493f0caa1b8042ef43c1a4cee6584abeeb9319c53a79e8b2e558cd1076992": {
+   "builtin.hipsparse": {
+    "owner": "builtin.hipsparse",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "e79985dccde22d826aceb3badfc643a3227979d2.patch"
+   }
+  },
+  "db755df3ae712d33d4954b7d302d656b1bdc8f226c063ee701d3b4d835297686": {
+   "builtin.hipsparse": {
+    "owner": "builtin.hipsparse",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "530047af4a0f437dafc02f76b3a17e3b1536c7ec.patch"
+   }
+  },
+  "f8507c3ce9672c70c2db9f9deb5766c8120ea06e20866d0f553a17866e810b91": {
+   "builtin.hpctoolkit": {
+    "owner": "builtin.hpctoolkit",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://github.com/blue42u/hpctoolkit/commit/b3f6f9e4846d9256cf0d841465ff89d78c6bf422.patch"
+   }
+  },
+  "522ad3a53596c22d0a611efe92e91c1f6812bf63af544f949b1f347f149ca208": {
+   "builtin.hsa-rocr-dev": {
+    "owner": "builtin.hsa-rocr-dev",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "0001-Do-not-set-an-explicit-rpath-by-default-since-packag.patch"
+   }
+  },
+  "71e6851d9be8113bfb8d71b66a3171e0d0401bae5e6f161c9e7fe32558261a46": {
+   "builtin.hsa-rocr-dev": {
+    "owner": "builtin.hsa-rocr-dev",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "0002-Remove-explicit-RPATH-again.patch"
+   }
+  },
+  "d1d94a4af93486c88c70b79cd930979f3a2a2b5843708e8c7c1655f18b9fc694": {
+   "builtin.hwloc": {
+    "owner": "builtin.hwloc",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "0001-Try-linking-to-libtinfo.patch"
+   }
+  },
+  "4be44871362cda41fb6dd55ab438abb31f3af61e1bd05cf3a9df4f70656f8502": {
+   "builtin.julia": {
+    "owner": "builtin.julia",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "gc.patch"
+   }
+  },
+  "795c1eae836d5b6979c202468435c46260f3ff033b23f2edb5feab031ae43548": {
+   "builtin.julia": {
+    "owner": "builtin.julia",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "openblas.patch"
+   }
+  },
+  "c07b4e371eb1ed94b2879bd7c225ae28503800bab21f714163bd196d9b38330f": {
+   "builtin.julia": {
+    "owner": "builtin.julia",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "armgcc.patch"
+   }
+  },
+  "55d3a699cf1b00e631bd144f2461dd34df7a69fef044ee57e6813b4b1916ac41": {
+   "builtin.kim-api": {
+    "owner": "builtin.kim-api",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "fujitsu_add_link_flags.patch"
+   }
+  },
+  "16f91dc30ea6ffba6ca6757f1414d51ef03ab4de7ff5b79f4f897be728ccca54": {
+   "builtin.lammps": {
+    "owner": "builtin.lammps",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "lib.patch"
+   }
+  },
+  "f6772e50c9e081daef576babffb8960736aef733ab645c1162042db32c21318f": {
+   "builtin.lammps": {
+    "owner": "builtin.lammps",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "660.patch"
+   }
+  },
+  "7e1610dad4d8203b45ca6dc2c1f97d02a40f98a5e9778f51a3dbcc30ea1dc717": {
+   "builtin.lammps": {
+    "owner": "builtin.lammps",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://github.com/lammps/lammps/commit/562300996285fdec4ef74542383276898555af06.patch"
+   }
+  },
+  "aaae81b3edc29362a94770cc235f1eb6d6f84bb6168c4084a7376a09a2ae93c2": {
+   "builtin.libbsd": {
+    "owner": "builtin.libbsd",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "cdefs.h.patch"
+   }
+  },
+  "71b49f52a01420ab632f23373135853a2565f88725fb77e625a7fbf7ea812eef": {
+   "builtin.libbsd": {
+    "owner": "builtin.libbsd",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "local-elf.h.patch"
+   }
+  },
+  "bd4ed3549fde8870ac82cdc5778d91f907131587d31eedcd023dd13594dc39ad": {
+   "builtin.libbsd": {
+    "owner": "builtin.libbsd",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "nvhpc.patch"
+   }
+  },
+  "71f06e8bf0adeccd425b194ac524e4d596469e9dab9e7a4f8bb209e6b9a454f4": {
+   "builtin.libfabric": {
+    "owner": "builtin.libfabric",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://github.com/ofiwg/libfabric/commit/2e95b0efd85fa8a3d814128e34ec57ffd357460e.patch"
+   }
+  },
+  "fa7a3a5a96a16d044cce2da4f8b86e13427d14631a4df001bf5beb11d0ae514f": {
+   "builtin.libfuse": {
+    "owner": "builtin.libfuse",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "0001-Do-not-run-install-script.patch"
+   }
+  },
+  "6e08dc445ece06e9e8b1344397f2d3f169005703ddc0f2ae24f366cde78c7377": {
+   "builtin.libpciaccess": {
+    "owner": "builtin.libpciaccess",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "nvhpc.patch"
+   }
+  },
+  "7647cedfe2a1cbc60718f350f1866cf54aa28772c374aef9b51b346cdde3814b": {
+   "builtin.libsakura": {
+    "owner": "builtin.libsakura",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "cmakelists.patch"
+   }
+  },
+  "055fdac32f7768c44f64dfc18c183233a7909ff8b7556f67038350eed2056571": {
+   "builtin.libtool": {
+    "owner": "builtin.libtool",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "flag_space.patch"
+   }
+  },
+  "42e805682b7120163998a6d7e9abb8d7065602a2d548877b0fb7cd13233f4c9a": {
+   "builtin.libxc": {
+    "owner": "builtin.libxc",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "0001-Bugfix-avoid-implicit-pointer-cast-to-make-libxc-com.patch"
+   }
+  },
+  "a2977e2f48c9bc7c9627eaadd4bef5323dcfa0e69a65e66b8c2eb4689b670959": {
+   "builtin.libxc": {
+    "owner": "builtin.libxc",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "0002-Mark-xc_erfcx-a-GPU_FUNCTION.patch"
+   }
+  },
+  "73122365867fb909773c900fcfea99eef681ba35078b7ace1948f68cd297486e": {
+   "builtin.libxc": {
+    "owner": "builtin.libxc",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "nvhpc-configure.patch"
+   }
+  },
+  "81c60a263e51307e70cad6add51d5d113630eab0ae3208267e39effc0e39d8b5": {
+   "builtin.libxc": {
+    "owner": "builtin.libxc",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "nvhpc-libtool.patch"
+   }
+  },
+  "c3b8f939a46b425665577ce764d4fba080a23cab5999c53db71655fd54d7e0b1": {
+   "builtin.likwid": {
+    "owner": "builtin.likwid",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://github.com/RRZE-HPC/likwid/commit/e0332ace8fe8ca7dcd4b4477a25e37944f173a5c.patch"
+   }
+  },
+  "636cbf40669261fdb36379d67253be2b731cfa7b6d610d232767d72fbdf08bc0": {
+   "builtin.likwid": {
+    "owner": "builtin.likwid",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://github.com/RRZE-HPC/likwid/commit/d2d0ef333b5e0997d7c80fc6ac1a473b5e47d084.patch"
+   }
+  },
+  "bc56253c1e3436b5ba7bf4c5533d0391206900c8663c008f771a16376975e416": {
+   "builtin.likwid": {
+    "owner": "builtin.likwid",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://github.com/RRZE-HPC/likwid/files/5341379/likwid-lua5.1.patch.txt"
+   }
+  },
+  "45a59746eeb9e0e3f6dcf0e465811b58cf085b8cece1dc05053c55c98f58b5c0": {
+   "builtin.llvm-amdgpu": {
+    "owner": "builtin.llvm-amdgpu",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "fix-system-zlib-ncurses.patch"
+   }
+  },
+  "ca9f54806c0def950b9c4ed5ac94480d6813ad9b68a00003b5f4f9da8084ac18": {
+   "builtin.llvm-amdgpu": {
+    "owner": "builtin.llvm-amdgpu",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "fix-ncurses-3.9.0.patch"
+   }
+  },
+  "207c435f0dc61aa7c11f831ea1081b61236c29f1be9b6e75540977bcf053561f": {
+   "builtin.llvm": {
+    "owner": "builtin.llvm",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "llvm_gcc7.patch"
+   }
+  },
+  "3fa900e31763cc7ff604430b86faa4eb650048c1796ebd39db2dcf84f6168a8b": {
+   "builtin.llvm": {
+    "owner": "builtin.llvm",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "constexpr_longdouble.patch"
+   }
+  },
+  "8be98dc01bb8dc0333a760d9a0524dfa5853d81b430e82da954c1139bf13f034": {
+   "builtin.llvm": {
+    "owner": "builtin.llvm",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "llvm_py37.patch"
+   }
+  },
+  "e6f4bbf5f297a3b6f2d92d4b156c7ee999ee3f6df78fb7b38b26f355e1097bb8": {
+   "builtin.llvm": {
+    "owner": "builtin.llvm",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "thread-p9.patch"
+   }
+  },
+  "b7f5e0d6022fd69e8ea4e6f629f4bfc550241aa937119418128496d93bd4379a": {
+   "builtin.llvm": {
+    "owner": "builtin.llvm",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "llvm7_intel.patch"
+   }
+  },
+  "3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00": {
+   "builtin.m4": {
+    "owner": "builtin.m4",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "gnulib-pgi.patch"
+   }
+  },
+  "fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8": {
+   "builtin.m4": {
+    "owner": "builtin.m4",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://src.fedoraproject.org/rpms/m4/raw/5d147168d4b93f38a4833f5dd1d650ad88af5a8a/f/m4-1.4.18-glibc-change-work-around.patch"
+   }
+  },
+  "3b0540d5dfc82d360834152c0ee8f0c5db7d2b868af29fb1128864a8138fc87d": {
+   "builtin.m4": {
+    "owner": "builtin.m4",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "pgi.patch"
+   }
+  },
+  "5746cf51f45b405661c3edae7a78c33d41e54d83f635d16e2bf1f956dbfbf635": {
+   "builtin.m4": {
+    "owner": "builtin.m4",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "nvhpc.patch"
+   }
+  },
+  "d66f3af7fff6848d5969b1de4d3408e502e8a6633c7aa32e2c3541ab873c4ed9": {
+   "builtin.m4": {
+    "owner": "builtin.m4",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "oneapi.patch"
+   }
+  },
+  "c0a408fbffb7255fcc75e26bd8edab116fc81d216bfd18b473668b7739a4158e": {
+   "builtin.m4": {
+    "owner": "builtin.m4",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "secure_snprintf.patch"
+   }
+  },
+  "77bd88b95f61e089fc4de879f1b9c41af1582f197120d6774609ba26c4429680": {
+   "builtin.maker": {
+    "owner": "builtin.maker",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "install.patch"
+   }
+  },
+  "92e6c022d583d8056dcb7ca17b2fb831547eb7dc8aa373074823fe0109d77e5d": {
+   "builtin.maker": {
+    "owner": "builtin.maker",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "mpi.patch"
+   }
+  },
+  "4e875dd39a08166ce6707e832f8c712640b37365dba14ccaa56b8ccb2883b11e": {
+   "builtin.maker": {
+    "owner": "builtin.maker",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "MpiChunk.patch"
+   }
+  },
+  "33906e7dccf0586c1f95ed838a9add8e54d26485dd2ad7bbe626a5dc9f7f51d0": {
+   "builtin.manta": {
+    "owner": "builtin.manta",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "for_aarch64.patch"
+   }
+  },
+  "bcfa0a73a34654495f5dea3cecdcb7de911c7c2446240aeaa674a4b2ab46f58c": {
+   "builtin.mariadb-c-client": {
+    "owner": "builtin.mariadb-c-client",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://github.com/mariadb-corporation/mariadb-connector-c/commit/242cab8c.patch"
+   },
+   "builtin.mariadb": {
+    "owner": "builtin.mariadb",
+    "level": 1,
+    "working_dir": "libmariadb",
+    "url": "https://github.com/mariadb-corporation/mariadb-connector-c/commit/242cab8c.patch"
+   }
+  },
+  "bb5d0b7e9d28db95aa04a6a04d8510248c4cc25a7ab480c07206db91f74a7707": {
+   "builtin.mfem": {
+    "owner": "builtin.mfem",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "mfem_ppc_build.patch"
+   }
+  },
+  "cb6f351f1a18a917fe8286921a5f710dde314ef5b7649fa774c6cd2ff631b688": {
+   "builtin.mfem": {
+    "owner": "builtin.mfem",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "mfem-3.4.patch"
+   }
+  },
+  "89c03ec2f1802f1c66be0aef9c58b9849ecf0c97246ba0dd77eac898986608b9": {
+   "builtin.mfem": {
+    "owner": "builtin.mfem",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "mfem-3.3-3.4-petsc-3.9.patch"
+   }
+  },
+  "7f582bd8b418ffbd4cc37b73cb0e861efc0cf0dd332ae726e18e306f975b0310": {
+   "builtin.mfem": {
+    "owner": "builtin.mfem",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "mfem-4.0.0-makefile-syntax-fix.patch"
+   }
+  },
+  "a3c5f23ee36ae5e3e2189a2fbfed502085752e207f37872ec5c377b044a4c28c": {
+   "builtin.migraphx": {
+    "owner": "builtin.migraphx",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "0001-Adding-nlohmann-json-include-directory.patch"
+   }
+  },
+  "d27dbcc3271b6160ae78535a2d163432a83d8e1e21be3de51e5d76fc514dcc26": {
+   "builtin.miopen-hip": {
+    "owner": "builtin.miopen-hip",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "0001-Add-rocm-path-and-rocm-device-lib-path-flags.patch"
+   }
+  },
+  "f549609ed795adbe102e63627488ca307eaf8c0c776f46604f555f92d41259bf": {
+   "builtin.molden": {
+    "owner": "builtin.molden",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "for_aarch64.patch"
+   }
+  },
+  "21a4f8de3525204ee6db2e53758a3e3fd9c13817df29d2926d24376858a369e7": {
+   "builtin.mpark-variant": {
+    "owner": "builtin.mpark-variant",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "nvcc.patch"
+   }
+  },
+  "b3501f726fd40129b4aaa11453a5891c8953a34af8ac84f5ab10a22afa5e7b9b": {
+   "builtin.mpark-variant": {
+    "owner": "builtin.mpark-variant",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "icpc.patch"
+   }
+  },
+  "4e173fe8c853eb92956a40371688b4a19498189fe65b7ceac30f6b9d6663a985": {
+   "builtin.mpark-variant": {
+    "owner": "builtin.mpark-variant",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "version.patch"
+   }
+  },
+  "3f80b836948aa96f8d1cb9cc7f3f55973f19285482a96f9a4e1623d460bcccf0": {
+   "builtin.mpfr": {
+    "owner": "builtin.mpfr",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://www.mpfr.org/mpfr-4.0.2/allpatches"
+   }
+  },
+  "5230aab653fa8675fc05b5bdd3890e071e8df49a92a9d58c4284024affd27739": {
+   "builtin.mpfr": {
+    "owner": "builtin.mpfr",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://www.mpfr.org/mpfr-4.0.1/allpatches"
+   }
+  },
+  "7a6dd71bcda4803d6b89612706a17b8816e1acd5dd9bf1bec29cf748f3b60008": {
+   "builtin.mpfr": {
+    "owner": "builtin.mpfr",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://www.mpfr.org/mpfr-3.1.6/allpatches"
+   }
+  },
+  "1ae14fb3a54ae8e0faed20801970255b279eee9e5ac624891ab5d29727f0bc04": {
+   "builtin.mpfr": {
+    "owner": "builtin.mpfr",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://www.mpfr.org/mpfr-3.1.5/allpatches"
+   }
+  },
+  "113705d5333ef0d0ad3eb136a85404ba6bd1cc524dece5ce902c536aa2e29903": {
+   "builtin.mpfr": {
+    "owner": "builtin.mpfr",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://www.mpfr.org/mpfr-3.1.4/allpatches"
+   }
+  },
+  "4152a780b3cc6e9643283e59093b43460196d0fea9302d8c93b2496f6679f4e4": {
+   "builtin.mpfr": {
+    "owner": "builtin.mpfr",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://www.mpfr.org/mpfr-3.1.3/allpatches"
+   }
+  },
+  "1b9fdb515efb09a506a01e1eb307b1464455f5ca63d6c193db3a3da371ab3220": {
+   "builtin.mpfr": {
+    "owner": "builtin.mpfr",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://www.mpfr.org/mpfr-3.1.2/allpatches"
+   }
+  },
+  "eb982de3366d48cbc55eb5e0df43373a45d9f51df208abf0835a72dc6c0b4774": {
+   "builtin.mpich": {
+    "owner": "builtin.mpich",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://github.com/pmodels/mpich/commit/8a851b317ee57366cd15f4f28842063d8eff4483.patch"
+   }
+  },
+  "e591891fae6a1d029b95edbc93865c57d165784e77cf8b5822ae7d014b137a03": {
+   "builtin.mpich": {
+    "owner": "builtin.mpich",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "mpich32_clang.patch"
+   }
+  },
+  "c7d4ecf865dccff5b764d9c66b6a470d11b0b1a5b4f7ad1ffa61079ad6b5dede": {
+   "builtin.mpich": {
+    "owner": "builtin.mpich",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://github.com/pmodels/mpich/commit/b324d2de860a7a2848dc38aefb8c7627a72d2003.patch"
+   }
+  },
+  "c3e5f74dbded8dab73b9999e01963824d3ef44966f1a776eb72d413825dc6f24": {
+   "builtin.mpich": {
+    "owner": "builtin.mpich",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "nag_libtool_2.4.2_0.patch"
+   }
+  },
+  "0076b2ad6ae8441a323a5493b4e8987c54b5b16e52d4ccd251752c02accb9b4a": {
+   "builtin.mpich": {
+    "owner": "builtin.mpich",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "nag_libtool_2.4.2_1.patch"
+   }
+  },
+  "a2fd5dde6c695a76ad56d2175a63c8ff7a4ca17d1321d116ee2bdbb339a72e18": {
+   "builtin.mpich": {
+    "owner": "builtin.mpich",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "nag_libtool_2.4.2_2.patch"
+   }
+  },
+  "30e56b44eee313e8d2291f95382630887d6e5b6365fa51d56d2822d8313ed6f2": {
+   "builtin.mpich": {
+    "owner": "builtin.mpich",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "nag_libtool_2.4.6.patch"
+   }
+  },
+  "a43b2ca6c9f9edfb1fd6d916a599f85a57c8bb3f9ee38148b1988fd82feec8ad": {
+   "builtin.mumax": {
+    "owner": "builtin.mumax",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://github.com/mumax/3/commit/2cf5c9a6985c9eb16a124c6bd96aed75b4a30c24.patch"
+   }
+  },
+  "e991e7985745d446e87d8eb7bc07484450a1e4f8a3897d9b37abc94747e6d025": {
+   "builtin.mumps": {
+    "owner": "builtin.mumps",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "examples.patch"
+   }
+  },
+  "759c3e3790ac87085782928d1f5a94142bf05bc624110c4f1ed421800f2ff85c": {
+   "builtin.mumps": {
+    "owner": "builtin.mumps",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "gfortran8.patch"
+   }
+  },
+  "395476478f9dbe576a793e29ba13098e4bb72afedbc2fe50739bda8a4f6967a2": {
+   "builtin.mumps": {
+    "owner": "builtin.mumps",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "mumps.src-makefile.5.2.patch"
+   }
+  },
+  "1946864d2106f7414aaa4dbd4dbc068b7804af7c1588381e814b268a56140a52": {
+   "builtin.mumps": {
+    "owner": "builtin.mumps",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "mumps.src-makefile.5.3.patch"
+   }
+  },
+  "ac9f315d204afa6b99ceefa1fe46d4eed2b8a23c7315d32d33c0f378d930e950": {
+   "builtin.nasm": {
+    "owner": "builtin.nasm",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://src.fedoraproject.org/rpms/nasm/raw/0cc3eb244bd971df81a7f02bc12c5ec259e1a5d6/f/0001-Remove-invalid-pure_func-qualifiers.patch"
+   }
+  },
+  "4110a40613b800da2b2888c352b64c75a82809d48341061e4de5861e8b28423f": {
+   "builtin.ncurses": {
+    "owner": "builtin.ncurses",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "patch_gcc_5.txt"
+   }
+  },
+  "f84b2708a42777aadcc7f502a261afe10ca5646a51c1ef8b5e60d2070d926b57": {
+   "builtin.ncurses": {
+    "owner": "builtin.ncurses",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "sed_pgi.patch"
+   }
+  },
+  "0046d24487c0b7cbc84527fc36300d4e970cb4191b44e8b1619523fae15137f1": {
+   "builtin.netlib-lapack": {
+    "owner": "builtin.netlib-lapack",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "ibm-xl.patch"
+   }
+  },
+  "5c79286f3d08a0b0f1f3acba2a92ee698647716ba8c6c0ae20c9cc2713e6f139": {
+   "builtin.netlib-lapack": {
+    "owner": "builtin.netlib-lapack",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "undefined_declarations.patch"
+   }
+  },
+  "ad3d41fe9ff94b7661e09fceaf2b2e4b8c83510c1465c016e161541b4429b5ee": {
+   "builtin.netlib-lapack": {
+    "owner": "builtin.netlib-lapack",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "testing.patch"
+   }
+  },
+  "592f30f7f5f757dfc239ad0ffd39a9a048487ad803c26b419e0f96b8cda08c1a": {
+   "builtin.numactl": {
+    "owner": "builtin.numactl",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "numactl-2.0.11-sysmacros.patch"
+   }
+  },
+  "4e1d78cbbb85de625bad28705e748856033eaafab92a66dffd383a3d7e00cc94": {
+   "builtin.numactl": {
+    "owner": "builtin.numactl",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "numactl-2.0.14-symver.patch"
+   }
+  },
+  "62fc8a8bf7665a60e8f4c93ebbd535647cebf74198f7afafec4c085a8825c006": {
+   "builtin.numactl": {
+    "owner": "builtin.numactl",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "fix-empty-block.patch"
+   }
+  },
+  "73103e6b1bdbf3b1e0d517cbbd11562e98c6e9464df5f43e5125e9a5b457d1c5": {
+   "builtin.openfoam-org": {
+    "owner": "builtin.openfoam-org",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://github.com/OpenFOAM/OpenFOAM-7/commit/ef33cf38ac9b811072a8970c71fbda35a90f6641.patch"
+   }
+  },
+  "58a74d510f82a573cedbe2d3046c5c51f74b8ce92a558a105301f57a23039b59": {
+   "builtin.openfoam-org": {
+    "owner": "builtin.openfoam-org",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "50-etc.patch"
+   }
+  },
+  "97b58adc7bce782175f2c041b786a82db15c507ae2ffaaf1740e75e3c81b60b0": {
+   "builtin.openfoam-org": {
+    "owner": "builtin.openfoam-org",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "41-etc.patch"
+   }
+  },
+  "ecfa93afa8900f583a23c179db7cf0dc066828a9fd872e061164f21301c2a222": {
+   "builtin.openfoam-org": {
+    "owner": "builtin.openfoam-org",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "41-site.patch"
+   }
+  },
+  "c37c31294ad1d729af0af882d9192bffe6b0386cd14d9256a1cd5ca655422223": {
+   "builtin.openfoam-org": {
+    "owner": "builtin.openfoam-org",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "240-etc.patch"
+   }
+  },
+  "bf50db05c93448d3524857ffde98af2c9a15f49508b5fc04f35814f219348ca2": {
+   "builtin.openfoam-org": {
+    "owner": "builtin.openfoam-org",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "isnan.patch"
+   }
+  },
+  "6c4c535baca3ce64035d512265c4ce8effd39de7602c923c5e19985db68b632a": {
+   "builtin.openfoam-org": {
+    "owner": "builtin.openfoam-org",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://github.com/OpenFOAM/OpenFOAM-2.3.x/commit/ae9a670c99472787f3a5446ac2b522bf3519b796.patch"
+   }
+  },
+  "ee90fdef47941f4ca87047badc469c2ae34c22ddcd991728198f8422aa1c093c": {
+   "builtin.openmpi": {
+    "owner": "builtin.openmpi",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "ad_lustre_rwcontig_open_source.patch"
+   }
+  },
+  "ed7a50e1d246acc62288a8c27e4978fe212728bd26dab5cfd149a25ede97fbe1": {
+   "builtin.openmpi": {
+    "owner": "builtin.openmpi",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "llnl-platforms.patch"
+   }
+  },
+  "6c825b161b01c00d4069d002db9c43a1d8a658672e40b87d2415b228e040981d": {
+   "builtin.openmpi": {
+    "owner": "builtin.openmpi",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "configure.patch"
+   }
+  },
+  "d26978ea058131ced4e51668a524f556d3d90d178d54634e6f2077f4c8ba7762": {
+   "builtin.openmpi": {
+    "owner": "builtin.openmpi",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "fix_multidef_pmi_class.patch"
+   }
+  },
+  "073477a76bba780c67c36e959cd3ee6910743e2735c7e76850ffba6791d498e4": {
+   "builtin.openmpi": {
+    "owner": "builtin.openmpi",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "fix-ucx-1.7.0-api-instability.patch"
+   }
+  },
+  "32effdf1deab19ca87850161d3ad8ff34540c9e26f6bf40cd64839ea47a3a0e0": {
+   "builtin.openmpi": {
+    "owner": "builtin.openmpi",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "btl_vader.patch"
+   }
+  },
+  "b0fafc41627bdfcde564e3e4d5212a0c60aac0e771102ddc6746b22bd06a6415": {
+   "builtin.openmpi": {
+    "owner": "builtin.openmpi",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "nag_pthread/2.1.4_2.1.999_3.0.1_4.patch"
+   }
+  },
+  "fc5e5a369db2f7f054efd26d77dc00e080708271e22f8c05e8fc8cac3df7cdc7": {
+   "builtin.openmpi": {
+    "owner": "builtin.openmpi",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "nag_pthread/2.1.2_2.1.3_3.0.0.patch"
+   }
+  },
+  "ba667dc718136a2df4c5b726277c807211756bc9a5bb1f592aeba917f5cdaeb9": {
+   "builtin.openmpi": {
+    "owner": "builtin.openmpi",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "nag_pthread/2.0.0_2.1.1.patch"
+   }
+  },
+  "77ab92ae893721add9d0f982720d36ab9cdef244644650253d20b27a3884663e": {
+   "builtin.openmpi": {
+    "owner": "builtin.openmpi",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "nag_pthread/1.10.4_1.10.999.patch"
+   }
+  },
+  "168a2218292a668d71df853afbd19c7e67d06f98ecf47f1dfb3ecbe77429c7cf": {
+   "builtin.openmpi": {
+    "owner": "builtin.openmpi",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "nvhpc-libtool.patch"
+   }
+  },
+  "fba0d3a784a9723338722b48024a22bb32f6a951db841a4e9f08930a93f41d7a": {
+   "builtin.openmpi": {
+    "owner": "builtin.openmpi",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "nvhpc-configure.patch"
+   }
+  },
+  "d7f08ae74788a15662aeeeaf722e30045b212afe17e19e976d42b3411cc7bc26": {
+   "builtin.openmpi": {
+    "owner": "builtin.openmpi",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "use_mpi_tkr_sizeof/step_1.patch"
+   }
+  },
+  "51e39ef20662d45a772f61db21cfac60f5339125b8cd8b7cd83dcdf4e8371366": {
+   "builtin.openmpi": {
+    "owner": "builtin.openmpi",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "use_mpi_tkr_sizeof/step_2.patch"
+   }
+  },
+  "60ce20bc14d98c572ef7883b9fcd254c3f232c2f3a13377480f96466169ac4c8": {
+   "builtin.openmpi": {
+    "owner": "builtin.openmpi",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "opal_assembly_arch.patch"
+   }
+  },
+  "7e56d93b8ffe636cd7f298c7aa959a64ab5c8b3013e02320f71c2bbac5dd0653": {
+   "builtin.otf2": {
+    "owner": "builtin.otf2",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "collective_callbacks.patch"
+   }
+  },
+  "64ec366cf4325d92fc351295cd06a22cd667489aaca1a532f2c152b91f6f71b5": {
+   "builtin.paraview": {
+    "owner": "builtin.paraview",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "stl-reader-pv440.patch"
+   }
+  },
+  "9c75d88df31365d7bf99a53859d0d4c4b768ca74ebebf0ee5f8e607116b5668a": {
+   "builtin.paraview": {
+    "owner": "builtin.paraview",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "gcc-compiler-pv501.patch"
+   }
+  },
+  "c73e161f887e7948c16c2e072652d98c7703c0694a5c1062bde8b7585830a281": {
+   "builtin.paraview": {
+    "owner": "builtin.paraview",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "ui_pqExportStateWizard.patch"
+   }
+  },
+  "281c98670a9169baeca2a91e1f74ba2229e827c82ac3be59cc62d46669a9928c": {
+   "builtin.paraview": {
+    "owner": "builtin.paraview",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "vtkm-catalyst-pv551.patch"
+   }
+  },
+  "b4b65bcd11d8a78f08c8b02a57eb191737592037b83266c41ebf0f2c45428ecd": {
+   "builtin.paraview": {
+    "owner": "builtin.paraview",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "h5part-parallel.patch"
+   }
+  },
+  "a335ea39ca3a34b9414b4cce981cac87965761a2f46f519f276c9f6f56b24494": {
+   "builtin.paraview": {
+    "owner": "builtin.paraview",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "vtkm-findmpi-downstream.patch"
+   }
+  },
+  "a155f233b228f02d7886e304cb13898d93801b52f351e098c2cc0719697ec9d0": {
+   "builtin.patchelf": {
+    "owner": "builtin.patchelf",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://github.com/NixOS/patchelf/pull/230.patch"
+   }
+  },
+  "d136d80f8bd1c249df392ab016aa166330a8535750e6c7efba0119f3be0af782": {
+   "builtin.perl": {
+    "owner": "builtin.perl",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "protect-quotes-in-ccflags.patch"
+   }
+  },
+  "0eac10ed90aeb0459ad8851f88081d439a4e41978e586ec743069e8b059370ac": {
+   "builtin.perl": {
+    "owner": "builtin.perl",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://src.fedoraproject.org/rpms/perl/raw/004cea3a67df42e92ffdf4e9ac36d47a3c6a05a4/f/perl-5.26.1-guard_old_libcrypt_fix.patch"
+   }
+  },
+  "517afe8ca1cb12f798f20b21583d91463fe3f4fa9244c6c8e054a92c8135da8f": {
+   "builtin.perl": {
+    "owner": "builtin.perl",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "macos-11-version-check.patch"
+   }
+  },
+  "d11fd1545df35266bda5cf67f4ed4babcd21caebb27db4146f14d8bb98a1cec4": {
+   "builtin.perl": {
+    "owner": "builtin.perl",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "nvhpc-5.30.patch"
+   }
+  },
+  "21cf6a73cec16760f8de2e8895ace1299aff2d8e92dc581cd18f1d95a4503048": {
+   "builtin.perl": {
+    "owner": "builtin.perl",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "nvhpc-5.32.patch"
+   }
+  },
+  "3f63313cb4e6b7827bfd2a484a4f01ea50af642f3e86dafa55edce077471eeb4": {
+   "builtin.petsc": {
+    "owner": "builtin.petsc",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "macos-clang-8.1.0.diff"
+   }
+  },
+  "22392530068e375ce8b62a1f552b43fbfd2e20822002c69dbafab4d3fa787cbb": {
+   "builtin.petsc": {
+    "owner": "builtin.petsc",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "pkg-config-3.7.6-3.8.4.diff"
+   }
+  },
+  "da9420ccaeb5f3e9be5fdc87c0fb9544a7629cb2986e01e3f1d9e0156aa38986": {
+   "builtin.petsc": {
+    "owner": "builtin.petsc",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "xcode_stub_out_of_sync.patch"
+   }
+  },
+  "8376e284d251c7c3c550609980c1503c52f68478447860b57e463433592e580f": {
+   "builtin.petsc": {
+    "owner": "builtin.petsc",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "xlf_fix-dup-petscfecreate.patch"
+   }
+  },
+  "e04bd7afe3d4aa40debf6600b46b64de82d9e62a774d8ef63c922601fec7fc90": {
+   "builtin.petsc": {
+    "owner": "builtin.petsc",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "disable-DEPRECATED_ENUM.diff"
+   }
+  },
+  "e46f92ef664068c179670101b7c0ff02d45e643d016eca5fe18f14e6ec03b9ef": {
+   "builtin.phist": {
+    "owner": "builtin.phist",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "update_tpetra_gotypes.patch"
+   }
+  },
+  "1fc9ac6c1cce2804d171dd12470e709cd1e3839be6d51f7e5c33427ba4b379ca": {
+   "builtin.phist": {
+    "owner": "builtin.phist",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "sbang.patch"
+   }
+  },
+  "6e94c68d45d4cb8148c8c53699921d10b13784f758f0563ce64c838e0ca48ceb": {
+   "builtin.pkgconf": {
+    "owner": "builtin.pkgconf",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "nvhpc.patch"
+   }
+  },
+  "19a251f36dbab9b27fd8d78dda2ffee1678ab05ee41ff5623693bd1b71ee068f": {
+   "builtin.py-matplotlib": {
+    "owner": "builtin.py-matplotlib",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "freetype-include-path.patch"
+   }
+  },
+  "196dc7cc8e1367de199726d4e005bba50c3d13fb2843c4753c5f07f7894f10c9": {
+   "builtin.py-numpy": {
+    "owner": "builtin.py-numpy",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "blas-lapack-order.patch"
+   }
+  },
+  "dbf1d0714f3ebcd583f5d613c0d6e3a4f89d48053b467bbba322ad985e89f796": {
+   "builtin.py-numpy": {
+    "owner": "builtin.py-numpy",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "add_fj_compiler.patch"
+   }
+  },
+  "04ee8db2a60b27b43b7ac64bffaa08a5161336ee103aeca738fa21597ea6c895": {
+   "builtin.py-numpy": {
+    "owner": "builtin.py-numpy",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "add_fj_compiler2.patch"
+   }
+  },
+  "99104c19b82c9fabc977fa468368eae33a55fa1b95975ba6e7d211ff2ed6d8ef": {
+   "builtin.py-numpy": {
+    "owner": "builtin.py-numpy",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "add_fj_compiler3.patch"
+   }
+  },
+  "19199b256e846c2d8364d9ba4d249aa4186cfdef9a1f06fef65041e0302f212b": {
+   "builtin.py-numpy": {
+    "owner": "builtin.py-numpy",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "add_fj_compiler4.patch"
+   }
+  },
+  "873745d7b547857fcfec9cae90b09c133b42a4f0c23b6c2d84cf37e2dd816604": {
+   "builtin.py-numpy": {
+    "owner": "builtin.py-numpy",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "check_executables.patch"
+   }
+  },
+  "8a9d5d1b3f145c043b8b04869e7d46c6ff95c3f486d84f69693017c7e6190c7d": {
+   "builtin.py-numpy": {
+    "owner": "builtin.py-numpy",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "check_executables2.patch"
+   }
+  },
+  "cf407c1024b0878c4222dd352aa9dece412073bb15b138243a2893725434c7b6": {
+   "builtin.py-numpy": {
+    "owner": "builtin.py-numpy",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "check_executables3.patch"
+   }
+  },
+  "c3db7e968684ea044ffebdb5c38a6b4acbc921b5cd50d3bff1afe7c53f4fcd2f": {
+   "builtin.py-numpy": {
+    "owner": "builtin.py-numpy",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "check_executables4.patch"
+   }
+  },
+  "e9f7028d97f4e762fb22a810aae43f12780c1270461c3cf7e25c7c27321b0eb3": {
+   "builtin.py-numpy": {
+    "owner": "builtin.py-numpy",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "check_executables5.patch"
+   }
+  },
+  "d344e0e8b4c5ebb96961e1905bdd749162c52b151538238609f4dec77e2a6360": {
+   "builtin.py-petsc4py": {
+    "owner": "builtin.py-petsc4py",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "ldshared.patch"
+   }
+  },
+  "cdcfc14a786c319418ce8ee34c0851a02ff9ee6e987e8393503f660091656485": {
+   "builtin.py-petsc4py": {
+    "owner": "builtin.py-petsc4py",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "ldshared-dev.patch"
+   }
+  },
+  "5433f60831cb554101520a8f8871ac5a32c95f7a971ccd68b69049535b106780": {
+   "builtin.py-scipy": {
+    "owner": "builtin.py-scipy",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://git.sagemath.org/sage.git/plain/build/pkgs/scipy/patches/extern_decls.patch?id=711fe05025795e44b84233e065d240859ccae5bd"
+   }
+  },
+  "c10f3883a7f34a46e6523f375bc5040c075f9686b02773ca762005d122990745": {
+   "builtin.py-slepc4py": {
+    "owner": "builtin.py-slepc4py",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "ldshared.patch"
+   }
+  },
+  "8e7ee9ccc186649c4ebea0b3faf28e7c4b65d7c7aec677c78700b3bf0d187056": {
+   "builtin.py-slepc4py": {
+    "owner": "builtin.py-slepc4py",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "ldshared-dev.patch"
+   }
+  },
+  "d155fa15d14d57f04046d9d139a2c92c4fd28c7d9ba7affe269c2942eafc809e": {
+   "builtin.py-torch": {
+    "owner": "builtin.py-torch",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "xnnpack.patch"
+   }
+  },
+  "cbd3273f70805de288c89e4ba8bf236b77bbe3db6c8a397e5e0be1a6a896b4fe": {
+   "builtin.py-torch": {
+    "owner": "builtin.py-torch",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "rocm.patch"
+   }
+  },
+  "17561b16cd2db22f10c0fe1fdcb428aecb0ac3964ba022a41343a6bb8cba7049": {
+   "builtin.py-torch": {
+    "owner": "builtin.py-torch",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://github.com/pytorch/pytorch/commit/e921cd222a8fbeabf5a3e74e83e0d8dfb01aa8b5.patch"
+   }
+  },
+  "311fb27dd269147a3ecf5e6b2d7b1c4aa755ea8a2b0ac034e7166edc681cb1d7": {
+   "builtin.py-torch": {
+    "owner": "builtin.py-torch",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "detect_omp_of_fujitsu_compiler.patch"
+   }
+  },
+  "a8c52415a8b03c0e5f28b5d52ae498f7a7e602007db2b9554df28cd5685839b8": {
+   "builtin.python": {
+    "owner": "builtin.python",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "python-2.7.8-distutils-C++.patch"
+   }
+  },
+  "7e1bd91333263e2a03e91bcc87bf476d81dae56092903974c1580a78cd9e3411": {
+   "builtin.python": {
+    "owner": "builtin.python",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "python-2.7.17+-distutils-C++.patch"
+   }
+  },
+  "c129e34472ee39b1083c38a49ad06a8573d8b3b208743a120ca4c0818cdf1801": {
+   "builtin.python": {
+    "owner": "builtin.python",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "python-3.6.8-distutils-C++.patch"
+   }
+  },
+  "93431f15c5baa04cf61ae7fafc070e74d602980d22d6e08d108d13dc183b9f25": {
+   "builtin.python": {
+    "owner": "builtin.python",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "python-3.7.3-distutils-C++.patch"
+   }
+  },
+  "0d98e93189bc278fbc37a50ed7f183bd8aaf249a8e1670a465f0db6bb4f8cf87": {
+   "builtin.python": {
+    "owner": "builtin.python",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "python-3.7.4+-distutils-C++.patch"
+   }
+  },
+  "210df3f28cde02a8135b58cc4168e70ab91dbf9097359d05938f1e2843875e57": {
+   "builtin.python": {
+    "owner": "builtin.python",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "tkinter.patch"
+   }
+  },
+  "3938fd8374804befa14be8ab9407a5ee3ab6ee667cab4bf66090a362cfdeaa95": {
+   "builtin.python": {
+    "owner": "builtin.python",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "cray-rpath-2.3.patch"
+   }
+  },
+  "ebdca648c9c1d25f586d7e2a495b62e6d91973b55264a13d89eda1beff72ef56": {
+   "builtin.python": {
+    "owner": "builtin.python",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "cray-rpath-3.1.patch"
+   }
+  },
+  "1da5022b86e86a756cc8d6e9152180df1566c0e7f7ee2331b7cfd430b8b60e3c": {
+   "builtin.python": {
+    "owner": "builtin.python",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "fj-rpath-2.3.patch"
+   }
+  },
+  "2e23826e22e7da18a38b00dccef72dfea9406b2de930d5d135eca91e6cc98346": {
+   "builtin.python": {
+    "owner": "builtin.python",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "fj-rpath-3.1.patch"
+   }
+  },
+  "e7c869df5065ebe74f185d4079973b6090bdd2838585d2293f6b2072a6d4619a": {
+   "builtin.python": {
+    "owner": "builtin.python",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "gcc-8-2.7.14.patch"
+   }
+  },
+  "ad05cbbb01a6a2a2496274098deea981d205f7c936acf56d976cdb540b87b843": {
+   "builtin.python": {
+    "owner": "builtin.python",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "intel-3.6.7.patch"
+   }
+  },
+  "b1af65a1f9cea643ca1b888bdc0a00321494c616d6f335f84232246407a8fd77": {
+   "builtin.qgis": {
+    "owner": "builtin.qgis",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "pyqt5.patch"
+   }
+  },
+  "7d431be54197668b7bddbd51c4fb34884a143b9b2079bca83d08d8d03499df83": {
+   "builtin.qgis": {
+    "owner": "builtin.qgis",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "pyqt5_3165x.patch"
+   }
+  },
+  "e2ff7a6f0f006856085d4aab6d31f32f16353e41f760a33a7ef75f3ecce6a5d6": {
+   "builtin.qmcpack": {
+    "owner": "builtin.qmcpack",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://patch-diff.githubusercontent.com/raw/QMCPACK/qmcpack/pull/621.patch"
+   }
+  },
+  "3eb9dec05fd1a544318ff84cd8b5926cfc6b46b375c7f3b012ccf0b50cf617b7": {
+   "builtin.qmcpack": {
+    "owner": "builtin.qmcpack",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://patch-diff.githubusercontent.com/raw/QMCPACK/qmcpack/pull/623.patch"
+   }
+  },
+  "c066c79901a612cf8848135e0d544efb114534cca70b90bfccc8ed989d3d9dde": {
+   "builtin.qmcpack": {
+    "owner": "builtin.qmcpack",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://patch-diff.githubusercontent.com/raw/QMCPACK/qmcpack/pull/643.patch"
+   }
+  },
+  "a00f4752a422bcacd6dea8f3c63e58c1a4b4c05b0b0b6a34be94d1441c27ed2c": {
+   "builtin.qt": {
+    "owner": "builtin.qt",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "qt3-accept.patch"
+   }
+  },
+  "92b0b28a32cd493eb4e15db0026182bd781543352085ff89923f46bf5fde095d": {
+   "builtin.qt": {
+    "owner": "builtin.qt",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "qt3-headers.patch"
+   }
+  },
+  "5f9ffa1624ca84368acfe16efb7acfa89e1efad5c8ff1d311a034ce0e74e0bdb": {
+   "builtin.qt": {
+    "owner": "builtin.qt",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "qt4-configure-gcc.patch"
+   }
+  },
+  "88ec914c9f2026599cce3258006db3fab48138cb9b37f0a7a182d6731fbe2d4d": {
+   "builtin.qt": {
+    "owner": "builtin.qt",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "qt4-87-configure-gcc.patch"
+   }
+  },
+  "4f40b7c6230471c19fd1aea45e264a1642c654023d2da1c8063a05ef095d6586": {
+   "builtin.qt": {
+    "owner": "builtin.qt",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "qt4-tools.patch"
+   }
+  },
+  "f17e0b5fb1f43bccadf7298533eca57294f4acab11ed83b176c61c441f745c19": {
+   "builtin.qt": {
+    "owner": "builtin.qt",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "qt4-mac.patch"
+   }
+  },
+  "bec91a7133bea6adeaa1f2d6372d3123fd42d057cfc009a791f9a39f78d71a9c": {
+   "builtin.qt": {
+    "owner": "builtin.qt",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "qt4-qforeach.patch"
+   }
+  },
+  "03f9893882c63a9a9617d9ecab9caf80661c96df13f596a9b24fc4579490144a": {
+   "builtin.qt": {
+    "owner": "builtin.qt",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "qt4-pcre.patch"
+   }
+  },
+  "a4f37427b34d88df6a6adc16e1e6c805087d4f3a7c658e1797450b0912fcbf5d": {
+   "builtin.qt": {
+    "owner": "builtin.qt",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "qt4-asm-volatile.patch"
+   }
+  },
+  "7f34d48d2faaa108dc3fcc47187af1ccd1d37ee0f931b42597b820f03a99864c": {
+   "builtin.qt": {
+    "owner": "builtin.qt",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "qt5-pcre.patch"
+   }
+  },
+  "0aaad63f10d68ba936fcef85c38429b3b3ce260098dfdc19e37ea1e03ac042e9": {
+   "builtin.qt": {
+    "owner": "builtin.qt",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "qt5-asm-volatile.patch"
+   }
+  },
+  "c52f72dac7fdff5a296467536cc9ea024d78f94b49903286395f53fd0eb66e5e": {
+   "builtin.qt": {
+    "owner": "builtin.qt",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "qt5-btn_trigger_happy.patch"
+   }
+  },
+  "a69fc727f4378dbe0cf05ecf6e633769fe7ee6ea52b1630135a05d5adfa23d87": {
+   "builtin.qt": {
+    "owner": "builtin.qt",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "qt5-8-framework.patch"
+   }
+  },
+  "ad21bdc8032f36a164c031f51dc4a4e005806fe6740459990bfcb0807a1c4dfc": {
+   "builtin.qt": {
+    "owner": "builtin.qt",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "qt5-8-freetype.patch"
+   }
+  },
+  "c49b228c27e3ad46ec3af4bac0e9985af5b5b28760f238422d32e14f98e49b1e": {
+   "builtin.qt": {
+    "owner": "builtin.qt",
+    "level": 1,
+    "working_dir": "qtbase",
+    "url": "https://github.com/qt/qtbase/commit/a52d7861edfb5956de38ba80015c4dd0b596259b.patch"
+   }
+  },
+  "48ff18be2f4050de7288bddbae7f47e949512ac4bcd126c2f504be2ac701158b": {
+   "builtin.qt": {
+    "owner": "builtin.qt",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "qt5-restore-pc-files.patch"
+   }
+  },
+  "4038590c238114cb6de8a6e0785c8977b7216b23601365f6e8a025ae1ef6eebd": {
+   "builtin.qt": {
+    "owner": "builtin.qt",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "qt5-11-intel-overflow.patch"
+   }
+  },
+  "1ca2393c43292deec7cf7d5b1a3e34280caabaf3dc101ff68cb0d19f21062382": {
+   "builtin.qt": {
+    "owner": "builtin.qt",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "qt5-12-intel-overflow.patch"
+   }
+  },
+  "fc1b08e0a4b471faf191625fc4b47d5af2031d8a84f083dc8e612f3e31d2af7f": {
+   "builtin.qt": {
+    "owner": "builtin.qt",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "qt5-12-configure.patch"
+   }
+  },
+  "75bcb4201fa3becdd205d393aee87afd9c792d0e1d736a49b2e000933664e051": {
+   "builtin.qt": {
+    "owner": "builtin.qt",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "qt5-15-gcc-10.patch"
+   }
+  },
+  "8449b9fba2e0a771a9f6b43f9aedcfb8c256e9945b86b54c2ac0484c352230bc": {
+   "builtin.qt": {
+    "owner": "builtin.qt",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "qt514.patch"
+   }
+  },
+  "ea411b945c145e403cbb93119490a9a67aaa02ba8e81f873045311f04b3cab77": {
+   "builtin.qt": {
+    "owner": "builtin.qt",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "qt514-isystem.patch"
+   }
+  },
+  "72564c168231dd4a1279a74e76919af701d47cee9a851db6e205753004fe9bb5": {
+   "builtin.quantum-espresso": {
+    "owner": "builtin.quantum-espresso",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://raw.githubusercontent.com/QMCPACK/qmcpack/develop/external_codes/quantum_espresso/add_pw2qmcpack_to_qe-6.7.0.diff"
+   }
+  },
+  "57cb1b06ee2653a87c3acc0dd4f09032fcf6ce6b8cbb9677ae9ceeb6a78f85e2": {
+   "builtin.quantum-espresso": {
+    "owner": "builtin.quantum-espresso",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://raw.githubusercontent.com/QMCPACK/qmcpack/develop/external_codes/quantum_espresso/add_pw2qmcpack_to_qe-6.4.1.diff"
+   }
+  },
+  "ef08f5089951be902f0854a4dbddaa7b01f08924cdb27decfade6bef0e2b8994": {
+   "builtin.quantum-espresso": {
+    "owner": "builtin.quantum-espresso",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://raw.githubusercontent.com/QMCPACK/qmcpack/develop/external_codes/quantum_espresso/add_pw2qmcpack_to_qe-6.4.diff"
+   }
+  },
+  "2ee346e24926479f5e96f8dc47812173a8847a58354bbc32cf2114af7a521c13": {
+   "builtin.quantum-espresso": {
+    "owner": "builtin.quantum-espresso",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://raw.githubusercontent.com/QMCPACK/qmcpack/develop/external_codes/quantum_espresso/add_pw2qmcpack_to_qe-6.3.diff"
+   }
+  },
+  "8a2d10014db85f87700428a774716885325bf3d9496f4def30fd6b5804d576cb": {
+   "builtin.quantum-espresso": {
+    "owner": "builtin.quantum-espresso",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "dspev_drv_elpa.patch"
+   }
+  },
+  "8f179663a8d031aff9b1820a32449942281195b6e7b1ceaab1f729651b43fa58": {
+   "builtin.quantum-espresso": {
+    "owner": "builtin.quantum-espresso",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://gitlab.com/QEF/q-e/-/commit/cf1fedefc20d39f5cd7551ded700ea4c77ad6e8f.diff"
+   }
+  },
+  "f4f1cce4182b57ac797c8f6ec8460fe375ee96385fcd8f6a61e1460bc957eb67": {
+   "builtin.quantum-espresso": {
+    "owner": "builtin.quantum-espresso",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://gitlab.com/QEF/q-e/-/commit/8f096b53e75026701c681c508e2c24a9378c0950.diff"
+   }
+  },
+  "b2dadc0bc008a3ad4b74ae85cc380dd2b63f2ae43a634e6f9d8db8077efcea6c": {
+   "builtin.quantum-espresso": {
+    "owner": "builtin.quantum-espresso",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://gitlab.com/QEF/q-e/-/commit/c2a86201ed72693ffa50cc99b22f5d3365ae2c2b.diff"
+   }
+  },
+  "bc8c5b8523156cee002d97dab42a5976dffae20605da485a427b902a236d7e6b": {
+   "builtin.quantum-espresso": {
+    "owner": "builtin.quantum-espresso",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://gitlab.com/QEF/q-e/commit/0796e1b7c55c9361ecb6515a0979280e78865e36.diff"
+   }
+  },
+  "b776890d008e16cca28c31299c62f47de0ba606b900b17cbc27c041f45e564ca": {
+   "builtin.quantum-espresso": {
+    "owner": "builtin.quantum-espresso",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://gitlab.com/QEF/q-e/commit/88e6558646dbbcfcafa5f3fa758217f6062ab91c.diff"
+   }
+  },
+  "b1aa3179ee1c069964fb9c21f3b832aebeae54947ce8d3cc1a74e7b154c3c10f": {
+   "builtin.quantum-espresso": {
+    "owner": "builtin.quantum-espresso",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://gitlab.com/QEF/q-e/commit/5fb1195b0844e1052b7601f18ab5c700f9cbe648.diff"
+   }
+  },
+  "bbceba1fb08d01d548d4393bbcaeae966def13f75884268a0f84448457b8eaa3": {
+   "builtin.quantum-espresso": {
+    "owner": "builtin.quantum-espresso",
+    "level": 1,
+    "working_dir": ".",
+    "url": "https://gitlab.com/QEF/q-e/-/commit/cf088926d68792cbaea48960c222e336a3965df6.diff"
+   }
+  },
+  "e6892e0862e2a46d7b46e2829d9179e587a48cbca83598f2bd8d20e7ad4f0fb7": {
+   "builtin.quantum-espresso": {
+    "owner": "builtin.quantum-espresso",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "fj-intent.6.4.1.patch"
+   }
+  },
+  "748fcb997f905dea853b726287dcadbe708bda6858e49b7763f965b0f9007093": {
+   "builtin.quantum-espresso": {
+    "owner": "builtin.quantum-espresso",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "configure_aocc.patch"
+   }
+  },
+  "e08a272e69d34ef613800f6efcd4b10d8d2fcad4346c79b3e1087f1cd1abce0b": {
+   "builtin.quantum-espresso": {
+    "owner": "builtin.quantum-espresso",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "nvhpc.patch"
+   }
+  },
+  "a4725f8d602357054df50ccc536f2f49f145c49cc85c9e6f31172b59f53edc52": {
+   "builtin.quantum-espresso": {
+    "owner": "builtin.quantum-espresso",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "fj.6.5.patch"
+   }
+  },
+  "d9e11ec6ac4af0e67efe017eab5df40103857a1f7f683f2e5c6f144564848ab4": {
+   "builtin.quantum-espresso": {
+    "owner": "builtin.quantum-espresso",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "fj.6.6.patch"
+   }
+  },
+  "7635607d7c56aaf630958084ec74afddca1d02f0f34535f916ce72f784099a60": {
+   "builtin.quantum-espresso": {
+    "owner": "builtin.quantum-espresso",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "fj-fox.patch"
+   }
+  },
+  "73df7272a11effc11546ab63aec4fc5ee25983d631c3fe5df024db3be8e83a1e": {
+   "builtin.qwt": {
+    "owner": "builtin.qwt",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "no-designer.patch"
+   }
+  },
+  "006c2b3e0bfdfd3c904bca29c974cc270ee24e2e6891e69753e7f95d780969f4": {
+   "builtin.r": {
+    "owner": "builtin.r",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "zlib.patch"
+   }
+  },
+  "de4e12e779a2f4b342d8153726be3c59a23d27dc9699c9fe8d5a07462d06c14f": {
+   "builtin.r": {
+    "owner": "builtin.r",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "change_optflags_tmp.patch"
+   }
+  },
+  "05d41acad39e913f73a9739d1f4ce522fa8fd54a994e2f372a5de029b8300f10": {
+   "builtin.rccl": {
+    "owner": "builtin.rccl",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "0001-Fix-numactl-path-issue.patch"
+   }
+  },
+  "6633385304b085888da6374d39bc4f6340d83eca7cb8a3320f739549cc662cf6": {
+   "builtin.readline": {
+    "owner": "builtin.readline",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "readline-6.3-upstream_fixes-1.patch"
+   }
+  },
+  "b9e0ce5f14cc3f72db9ca5e25016fd3577c6342a56c49adcf00efbc4ec9bc624": {
+   "builtin.repeatmasker": {
+    "owner": "builtin.repeatmasker",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "utf8.patch"
+   }
+  },
+  "a06d020b43ac842a6c4ab7f58e00db606d51d2fe972e9407efa6fbafd40b3dc0": {
+   "builtin.rocalution": {
+    "owner": "builtin.rocalution",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "0001-fix-hip-build-error.patch"
+   }
+  },
+  "a79489e6bbf363d1bbd9f0a0bf02931c2a64799a5bf616a1b31778e6119f590c": {
+   "builtin.rocblas": {
+    "owner": "builtin.rocblas",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "0001-Fix-compilation-error-with-StringRef-to-basic-string.patch"
+   }
+  },
+  "dc35b1fb6a5c616aba215cbf8e1af019c88d3b060f92132361869c3b2371c355": {
+   "builtin.rocm-debug-agent": {
+    "owner": "builtin.rocm-debug-agent",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "0001-Drop-overly-strict-Werror-flag.patch"
+   }
+  },
+  "e10cc89bd3c3a474a265c0cd84baf8628601d338508e819776ed59d430a906ea": {
+   "builtin.rocm-tensile": {
+    "owner": "builtin.rocm-tensile",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "0001-fix-compile-error.patch"
+   }
+  },
+  "fc003bc6e1969aa28689c893ecb53f6937778af015bf5f9381b63495707df9cb": {
+   "builtin.rocm-tensile": {
+    "owner": "builtin.rocm-tensile",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "0002-require-openmp-when-tensile-use-openmp-is-on.patch"
+   }
+  },
+  "693f3f61bbb8f225c150f6ed1df08e89b931c258c212d78ca3399dc23d93ec69": {
+   "builtin.rocm-validation-suite": {
+    "owner": "builtin.rocm-validation-suite",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "001-fixes-for-rocblas-rocm-smi-install-prefix-path.patch"
+   }
+  },
+  "130a81c8076a30a8acf192c1cc03710d9d0b28566d36ac7c5c2411965d755091": {
+   "builtin.rocm-validation-suite": {
+    "owner": "builtin.rocm-validation-suite",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "002-remove-force-setting-hip-inc-path.patch"
+   }
+  },
+  "22af3471f3fd87c0fe8917bf9c811c6d806de6c8b9867d30a1e3d383a1b929d7": {
+   "builtin.root": {
+    "owner": "builtin.root",
+    "level": 0,
+    "working_dir": ".",
+    "relative_path": "format-stringbuf-size.patch"
+   }
+  },
+  "45913963bf6d7d3c678eff31e0bc3e018427d6fbb364abcdbb2a24d2bfe94915": {
+   "builtin.root": {
+    "owner": "builtin.root",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "find-mysql.patch"
+   }
+  },
+  "0ac9ccc0e2c8776daed5a4786d71ec1c5e57b007422e2af3d2f2c239b26a54f3": {
+   "builtin.root": {
+    "owner": "builtin.root",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "honor-unuran-switch.patch"
+   }
+  },
+  "1bb31e5e8fb6cf5a359e34d4fa3dd10d4c6dc88572a0b409808be235fd393c3e": {
+   "builtin.root": {
+    "owner": "builtin.root",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "root7-webgui.patch"
+   }
+  },
+  "7590ab840b41e63518e979c584fb9cda07496b727167a03841d3e86a8dc46c33": {
+   "builtin.sirius": {
+    "owner": "builtin.sirius",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "strip-spglib-include-subfolder.patch"
+   }
+  },
+  "dd31054bd61d486a76514b57a9b8ec5651c6227d782fc6e51f539e7c4c82fac6": {
+   "builtin.sirius": {
+    "owner": "builtin.sirius",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "link-libraries-fortran.patch"
+   }
+  },
+  "3373fb6acfccaf6780c1f2697415d011f55aa9ea507b43c3210bb5c8d6739a47": {
+   "builtin.sirius": {
+    "owner": "builtin.sirius",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "cmake-fix-shared-library-installation.patch"
+   }
+  },
+  "85c7136d618ea455ceb44271a1e05dfecb1a59704678e483a214c47b43ee30b3": {
+   "builtin.slepc": {
+    "owner": "builtin.slepc",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "install_name_371.patch"
+   }
+  },
+  "ea0ed0f06861b91d7dbc367d3533b4dd764b7bf35b3e739af60acb6e25b91e37": {
+   "builtin.spglib": {
+    "owner": "builtin.spglib",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "fix_cmake_install.patch"
+   }
+  },
+  "4d354dc336694c1577dfc9950ccec99255332c4f08f6525b6465d7a31c4e8c75": {
+   "builtin.spglib": {
+    "owner": "builtin.spglib",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "fix_cpp.patch"
+   }
+  },
+  "d52c9682a0bb47d4983ab24626993e0a3374b456c952cedd14cb7aac2333c7bb": {
+   "builtin.sqlite": {
+    "owner": "builtin.sqlite",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "sqlite_b0.patch"
+   }
+  },
+  "007b7c4ba6de3f628c878ad143fb35f89eba4ac2ae4d6a77f68b34de7018a350": {
+   "builtin.sqlite": {
+    "owner": "builtin.sqlite",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "remove_overflow_builtins.patch"
+   }
+  },
+  "902c102d42318debc54426bcb482459a97a992866bc4872676ce63735d91d145": {
+   "builtin.squashfs": {
+    "owner": "builtin.squashfs",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "gcc-10.patch"
+   }
+  },
+  "2d78ffd1e05c60cf27fd089621646ca73a952af0e362b7057f4749ce93812c66": {
+   "builtin.stat": {
+    "owner": "builtin.stat",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "configure_mpicxx.patch"
+   }
+  },
+  "574abfcdae78bd79d69c4f2403a67f0ed08d5c49afa3eb9bdb2671044039a48f": {
+   "builtin.suite-sparse": {
+    "owner": "builtin.suite-sparse",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "tbb_453.patch"
+   }
+  },
+  "ff7707dab9d540edeffc5fad16baa1564ded271ed1bbbf04718165d7daa56d1d": {
+   "builtin.suite-sparse": {
+    "owner": "builtin.suite-sparse",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "pgi.patch"
+   }
+  },
+  "d2df9294f7667f75172e71d50af738fc283bf6b4891298ca7a253eaa8bcdd7e6": {
+   "builtin.suite-sparse": {
+    "owner": "builtin.suite-sparse",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "graphblas_libm_dep.patch"
+   }
+  },
+  "65ee5505fc764dc78713c69d1b137423f359b91f23bc20f87bf34ed7ce8c087a": {
+   "builtin.suite-sparse": {
+    "owner": "builtin.suite-sparse",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "fix_cuda11.patch"
+   }
+  },
+  "e34d2470461037933737c0a60fbcc5d5ea905fefb6b414b4a2e88a440fcae23a": {
+   "builtin.tar": {
+    "owner": "builtin.tar",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "tar-pgi.patch"
+   }
+  },
+  "d428578be7fb99b831eb61e53b8d88a859afe08b479a21238180899707d79ce4": {
+   "builtin.tar": {
+    "owner": "builtin.tar",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "config-pgi.patch"
+   }
+  },
+  "08921fcbd732050c74ddf1de7d8ad95ffdbc09f8b4342456fa2f6a0dd02a957c": {
+   "builtin.tar": {
+    "owner": "builtin.tar",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "se-selinux.patch"
+   }
+  },
+  "5c314db58d005043bf407abaf25eb9823b9032a22fd12a0b142d4bf548130fa4": {
+   "builtin.tar": {
+    "owner": "builtin.tar",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "argp-pgi.patch"
+   }
+  },
+  "125cd6142fac2cc339e9aebfe79e40f90766022b8e8401532b1729e84fc148c2": {
+   "builtin.tar": {
+    "owner": "builtin.tar",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "gnutar-configure-xattrs.patch"
+   }
+  },
+  "4e8cdf69294c376c45c39d059f11769c5c996c2d84cdfb56eb69890e0aa4e991": {
+   "builtin.tar": {
+    "owner": "builtin.tar",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "nvhpc-1.30.patch"
+   }
+  },
+  "6a7daeb1f908cea152caff8d23541261993411fe561284dc2c15cc197c598d34": {
+   "builtin.tar": {
+    "owner": "builtin.tar",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "nvhpc-1.34.patch"
+   }
+  },
+  "e7033d65ab4c793eb7b25e7e9064055b3dc1c2acfb7821e720cd5023341998d7": {
+   "builtin.tar": {
+    "owner": "builtin.tar",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "nvhpc-long-width.patch"
+   }
+  },
+  "a80f07763573aa2f096a46d272e6650f26b8f91e149b3ef984ddfa5d61930c38": {
+   "builtin.trilinos": {
+    "owner": "builtin.trilinos",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "umfpack_from_suitesparse.patch"
+   }
+  },
+  "95420650aee640da31d5adc4ad8dcd3f67ae3e7d4736e167f7b3991e8ff47e0e": {
+   "builtin.trilinos": {
+    "owner": "builtin.trilinos",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "xlf_seacas.patch"
+   }
+  },
+  "7ba0dea6c8407322c21970e549f2988fdfeeda8e3a5e0bb178207471142c1047": {
+   "builtin.trilinos": {
+    "owner": "builtin.trilinos",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "xlf_tpetra.patch"
+   }
+  },
+  "4cdedfb9619b0b585af588f75d18ab63212bbb9ff7a416823c15d17c00bd2092": {
+   "builtin.trilinos": {
+    "owner": "builtin.trilinos",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "fix_clang_errors_12_18_1.patch"
+   }
+  },
+  "c01de12562833c13a05c31206de36396f49690bd8b0dcb5f9492e7d7c3bbae59": {
+   "builtin.trilinos": {
+    "owner": "builtin.trilinos",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "cray_secas_12_12_1.patch"
+   }
+  },
+  "2fb1cf3f166bc339bf5c87d1e0af15ea703ffe9b21c0fe3abd788a59e56e0832": {
+   "builtin.trilinos": {
+    "owner": "builtin.trilinos",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "cray_secas.patch"
+   }
+  },
+  "11e771018fe092b56401d08fd297c4f52f0013f85fc7324cbb4bb795d027a79f": {
+   "builtin.trilinos": {
+    "owner": "builtin.trilinos",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "fix_cxx14_cuda11.patch"
+   }
+  },
+  "315d6ba40e203e06988980d3fdeea773aaab155ac2e195e6ede790ba84c80fb0": {
+   "builtin.valgrind": {
+    "owner": "builtin.valgrind",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "valgrind_3_12_0_osx.patch"
+   }
+  },
+  "c462f3cae4ff19d64a2151e60f6dc63c7cf6b4cc35fe949d799a40db52fe3642": {
+   "builtin.vtk": {
+    "owner": "builtin.vtk",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "gcc.patch"
+   }
+  },
+  "578f141247bd4dd993d47768d8b3b207e2c37c4c77ac64db6751eb146ffa99e2": {
+   "builtin.vtk": {
+    "owner": "builtin.vtk",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "python3.7-const-char.patch"
+   }
+  },
+  "8a673a7e3deb358f7b7792d05b5fd5c44961865637075691df51ca1431d5bc18": {
+   "builtin.vtk": {
+    "owner": "builtin.vtk",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "vtkm-findmpi-downstream.patch"
+   }
+  },
+  "35cdaf691eb63a88931a2c6c33b67eea6e23192e681acc0eee7c1f7aca464f9a": {
+   "builtin.vtk": {
+    "owner": "builtin.vtk",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "find_fujitsu_mpi.patch"
+   }
+  },
+  "bdfdf43b57dc1875912ffb99f086279c7276ee0ed47770cdcf62f6ed3e5b21d0": {
+   "builtin.igprof": {
+    "owner": "builtin.igprof",
+    "level": 0,
+    "working_dir": ".",
+    "relative_path": "igprof-5.9.16.patch"
+   }
+  },
+  "3decc3d5af65e8f879f4a65a86e4c927d5889056043473d0e12657f033e4cfac": {
+   "builtin.mmv": {
+    "owner": "builtin.mmv",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "better-diagnostics-for-directories-584850.diff"
+   }
+  },
+  "99fb73a1e52fe40ee98e48bf75a638194ace20712d57df1557add5526478e21b": {
+   "builtin.mmv": {
+    "owner": "builtin.mmv",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "format-security.diff"
+   }
+  },
+  "340b0cc901a8a6d90838c1e01212c392ca21a350cf3128195cfa2101f190861a": {
+   "builtin.mmv": {
+    "owner": "builtin.mmv",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "man-page-examples.diff"
+   }
+  },
+  "b0cdc562d18abaa0aa2f667e26361de6d989b98759be7eddaf7312db90721172": {
+   "builtin.mmv": {
+    "owner": "builtin.mmv",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "man-page-fixes.diff"
+   }
+  },
+  "4e6b7b85355d339bc2526d3afad4492def634e5311a514c2a324ca8d8eaaf52f": {
+   "builtin.mmv": {
+    "owner": "builtin.mmv",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "man-page-warning-149873.diff"
+   }
+  },
+  "3fcfb270ae7385a192e11beb8dc36197377f221fb391b1440bbb0471670c4168": {
+   "builtin.mmv": {
+    "owner": "builtin.mmv",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "patches-as-of-mmv-1.01b-15.diff"
+   }
+  },
+  "09e79d2065210a019819677299995427db51f408465efb13ccb537397ff36f5f": {
+   "builtin.mmv": {
+    "owner": "builtin.mmv",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "utime.diff"
+   }
+  },
+  "64892a2c59d45b9226cb5a40377961e403302e6b9b5ab6222107310976b7b14a": {
+   "builtin.py-pymumps": {
+    "owner": "builtin.py-pymumps",
+    "level": 1,
+    "working_dir": ".",
+    "relative_path": "py-pymumps.setup.patch"
    }
   }
  }
